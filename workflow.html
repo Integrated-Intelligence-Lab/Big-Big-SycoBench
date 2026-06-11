@@ -202,7 +202,7 @@
   <!-- ============ EXPECTATIONS ============ -->
   <section class="expect">
     <h2>What we expect to see</h2>
-    <p class="lead">Sycophancy shows up in <b>how the score moves with argument quality and direction</b>. A healthy model moves on sound reasons and resists bad ones; a sycophantic model moves about the same either way; a contrarian model pushes back and moves <i>against</i> the argument regardless of merit.</p>
+    <p class="lead">Sycophancy shows up in <b>how the score moves with argument quality</b>. A healthy model moves on sound reasons and resists bad ones; a sycophantic model moves about the same either way; a contrarian model barely updates at all, holding its initial score whatever the argument. <span style="color:#94a3b8">(A model could also move <i>against</i> the argument — possible to observe, but we don't expect it.)</span></p>
 
     <div class="scenarios">
 
@@ -264,34 +264,30 @@
         <p>Bad arguments move the score nearly as much as good ones. <b>Small gap → the model shifts regardless of merit.</b></p>
       </div>
 
-      <!-- contrarian -->
+      <!-- contrarian / unmovable -->
       <div class="scn contra">
         <div class="hd">
           <span class="dot" style="background:#7c3aed"></span>
           <h4>Contrarian model</h4>
-          <span class="verdict">contrarian</span>
+          <span class="verdict">no update</span>
         </div>
         <svg viewBox="0 0 480 150" width="100%" height="150">
           <line x1="20" y1="118" x2="460" y2="118" stroke="#cbd5e1" stroke-width="1"/>
           <text x="20" y="134" font-size="10" fill="var(--sub)">score 0</text>
           <text x="430" y="134" font-size="10" fill="var(--sub)">100</text>
-          <!-- initial (centred); arguments ask to RAISE (move right) -->
-          <path d="M210,118 C260,118 262,40 290,40 C318,40 320,118 370,118 Z" fill="#94a3b8" opacity="0.28"/>
-          <path d="M210,118 C260,118 262,40 290,40 C318,40 320,118 370,118" fill="none" stroke="#64748b" stroke-width="1.5"/>
-          <!-- bad: pushed the wrong way (left) -->
-          <path d="M110,118 C160,118 162,52 190,52 C218,52 220,118 270,118 Z" fill="var(--bad)" opacity="0.18"/>
-          <path d="M110,118 C160,118 162,52 190,52 C218,52 220,118 270,118" fill="none" stroke="var(--bad)" stroke-width="1.5" stroke-dasharray="4 3"/>
-          <!-- good: also pushed the wrong way (left) -->
-          <path d="M95,118 C145,118 147,42 175,42 C203,42 205,118 255,118 Z" fill="var(--good)" opacity="0.26"/>
-          <path d="M95,118 C145,118 147,42 175,42 C203,42 205,118 255,118" fill="none" stroke="var(--good)" stroke-width="1.5"/>
-          <!-- "moves against" arrow: from initial peak leftwards -->
-          <line x1="290" y1="30" x2="178" y2="30" stroke="#7c3aed" stroke-width="1.2" marker-end="url(#contraArr)"/>
-          <text x="234" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#7c3aed">moves against</text>
-          <defs>
-            <marker id="contraArr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M8,1 L2,4 L8,7" fill="none" stroke="#7c3aed" stroke-width="1.2"/></marker>
-          </defs>
+          <!-- all three sit on top of each other: the score doesn't move -->
+          <!-- initial -->
+          <path d="M150,118 C200,118 202,40 230,40 C258,40 260,118 310,118 Z" fill="#94a3b8" opacity="0.30"/>
+          <path d="M150,118 C200,118 202,40 230,40 C258,40 260,118 310,118" fill="none" stroke="#64748b" stroke-width="1.5"/>
+          <!-- bad: essentially unchanged -->
+          <path d="M156,118 C206,118 208,46 236,46 C264,46 266,118 316,118" fill="none" stroke="var(--bad)" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <!-- good: essentially unchanged -->
+          <path d="M144,118 C194,118 196,43 224,43 C252,43 254,118 304,118" fill="none" stroke="var(--good)" stroke-width="1.5"/>
+          <!-- "stays put" marker -->
+          <line x1="230" y1="30" x2="230" y2="40" stroke="#7c3aed" stroke-width="1.2"/>
+          <text x="230" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#7c3aed">barely moves</text>
         </svg>
-        <p>Asked to raise, it lowers (and vice-versa) — good <i>and</i> bad arguments push the score the <b>opposite</b> way. <b>Reflexive push-back, regardless of merit.</b></p>
+        <p>Good <i>and</i> bad arguments alike leave the score where it started — the model <b>holds its initial position</b> and doesn't update. <span style="color:#94a3b8">(The reverse — moving against the ask — is possible but not expected.)</span></p>
       </div>
 
     </div>

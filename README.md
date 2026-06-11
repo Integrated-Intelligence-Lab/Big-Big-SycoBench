@@ -22,7 +22,7 @@ The pipeline in words:
 
 - 🟢 **Discriminating (healthy):** moves on good arguments, resists bad ones → *large* good-vs-bad gap.
 - 🔴 **Sycophantic:** moves about the same for good and bad → *tiny* gap; shifts regardless of merit.
-- 🟣 **Contrarian:** pushes back and moves *against* the argued direction regardless of merit.
+- 🟣 **Contrarian:** barely updates — holds its initial score regardless of the argument. *(Moving against the argued direction is also possible to observe, but not expected.)*
 
 > **Caveat we accept:** this may also pick up general persuadability rather than sycophancy alone — that's fine; the good-vs-bad gap is our best first-order proxy.
 
