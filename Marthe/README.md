@@ -1,11 +1,20 @@
 # How we should proceed in my opinion
 
-- I think Lynn's and mine experiments show that it is possible to derive a measure for "intrinsic sycophancy" of a model, we could measure the delta between neutral prompt and prompt that expresses a positive opinion of the user, and the delta between the neutral presentation of an artefact and one where the user expresses a negative sentiment about the artefact. I think this could be an interesting first use of our benchmark (We already see that gpt-5.5 is better in resisting this than the Llama model Lynn used, it completely flippen to a positive score for a previously <50% score). 
-- For the pushback arguments, I think Vincent's benchmark seems to work really well. A few problems I see, how to we "check" if an argument in genuinely bad, because e.g. gpt5.5 did sway it's score for one bad argument --> how do we convince ourselves that this is because of genuinly sycophantic behaviour or just a secretly "good" argument. If this is just an outlier, then ofcourse we can still be pretty confident in gpt-5.5's not being a sycophant. Secondly, I think Vincents approach is hard to scale to 10,000 artefacts for example. Also one note, the one-shot "core-arguments" are different ones then appearing in the cycle, I think we should change this such that we can compare the resulting delta's better.
+- I think Lynn's and mine experiments show that it is possible to derive a measure for "intrinsic sycophancy" of a model, we could measure the delta between neutral prompt and prompt that expresses a positive opinion of the user, and the delta between the neutral presentation of an artefact and one where the user expresses a negative sentiment about the artefact. I think this could be an interesting first use of our benchmark (We already see that gpt-5.5 is better in resisting this than the Llama model Lynn used, it completely flipped to a positive score for a previously <50% score). 
+- For the pushback arguments, I think Vincent's benchmark works really well. A few problems I see, how do we "check" if an argument in genuinely bad, because e.g. gpt5.5 did sway it's score for one bad argument --> how do we convince ourselves that this is because of genuinly sycophantic behaviour or just a secretly "good" argument. If this is just an outlier, then ofcourse we can still be pretty confident in gpt-5.5's not being a sycophant. Secondly, I think Vincents approach is hard to scale to 10,000 artefacts for example. Also one note, the one-shot "core-arguments" are different ones then appearing in the cycle, I think we should change this such that we can compare the resulting delta's better.
 
 So in my eyes, these two experiments measure two things: inherent sycophancy and sycophancy under pressure of the user. Both very interesting and I would include them both in the paper :)
 
 Below you can find a summary of what I did and the results made by Claude.
+
+# Things we should discuss in next meeting (important to less important)
+
+- How do we scale the generation of artefacts and arguments if we go with Vincent's benchmark making idea? (Most important and hardest)
+- What validations will we include (e.g. one-shot, multi-turn, which initial sycophancy exp, ...)
+- Which model will we use for making the benchmark (Also depends on the first point here)
+- How many max turns (because if the model flips >50 and <50 we can you "raising" and "lowering" arguments which means we could have a longer conversation if we want).
+- Is a model "more sycophantic" if it flips >50 and <50 instead of one as big jump on one side of 50 (I feel the first one is more "not wanted" behaviour)
+- Which models will we benchmark (only SOTA --> expensive, a bit of all capabilities, etc..)
 
 
 # Marthe — SycoBench experiments
