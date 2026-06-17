@@ -11,7 +11,12 @@ import matplotlib.pyplot as plt
 
 RESULTS_DIR = "Marthe/results/initial_scores"
 
-# Batches to overlay, in legend order. Each entry is one prompt variant.
+# Authorship-prime output: one file holding all three variants, distinguished by
+# the custom_id ({artefact}_{variant}_run{n}). Filtered per variant below.
+AUTHORSHIP_FILE = "batch_6a2f9b03f8f0819093ec23b3097909f5_output.jsonl"
+
+# Batches to overlay, in legend order. Each entry is one prompt variant. A
+# "variant" key means the file mixes variants and only matching rows are kept.
 BATCHES = [
     {
         "label": "original prompt",
@@ -22,6 +27,24 @@ BATCHES = [
         "label": 'anti-sycophancy ("don\'t be sycophantic")',
         "file": "batch_6a2abe032778819093d3f921dcf5a199_output.jsonl",
         "color": "tab:orange",
+    },
+    {
+        "label": "authorship: implied",
+        "file": AUTHORSHIP_FILE,
+        "variant": "implied",
+        "color": "tab:green",
+    },
+    {
+        "label": "authorship: stake",
+        "file": AUTHORSHIP_FILE,
+        "variant": "stake",
+        "color": "tab:red",
+    },
+    {
+        "label": "authorship: pride",
+        "file": AUTHORSHIP_FILE,
+        "variant": "pride",
+        "color": "tab:purple",
     },
 ]
 
@@ -42,12 +65,18 @@ def parse_score(text):
     return int(m.group()) if m else None
 
 
-def load_scores(path, label):
+def load_scores(path, label, variant=None):
     records = []
     for line in open(path, encoding="utf-8"):
         r = json.loads(line)
         custom_id = r["custom_id"]
-        artefact = custom_id.split("_run")[0]
+        base = custom_id.split("_run")[0]            # "L01" or "L01_implied"
+        if variant is not None:
+            if not base.endswith("_" + variant):
+                continue
+            artefact = base[: -(len(variant) + 1)]   # strip "_<variant>" suffix
+        else:
+            artefact = base
         score = parse_score(extract_text(r["response"]["body"]))
         records.append({"batch": label, "artefact": artefact, "score": score})
     return pd.DataFrame(records)
@@ -56,7 +85,7 @@ def load_scores(path, label):
 def main():
     frames = []
     for b in BATCHES:
-        df = load_scores(os.path.join(RESULTS_DIR, b["file"]), b["label"])
+        df = load_scores(os.path.join(RESULTS_DIR, b["file"]), b["label"], b.get("variant"))
         n_missing = df["score"].isna().sum()
         if n_missing:
             print(f"WARNING: {n_missing} unparseable rows in {b['file']}")
@@ -82,23 +111,25 @@ def main():
 
     bins = np.arange(0.5, 101.5, 1)
     for ax, art in zip(axes, artefacts):
-        title_bits = []
         for b in BATCHES:
             scores = data.loc[
                 (data["artefact"] == art) & (data["batch"] == b["label"]), "score"
             ]
             if scores.empty:
                 continue
+            # Step outlines keep overlapping fills readable. Per-series μ/σ vary
+            # by panel, so they live in the printed summary table, not the legend
+            # (a single shared legend can only carry the prompt labels).
             ax.hist(
-                scores, bins=bins, color=b["color"], alpha=0.6,
-                edgecolor="white", label=b["label"],
+                scores, bins=bins, color=b["color"], alpha=0.45,
+                histtype="stepfilled", edgecolor=b["color"], linewidth=1.1,
+                label=b["label"],
             )
             ax.axvline(scores.mean(), color=b["color"], linestyle="--", linewidth=1.2)
-            title_bits.append(f"{b['label']}: mean={scores.mean():.1f}, sd={scores.std():.1f}")
         ax.set_xlim(1, 100)
         ax.set_ylabel("count")
         ax.yaxis.get_major_locator().set_params(integer=True)
-        ax.set_title(f"{art}   " + "   |   ".join(title_bits), fontsize=9)
+        ax.set_title(art, fontsize=10, fontweight="bold")
 
     axes[0].legend(fontsize=8, loc="upper left")
     axes[-1].set_xlabel("score (1-100, per-integer bins)")

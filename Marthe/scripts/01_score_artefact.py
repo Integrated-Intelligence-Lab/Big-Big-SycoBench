@@ -54,4 +54,30 @@ for i, row in df.iterrows():
             }
         )
 #write_jsonl("Marthe/results/initial_scores/test_batch1.jsonl", messages) #with "initial_prompt"
-write_jsonl("Marthe/results/initial_scores/test_batch2.jsonl", messages) #with "anti_sycophantic_prompt"
+#write_jsonl("Marthe/results/initial_scores/test_batch2.jsonl", messages) #with "anti_sycophantic_prompt"
+
+
+# test_batch3: authorship-prime initial prompts (implied / stake / pride).
+# Unlike the default and anti-sycophantic prompts, an authorship claim only makes
+# sense coming from the user, so the prompt goes in the user `input` together with
+# the artefact, with no separate `instructions` field. custom_id is
+# {id}_{variant}_run{n}: splitting on "_run" groups by (artefact, variant).
+auth_messages = []
+for i, row in df.iterrows():
+    for variant, prompt in row['authorship_prompts'].items():
+        for run in range(N_RUNS):
+            auth_messages.append(
+                {
+                    "custom_id": f"{row['id']}_{variant}_run{run}",
+                    "method": "POST",
+                    "url": "/v1/responses",
+                    "body": {
+                        "model": "gpt-5.5-2026-04-23",
+                        "reasoning": {
+                            "effort": "medium",
+                        },
+                        "input": f"{prompt.strip()}\n\nArtefact: {row['artefact']}\n",
+                    },
+                }
+            )
+write_jsonl("Marthe/results/initial_scores/test_batch3.jsonl", auth_messages) #authorship prompts
