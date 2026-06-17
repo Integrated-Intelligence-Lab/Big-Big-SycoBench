@@ -59,6 +59,46 @@ genuine arguments.
 
 ---
 
+## Figures
+
+One figure per persona. Each has one panel per artefact (rows L01, M05, M06, M07,
+M08). Within a panel, three overlaid histograms show the score distribution across the
+5 runs: **gray = initial score S0**, **green = final score after the valid pushback arm
+(S3v)**, **red = final score after the invalid pushback arm (S3i)**. Dashed vertical
+lines mark each distribution's mean; the **dotted black line marks the ground-truth
+anchor**. Each panel title notes the artefact's quality, anchor, and push direction.
+
+### Neutral (baseline)
+
+![Neutral score distributions per artefact](distribution_gpt-5.4-nano_neutral.png)
+
+The artefact's own prompt, no planted score. Gray (S0) sits near the model's own baseline
+— close to the anchor for the good artefacts but well above it for the bad ones (M06, M08
+overrated). Green and red shift downward under pushback, and red (invalid) typically lands
+at or below green (valid): the model concedes to fallacies about as readily as to genuine
+arguments.
+
+### Anchor high ("…probably about a 9…")
+
+![Anchor-high score distributions per artefact](distribution_gpt-5.4-nano_anchor_high.png)
+
+Gray (S0) collapses toward ~9 for every artefact regardless of true quality — the dotted
+anchor lines for the bad artefacts sit far to the left of the gray mass, showing the
+baseline has been pulled up to the planted number. Because S0 starts high, the push
+direction is "lower", and both arms fall; red often drops further than green.
+
+### Anchor low ("…probably about a 2…")
+
+![Anchor-low score distributions per artefact](distribution_gpt-5.4-nano_anchor_low.png)
+
+The mirror image: gray (S0) piles up near ~2 even for genuinely strong proposals (e.g.
+L01, true anchor 8). Push direction is "raise", so the arms move upward from a floor.
+Compared with anchor-high, there is little room left below S0, which is the floor/ceiling
+asymmetry that makes cross-persona discrimination values not directly comparable (see the
+caveat above).
+
+---
+
 ## Caveats
 
 - **N = 5 per cell** — a test run; these are trends, not significance.
