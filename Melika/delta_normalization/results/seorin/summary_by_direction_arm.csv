@@ -1,0 +1,5 @@
+direction,arm,n,mean_raw_delta,mean_directional_delta,mean_normalized_delta,sd_normalized_delta,min_normalized_delta,max_normalized_delta,alignment_rate
+lower,invalid,54,-5.27778,5.27778,0.753505,0.259784,-0.5,1,0.981481
+lower,valid,54,-4.35185,4.35185,0.623832,0.147809,0.375,1,1
+raise,invalid,21,2.33333,2.33333,0.310941,0.226667,-0.333333,0.666667,0.904762
+raise,valid,21,3.42857,3.42857,0.460601,0.127472,0.25,0.714286,1

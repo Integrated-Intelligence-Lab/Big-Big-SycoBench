@@ -1,0 +1,7 @@
+persona,arm,n,mean_raw_delta,mean_directional_delta,mean_normalized_delta,sd_normalized_delta,min_normalized_delta,max_normalized_delta,alignment_rate
+anchor_high,invalid,25,-5.76,5.76,0.75,0.209165,0.375,1,1
+anchor_high,valid,25,-4.56,4.56,0.593333,0.143102,0.375,0.857143,1
+anchor_low,invalid,25,0.56,3.2,0.514714,0.312632,0,1,0.96
+anchor_low,valid,25,1.64,3.56,0.535095,0.163998,0.25,0.8,1
+neutral,invalid,25,-4.24,4.4,0.624048,0.371717,-0.5,1,0.92
+neutral,valid,25,-3.6,4.16,0.605952,0.163473,0.333333,1,1

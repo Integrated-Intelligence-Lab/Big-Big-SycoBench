@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="490.0" y="34" text-anchor="middle" font-family="Arial" font-size="24">Mean Headroom-Normalized Movement by Persona</text>
+<text x="24" y="280.0" transform="rotate(-90 24 280.0)" text-anchor="middle" font-family="Arial" font-size="15">mean normalized movement</text>
+<line x1="90" y1="422.26" x2="940" y2="422.26" stroke="#555" stroke-width="1"/>
+<line x1="90" y1="70" x2="90" y2="460" stroke="#222" stroke-width="1"/>
+<line x1="90" y1="460" x2="940" y2="460" stroke="#222" stroke-width="1"/>
+<line x1="85" y1="460.00" x2="90" y2="460.00" stroke="#222"/>
+<text x="80" y="465.00" text-anchor="end" font-family="Arial" font-size="12">-0.09</text>
+<line x1="90" y1="460.00" x2="940" y2="460.00" stroke="#eee"/>
+<line x1="85" y1="382.00" x2="90" y2="382.00" stroke="#222"/>
+<text x="80" y="387.00" text-anchor="end" font-family="Arial" font-size="12">0.10</text>
+<line x1="90" y1="382.00" x2="940" y2="382.00" stroke="#eee"/>
+<line x1="85" y1="304.00" x2="90" y2="304.00" stroke="#222"/>
+<text x="80" y="309.00" text-anchor="end" font-family="Arial" font-size="12">0.28</text>
+<line x1="90" y1="304.00" x2="940" y2="304.00" stroke="#eee"/>
+<line x1="85" y1="226.00" x2="90" y2="226.00" stroke="#222"/>
+<text x="80" y="231.00" text-anchor="end" font-family="Arial" font-size="12">0.47</text>
+<line x1="90" y1="226.00" x2="940" y2="226.00" stroke="#eee"/>
+<line x1="85" y1="148.00" x2="90" y2="148.00" stroke="#222"/>
+<text x="80" y="153.00" text-anchor="end" font-family="Arial" font-size="12">0.65</text>
+<line x1="90" y1="148.00" x2="940" y2="148.00" stroke="#eee"/>
+<line x1="85" y1="70.00" x2="90" y2="70.00" stroke="#222"/>
+<text x="80" y="75.00" text-anchor="end" font-family="Arial" font-size="12">0.84</text>
+<line x1="90" y1="70.00" x2="940" y2="70.00" stroke="#eee"/>
+<text x="231.67" y="502" text-anchor="middle" font-family="Arial" font-size="13">anchor_high</text>
+<rect x="108.00" y="173.44" width="115.67" height="248.82" fill="#2ca25f" opacity="0.86"/>
+<text x="165.83" y="167.44" text-anchor="middle" font-family="Arial" font-size="12">0.59</text>
+<rect x="231.67" y="107.74" width="115.67" height="314.52" fill="#de2d26" opacity="0.86"/>
+<text x="289.50" y="101.74" text-anchor="middle" font-family="Arial" font-size="12">0.75</text>
+<text x="515.00" y="502" text-anchor="middle" font-family="Arial" font-size="13">anchor_low</text>
+<rect x="391.33" y="197.86" width="115.67" height="224.39" fill="#2ca25f" opacity="0.86"/>
+<text x="449.17" y="191.86" text-anchor="middle" font-family="Arial" font-size="12">0.54</text>
+<rect x="515.00" y="206.41" width="115.67" height="215.85" fill="#de2d26" opacity="0.86"/>
+<text x="572.83" y="200.41" text-anchor="middle" font-family="Arial" font-size="12">0.51</text>
+<text x="798.33" y="502" text-anchor="middle" font-family="Arial" font-size="13">neutral</text>
+<rect x="674.67" y="168.15" width="115.67" height="254.11" fill="#2ca25f" opacity="0.86"/>
+<text x="732.50" y="162.15" text-anchor="middle" font-family="Arial" font-size="12">0.61</text>
+<rect x="798.33" y="160.56" width="115.67" height="261.70" fill="#de2d26" opacity="0.86"/>
+<text x="856.17" y="154.56" text-anchor="middle" font-family="Arial" font-size="12">0.62</text>
+<rect x="770" y="48" width="14" height="14" fill="#2ca25f" opacity="0.86"/>
+<text x="792" y="60" font-family="Arial" font-size="13">valid</text>
+<rect x="770" y="70" width="14" height="14" fill="#de2d26" opacity="0.86"/>
+<text x="792" y="82" font-family="Arial" font-size="13">invalid</text>
+</svg>

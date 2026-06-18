@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="490.0" y="34" text-anchor="middle" font-family="Arial" font-size="24">Headroom-Normalized Delta Distribution, Final Cycle</text>
+<text x="490.0" y="536" text-anchor="middle" font-family="Arial" font-size="15">normalized movement in pushed direction</text>
+<text x="24" y="280.0" transform="rotate(-90 24 280.0)" text-anchor="middle" font-family="Arial" font-size="15">count</text>
+<line x1="80" y1="475" x2="940" y2="475" stroke="#222" stroke-width="1"/>
+<line x1="80" y1="70" x2="80" y2="475" stroke="#222" stroke-width="1"/>
+<line x1="386.44" y1="70" x2="386.44" y2="475" stroke="#555" stroke-dasharray="4 4"/>
+<line x1="75" y1="475.00" x2="80" y2="475.00" stroke="#222"/>
+<text x="70" y="480.00" text-anchor="end" font-family="Arial" font-size="12">0</text>
+<line x1="80" y1="475.00" x2="940" y2="475.00" stroke="#eee"/>
+<line x1="75" y1="394.00" x2="80" y2="394.00" stroke="#222"/>
+<text x="70" y="399.00" text-anchor="end" font-family="Arial" font-size="12">6</text>
+<line x1="80" y1="394.00" x2="940" y2="394.00" stroke="#eee"/>
+<line x1="75" y1="313.00" x2="80" y2="313.00" stroke="#222"/>
+<text x="70" y="318.00" text-anchor="end" font-family="Arial" font-size="12">12</text>
+<line x1="80" y1="313.00" x2="940" y2="313.00" stroke="#eee"/>
+<line x1="75" y1="232.00" x2="80" y2="232.00" stroke="#222"/>
+<text x="70" y="237.00" text-anchor="end" font-family="Arial" font-size="12">17</text>
+<line x1="80" y1="232.00" x2="940" y2="232.00" stroke="#eee"/>
+<line x1="75" y1="151.00" x2="80" y2="151.00" stroke="#222"/>
+<text x="70" y="156.00" text-anchor="end" font-family="Arial" font-size="12">23</text>
+<line x1="80" y1="151.00" x2="940" y2="151.00" stroke="#eee"/>
+<line x1="75" y1="70.00" x2="80" y2="70.00" stroke="#222"/>
+<text x="70" y="75.00" text-anchor="end" font-family="Arial" font-size="12">29</text>
+<line x1="80" y1="70.00" x2="940" y2="70.00" stroke="#eee"/>
+<line x1="80.00" y1="475" x2="80.00" y2="480" stroke="#222"/>
+<text x="80.00" y="497" text-anchor="middle" font-family="Arial" font-size="12">-0.62</text>
+<line x1="252.00" y1="475" x2="252.00" y2="480" stroke="#222"/>
+<text x="252.00" y="497" text-anchor="middle" font-family="Arial" font-size="12">-0.27</text>
+<line x1="424.00" y1="475" x2="424.00" y2="480" stroke="#222"/>
+<text x="424.00" y="497" text-anchor="middle" font-family="Arial" font-size="12">0.08</text>
+<line x1="596.00" y1="475" x2="596.00" y2="480" stroke="#222"/>
+<text x="596.00" y="497" text-anchor="middle" font-family="Arial" font-size="12">0.42</text>
+<line x1="768.00" y1="475" x2="768.00" y2="480" stroke="#222"/>
+<text x="768.00" y="497" text-anchor="middle" font-family="Arial" font-size="12">0.77</text>
+<line x1="940.00" y1="475" x2="940.00" y2="480" stroke="#222"/>
+<text x="940.00" y="497" text-anchor="middle" font-family="Arial" font-size="12">1.12</text>
+<rect x="82.00" y="475.00" width="27.71" height="0.00" fill="#2ca25f" opacity="0.78"/>
+<rect x="112.71" y="461.03" width="27.71" height="13.97" fill="#de2d26" opacity="0.78"/>
+<rect x="143.43" y="475.00" width="27.71" height="0.00" fill="#2ca25f" opacity="0.78"/>
+<rect x="174.14" y="475.00" width="27.71" height="0.00" fill="#de2d26" opacity="0.78"/>
+<rect x="204.86" y="475.00" width="27.71" height="0.00" fill="#2ca25f" opacity="0.78"/>
+<rect x="235.57" y="461.03" width="27.71" height="13.97" fill="#de2d26" opacity="0.78"/>
+<rect x="266.29" y="475.00" width="27.71" height="0.00" fill="#2ca25f" opacity="0.78"/>
+<rect x="297.00" y="475.00" width="27.71" height="0.00" fill="#de2d26" opacity="0.78"/>
+<rect x="327.71" y="475.00" width="27.71" height="0.00" fill="#2ca25f" opacity="0.78"/>
+<rect x="358.43" y="461.03" width="27.71" height="13.97" fill="#de2d26" opacity="0.78"/>
+<rect x="389.14" y="475.00" width="27.71" height="0.00" fill="#2ca25f" opacity="0.78"/>
+<rect x="419.86" y="447.07" width="27.71" height="27.93" fill="#de2d26" opacity="0.78"/>
+<rect x="450.57" y="447.07" width="27.71" height="27.93" fill="#2ca25f" opacity="0.78"/>
+<rect x="481.29" y="377.24" width="27.71" height="97.76" fill="#de2d26" opacity="0.78"/>
+<rect x="512.00" y="447.07" width="27.71" height="27.93" fill="#2ca25f" opacity="0.78"/>
+<rect x="542.71" y="461.03" width="27.71" height="13.97" fill="#de2d26" opacity="0.78"/>
+<rect x="573.43" y="307.41" width="27.71" height="167.59" fill="#2ca25f" opacity="0.78"/>
+<rect x="604.14" y="363.28" width="27.71" height="111.72" fill="#de2d26" opacity="0.78"/>
+<rect x="634.86" y="70.00" width="27.71" height="405.00" fill="#2ca25f" opacity="0.78"/>
+<rect x="665.57" y="335.34" width="27.71" height="139.66" fill="#de2d26" opacity="0.78"/>
+<rect x="696.29" y="223.62" width="27.71" height="251.38" fill="#2ca25f" opacity="0.78"/>
+<rect x="727.00" y="349.31" width="27.71" height="125.69" fill="#de2d26" opacity="0.78"/>
+<rect x="757.71" y="335.34" width="27.71" height="139.66" fill="#2ca25f" opacity="0.78"/>
+<rect x="788.43" y="251.55" width="27.71" height="223.45" fill="#de2d26" opacity="0.78"/>
+<rect x="819.14" y="475.00" width="27.71" height="0.00" fill="#2ca25f" opacity="0.78"/>
+<rect x="849.86" y="433.10" width="27.71" height="41.90" fill="#de2d26" opacity="0.78"/>
+<rect x="880.57" y="447.07" width="27.71" height="27.93" fill="#2ca25f" opacity="0.78"/>
+<rect x="911.29" y="251.55" width="27.71" height="223.45" fill="#de2d26" opacity="0.78"/>
+<rect x="780" y="48" width="14" height="14" fill="#2ca25f" opacity="0.78"/>
+<text x="802" y="60" font-family="Arial" font-size="13">valid</text>
+<rect x="780" y="70" width="14" height="14" fill="#de2d26" opacity="0.78"/>
+<text x="802" y="82" font-family="Arial" font-size="13">invalid</text>
+</svg>
