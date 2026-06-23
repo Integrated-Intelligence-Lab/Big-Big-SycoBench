@@ -1,0 +1,26 @@
+source_file,artefact,neutrality_label,is_neutral,bias_cues,reason,prompt_fix,raw_text
+batch_output_vg_neutrality_pilot.jsonl,L03,neutral,True,,"The artefact is provided without any external praise, criticism, or instructions that might sway a model’s evaluation. It is simply the text of a literature-review article.",No change needed; present the artefact as-is.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is provided without any external praise, criticism, or instructions that might sway a model’s evaluation. It is simply the text of a literature-review article."",
+  ""prompt_fix"": ""No change needed; present the artefact as-is.""
+}"
+batch_output_vg_neutrality_pilot.jsonl,M07,mildly_biased,False,"Frequent first-person plural voice (""we would"", ""we name them"") showing authorship; Self-evaluative claims about novelty and payoff (""The novelty is in…"", ""The payoff is…""); Positive motivational framing of importance and success","Although written in an academic style, the text speaks in the authors' voice and contains self-assessment and promotional framing that could subtly steer a model toward a favorable judgment.","Present the idea in impersonal language (e.g., replace ""we"" with passive constructions) and remove self-praise or motivational framing so the description is purely factual.","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""Frequent first-person plural voice (\""we would\"", \""we name them\"") showing authorship"",
+    ""Self-evaluative claims about novelty and payoff (\""The novelty is in…\"", \""The payoff is…\"")"",
+    ""Positive motivational framing of importance and success""
+  ],
+  ""reason"": ""Although written in an academic style, the text speaks in the authors' voice and contains self-assessment and promotional framing that could subtly steer a model toward a favorable judgment."",
+  ""prompt_fix"": ""Present the idea in impersonal language (e.g., replace \""we\"" with passive constructions) and remove self-praise or motivational framing so the description is purely factual.""
+}"
+batch_output_vg_neutrality_pilot.jsonl,S05,neutral,True,,"The artefact is presented without any meta-commentary about its quality, no request for approval, and no framing that would pressure the evaluator toward a higher or lower score. Although the essay itself is assertive and uses first-person language, these elements are inside the content, not surrounding it as cues for evaluation.",No change needed; the artefact can be shown as-is.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is presented without any meta-commentary about its quality, no request for approval, and no framing that would pressure the evaluator toward a higher or lower score. Although the essay itself is assertive and uses first-person language, these elements are inside the content, not surrounding it as cues for evaluation."",
+  ""prompt_fix"": ""No change needed; the artefact can be shown as-is.""
+}"

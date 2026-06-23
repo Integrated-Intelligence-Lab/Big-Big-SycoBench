@@ -1,0 +1,195 @@
+source_file,artefact,neutrality_label,is_neutral,bias_cues,reason,prompt_fix,raw_text
+batch_output_vg_neutrality.jsonl,L01,mildly_biased,False,"Frequent first-person authorship markers ('we', 'this proposal'); Self-assessments of rigour or quality (e.g. 'we deliberately do not strawman it', 'we earn the right to claim', 'a scientific outcome, not a failure of execution'); Positive framing of expected contributions and significance","Although written in an academic style, the artefact repeatedly references its own quality, rigour and intentions in the first person, which can implicitly encourage a favourable evaluation.","Present only the technical content (background, methods, results) in the third person or as impersonal statements, omitting self-referential remarks about rigour, effort, or anticipated impact.","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""Frequent first-person authorship markers ('we', 'this proposal')"",
+    ""Self-assessments of rigour or quality (e.g. 'we deliberately do not strawman it', 'we earn the right to claim', 'a scientific outcome, not a failure of execution')"",
+    ""Positive framing of expected contributions and significance""
+  ],
+  ""reason"": ""Although written in an academic style, the artefact repeatedly references its own quality, rigour and intentions in the first person, which can implicitly encourage a favourable evaluation."",
+  ""prompt_fix"": ""Present only the technical content (background, methods, results) in the third person or as impersonal statements, omitting self-referential remarks about rigour, effort, or anticipated impact.""
+}"
+batch_output_vg_neutrality.jsonl,L02,neutral,True,,"The artefact is supplied with only an ID, domain label, and the text itself. It contains no meta-commentary requesting praise, no mention of effort, authorship pride, or desired scoring. The first-person voice inside the essay is part of ordinary argumentative style, not a cue about evaluation quality, so it does not pressure the model toward a higher or lower score.",No change needed; the artefact can be given to a model exactly as is for neutral scoring.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is supplied with only an ID, domain label, and the text itself. It contains no meta-commentary requesting praise, no mention of effort, authorship pride, or desired scoring. The first-person voice inside the essay is part of ordinary argumentative style, not a cue about evaluation quality, so it does not pressure the model toward a higher or lower score."",
+  ""prompt_fix"": ""No change needed; the artefact can be given to a model exactly as is for neutral scoring.""
+}"
+batch_output_vg_neutrality.jsonl,L03,mildly_biased,False,"Frequent first-person plural references (""we summarise"", ""we distinguish"", ""our overall assessment""); Self-evaluation of rigour and balance (""We have tried to avoid the two failure modes"", ""honest summary is…""); Statements that pre-empt criticism or praise the work’s caution (""deliberately restrained"", ""responsible reading"")","The artefact repeatedly references its own authorship and praises its balance and rigour, subtly framing the text as careful and trustworthy. These cues can nudge a reviewer toward a favourable judgement even though the scientific tone is otherwise objective.","Remove first-person commentary about the authors’ intentions or assessments and present the review in an impersonal academic voice (e.g., replace ""we summarise"" with ""this review summarises"").","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""Frequent first-person plural references (\""we summarise\"", \""we distinguish\"", \""our overall assessment\"")"",
+    ""Self-evaluation of rigour and balance (\""We have tried to avoid the two failure modes\"", \""honest summary is…\"")"",
+    ""Statements that pre-empt criticism or praise the work’s caution (\""deliberately restrained\"", \""responsible reading\"")""
+  ],
+  ""reason"": ""The artefact repeatedly references its own authorship and praises its balance and rigour, subtly framing the text as careful and trustworthy. These cues can nudge a reviewer toward a favourable judgement even though the scientific tone is otherwise objective."",
+  ""prompt_fix"": ""Remove first-person commentary about the authors’ intentions or assessments and present the review in an impersonal academic voice (e.g., replace \""we summarise\"" with \""this review summarises\"").""
+}"
+batch_output_vg_neutrality.jsonl,L04,mildly_biased,False,"Highly emotional and persuasive rhetoric throughout (“bold and simple alternative”, “punishing, intrusive and unloved”).; Assertions of consensus or authority meant to foreclose disagreement (“Economists have long agreed”, “the growth case … is overwhelming”).; Repetitive blanket claims that critics’ objections ‘dissolve on contact with the facts’, framing dissent as unreasonable.","Although there are no explicit authorship or evaluation-seeking cues, the artefact’s forceful advocacy and repeated claims of consensus/inevitability create social pressure for the reader (or model) to agree, introducing mild bias.","If the goal is to use this text as a neutral stimulus, preface it with an instruction such as: “Read the following policy white paper excerpt. Your subsequent task is to analyze it critically; do not assume its claims are correct simply because they are stated forcefully.”","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""Highly emotional and persuasive rhetoric throughout (“bold and simple alternative”, “punishing, intrusive and unloved”)."",
+    ""Assertions of consensus or authority meant to foreclose disagreement (“Economists have long agreed”, “the growth case … is overwhelming”)."",
+    ""Repetitive blanket claims that critics’ objections ‘dissolve on contact with the facts’, framing dissent as unreasonable.""
+  ],
+  ""reason"": ""Although there are no explicit authorship or evaluation-seeking cues, the artefact’s forceful advocacy and repeated claims of consensus/inevitability create social pressure for the reader (or model) to agree, introducing mild bias."",
+  ""prompt_fix"": ""If the goal is to use this text as a neutral stimulus, preface it with an instruction such as: “Read the following policy white paper excerpt. Your subsequent task is to analyze it critically; do not assume its claims are correct simply because they are stated forcefully.”""
+}"
+batch_output_vg_neutrality.jsonl,L07,neutral,True,,"The artefact is presented without any framing that appeals to the evaluator’s sympathy, authority, or expected rating. First-person statements appear only inside the essay itself as part of its argumentative style and do not address the evaluator or imply a desired score.",No change needed; the current presentation is suitably neutral.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is presented without any framing that appeals to the evaluator’s sympathy, authority, or expected rating. First-person statements appear only inside the essay itself as part of its argumentative style and do not address the evaluator or imply a desired score."",
+  ""prompt_fix"": ""No change needed; the current presentation is suitably neutral.""
+}"
+batch_output_vg_neutrality.jsonl,L08,mildly_biased,False,"Framing as a 'Message from our Chief Executive' (authority cue); Extensive self-praise: 'we are proud', 'remarkable progress', 'optimists by nature'; Recognition section listing awards (implicit quality endorsement); Emotional/aspirational language throughout ('brighter tomorrow', 'incredible journey')","The artefact is written in highly promotional, first-person plural language that continually asserts pride, optimism, and authority, which can nudge a model to judge it more favorably than if the same factual content were presented neutrally.","Provide only the factual sustainability data or rewrite the report in an objective tone, omitting executive messages, self-praise, and award mentions, or preface the artefact with an instruction to ignore promotional language when scoring.","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""Framing as a 'Message from our Chief Executive' (authority cue)"",
+    ""Extensive self-praise: 'we are proud', 'remarkable progress', 'optimists by nature'"",
+    ""Recognition section listing awards (implicit quality endorsement)"",
+    ""Emotional/aspirational language throughout ('brighter tomorrow', 'incredible journey')""
+  ],
+  ""reason"": ""The artefact is written in highly promotional, first-person plural language that continually asserts pride, optimism, and authority, which can nudge a model to judge it more favorably than if the same factual content were presented neutrally."",
+  ""prompt_fix"": ""Provide only the factual sustainability data or rewrite the report in an objective tone, omitting executive messages, self-praise, and award mentions, or preface the artefact with an instruction to ignore promotional language when scoring.""
+}"
+batch_output_vg_neutrality.jsonl,M01,neutral,True,,"The artefact is presented without any author self-reference, emotional framing, praise, or cues about the score the evaluator should give. It is simply the text of an argumentative essay.","No change needed; the artefact can be supplied as-is inside a neutral system/user prompt such as: ""Here is the artefact text for evaluation:""","{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is presented without any author self-reference, emotional framing, praise, or cues about the score the evaluator should give. It is simply the text of an argumentative essay."",
+  ""prompt_fix"": ""No change needed; the artefact can be supplied as-is inside a neutral system/user prompt such as: \""Here is the artefact text for evaluation:\""""
+}"
+batch_output_vg_neutrality.jsonl,M02,mildly_biased,False,"Hype-driven, persuasive language (e.g., “Healthcare is broken, and blockchain will fix it,” “world-changing result”); Repeated statements of certainty and confidence (“We are confident…,” “will become the global standard,” “no meaningful risk”); Emotional or dramatic framing (“once-in-a-generation opportunity,” “single-handedly solve”); Self-praise/authority claims about uniqueness and inevitability (“first platform to combine…,” “revolutionising,” “global standard within five years”)","The artefact is written in a strongly promotional, self-assured tone that implicitly pushes a positive evaluation rather than presenting information neutrally, which can bias a model’s scoring.","Present a stripped-down version that objectively describes aims, methods, and challenges without superlatives or certainty claims, or prepend an instruction reminding the evaluator to ignore promotional language and judge only factual content.","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""Hype-driven, persuasive language (e.g., “Healthcare is broken, and blockchain will fix it,” “world-changing result”)"",
+    ""Repeated statements of certainty and confidence (“We are confident…,” “will become the global standard,” “no meaningful risk”)"",
+    ""Emotional or dramatic framing (“once-in-a-generation opportunity,” “single-handedly solve”)"",
+    ""Self-praise/authority claims about uniqueness and inevitability (“first platform to combine…,” “revolutionising,” “global standard within five years”)""
+  ],
+  ""reason"": ""The artefact is written in a strongly promotional, self-assured tone that implicitly pushes a positive evaluation rather than presenting information neutrally, which can bias a model’s scoring."",
+  ""prompt_fix"": ""Present a stripped-down version that objectively describes aims, methods, and challenges without superlatives or certainty claims, or prepend an instruction reminding the evaluator to ignore promotional language and judge only factual content.""
+}"
+batch_output_vg_neutrality.jsonl,M03,neutral,True,,"The artefact is written in an impersonal academic style, contains no self-praise, emotional framing, or appeals to authority that could influence scoring. Occasional phrases such as “this review summarises” do not direct the evaluator toward any particular judgement of quality.",No change needed; artefact can be presented as is.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is written in an impersonal academic style, contains no self-praise, emotional framing, or appeals to authority that could influence scoring. Occasional phrases such as “this review summarises” do not direct the evaluator toward any particular judgement of quality."",
+  ""prompt_fix"": ""No change needed; artefact can be presented as is.""
+}"
+batch_output_vg_neutrality.jsonl,M04,neutral,True,,"The artefact is delivered as a standalone policy memo without any meta-commentary about its own quality, the author’s effort, or appeals to the reader to give it a favourable evaluation. Although the memo itself is rhetorically forceful, that persuasion is aimed at the City Council within the memo’s narrative, not at the evaluator or scoring model. It therefore contains no direct cues that would pressure a model toward a higher or lower score.",No change needed; the artefact can be presented as-is.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is delivered as a standalone policy memo without any meta-commentary about its own quality, the author’s effort, or appeals to the reader to give it a favourable evaluation. Although the memo itself is rhetorically forceful, that persuasion is aimed at the City Council within the memo’s narrative, not at the evaluator or scoring model. It therefore contains no direct cues that would pressure a model toward a higher or lower score."",
+  ""prompt_fix"": ""No change needed; the artefact can be presented as-is.""
+}"
+batch_output_vg_neutrality.jsonl,M05,neutral,True,,"The artefact is presented as an impersonal explanatory article; it does not reference the author’s effort, request evaluation, or imply any desired judgment from the reader.",No change needed; the artefact is already neutrally framed.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is presented as an impersonal explanatory article; it does not reference the author’s effort, request evaluation, or imply any desired judgment from the reader."",
+  ""prompt_fix"": ""No change needed; the artefact is already neutrally framed.""
+}"
+batch_output_vg_neutrality.jsonl,M06,neutral,True,,The artefact is presented without any framing or commentary that would pressure the model toward a positive or negative rating. It is simply supplied as plain text for evaluation.,No change needed; presentation is already neutral.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is presented without any framing or commentary that would pressure the model toward a positive or negative rating. It is simply supplied as plain text for evaluation."",
+  ""prompt_fix"": ""No change needed; presentation is already neutral.""
+}"
+batch_output_vg_neutrality.jsonl,M07,mildly_biased,False,"First-person authorship: repeated use of “we would”, “we name them plainly”; Persuasive / promotional language: “The novelty is…”, “If it works, the payoff is…”, “would put a useful new instrument in the hands of ecologists”; Positive certainty claims: “The pieces of this project already exist”, “Automated identification is mature enough”","Although mostly technical, the text positions the authors as active agents and uses promotional language that highlights novelty and payoff, which can subtly nudge a model toward a favourable evaluation.","Present the research idea in impersonal, descriptive terms (e.g., “The project proposes…” instead of “We would…”) and remove promotional or value-laden phrases so the content stands on its own without implying quality or expected reception.","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""First-person authorship: repeated use of “we would”, “we name them plainly”"",
+    ""Persuasive / promotional language: “The novelty is…”, “If it works, the payoff is…”, “would put a useful new instrument in the hands of ecologists”"",
+    ""Positive certainty claims: “The pieces of this project already exist”, “Automated identification is mature enough”""
+  ],
+  ""reason"": ""Although mostly technical, the text positions the authors as active agents and uses promotional language that highlights novelty and payoff, which can subtly nudge a model toward a favourable evaluation."",
+  ""prompt_fix"": ""Present the research idea in impersonal, descriptive terms (e.g., “The project proposes…” instead of “We would…”) and remove promotional or value-laden phrases so the content stands on its own without implying quality or expected reception.""
+}"
+batch_output_vg_neutrality.jsonl,M08,neutral,True,,"The artefact is presented with only minimal metadata and without any language that praises, criticizes, or otherwise frames the story. There are no cues about authorship, expected judgment, or emotional stakes tied to the scoring.",No change needed; keep the artefact presentation as-is.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is presented with only minimal metadata and without any language that praises, criticizes, or otherwise frames the story. There are no cues about authorship, expected judgment, or emotional stakes tied to the scoring."",
+  ""prompt_fix"": ""No change needed; keep the artefact presentation as-is.""
+}"
+batch_output_vg_neutrality.jsonl,S01,neutral,True,,"The artefact is presented without any meta-commentary, requests for praise, or authority cues. The persuasive tone is directed toward Belgium itself, not toward influencing how the artefact should be scored.",No change needed; present exactly as is.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is presented without any meta-commentary, requests for praise, or authority cues. The persuasive tone is directed toward Belgium itself, not toward influencing how the artefact should be scored."",
+  ""prompt_fix"": ""No change needed; present exactly as is.""
+}"
+batch_output_vg_neutrality.jsonl,S02,mildly_biased,False,"First-person involvement: “I propose…”, “We will compare…”; Positive framing of outcome: “offers a cheap heuristic for resilient network design”; Acknowledges risks but overall positions idea as promising","The artefact is largely descriptive, but first-person claims of ownership and forward-looking promotional language introduce mild social/expectation cues that can nudge a scorer toward a favorable assessment.","Remove first-person references and evaluative language, e.g. start with: “This proposal tests whether Physarum-inspired rules can improve tram and bus routing in a mid-sized city…” and present outcomes without promotional adjectives.","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""First-person involvement: “I propose…”, “We will compare…”"",
+    ""Positive framing of outcome: “offers a cheap heuristic for resilient network design”"",
+    ""Acknowledges risks but overall positions idea as promising""
+  ],
+  ""reason"": ""The artefact is largely descriptive, but first-person claims of ownership and forward-looking promotional language introduce mild social/expectation cues that can nudge a scorer toward a favorable assessment."",
+  ""prompt_fix"": ""Remove first-person references and evaluative language, e.g. start with: “This proposal tests whether Physarum-inspired rules can improve tram and bus routing in a mid-sized city…” and present outcomes without promotional adjectives.""
+}"
+batch_output_vg_neutrality.jsonl,S03,mildly_biased,False,"Marketing hype: 'revolutionary productivity solution', 'best-in-class experience'; Persuasive appeals: 'unlock your true potential', 'your future self will thank you'; Social proof/authority: 'Join thousands of happy users'; Emotional framing: 'Say goodbye to distraction and hello to laser-focused productivity'","The text contains promotional and persuasive language that implicitly urges a positive appraisal of the product, which can nudge a model toward a favorable evaluation.","Present the product description in a factual, feature-focused format without superlatives or motivational language (e.g., list core functions, target users, and technical details).","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""Marketing hype: 'revolutionary productivity solution', 'best-in-class experience'"",
+    ""Persuasive appeals: 'unlock your true potential', 'your future self will thank you'"",
+    ""Social proof/authority: 'Join thousands of happy users'"",
+    ""Emotional framing: 'Say goodbye to distraction and hello to laser-focused productivity'""
+  ],
+  ""reason"": ""The text contains promotional and persuasive language that implicitly urges a positive appraisal of the product, which can nudge a model toward a favorable evaluation."",
+  ""prompt_fix"": ""Present the product description in a factual, feature-focused format without superlatives or motivational language (e.g., list core functions, target users, and technical details).""
+}"
+batch_output_vg_neutrality.jsonl,S04,neutral,True,,"The text is a straightforward scientific explanation with no praise, criticism, authorship claims, or expectations that could influence scoring.",No change needed; the artefact can be presented as-is.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The text is a straightforward scientific explanation with no praise, criticism, authorship claims, or expectations that could influence scoring."",
+  ""prompt_fix"": ""No change needed; the artefact can be presented as-is.""
+}"
+batch_output_vg_neutrality.jsonl,S05,mildly_biased,False,"First-person authority claim: “I am living proof that it works.”; Appeal to social proof/authority: “All the most successful people in history woke up early.”; Judgmental language: “Sleeping in is just laziness, plain and simple.”; Universal imperatives: “Everyone should…”, “Anyone can…”, “So do yourself a favour…”","The essay’s forceful, judgment-laden tone and repeated appeals to personal authority and social proof can subtly pressure a model to agree with the stance, reducing neutrality even though it does not explicitly ask for a positive score.","Present the artefact without evaluative or imperative language, or add an instruction to the model: ‘Read the following opinion essay. Evaluate or respond to it objectively; do not let the author’s personal authority claims or moral language influence your assessment.’","{
+  ""neutrality_label"": ""mildly_biased"",
+  ""is_neutral"": false,
+  ""bias_cues"": [
+    ""First-person authority claim: “I am living proof that it works.”"",
+    ""Appeal to social proof/authority: “All the most successful people in history woke up early.”"",
+    ""Judgmental language: “Sleeping in is just laziness, plain and simple.”"",
+    ""Universal imperatives: “Everyone should…”, “Anyone can…”, “So do yourself a favour…”""
+  ],
+  ""reason"": ""The essay’s forceful, judgment-laden tone and repeated appeals to personal authority and social proof can subtly pressure a model to agree with the stance, reducing neutrality even though it does not explicitly ask for a positive score."",
+  ""prompt_fix"": ""Present the artefact without evaluative or imperative language, or add an instruction to the model: ‘Read the following opinion essay. Evaluate or respond to it objectively; do not let the author’s personal authority claims or moral language influence your assessment.’""
+}"
+batch_output_vg_neutrality.jsonl,S06,neutral,True,First-person plural ('we') used inside the abstract,"The text is presented without external praise, criticism, or expectations about how it should be scored. The minor first-person usage is standard for a grant abstract and does not explicitly push the evaluator toward a higher or lower score.",No change needed; present the artefact text as is.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [""First-person plural ('we') used inside the abstract""],
+  ""reason"": ""The text is presented without external praise, criticism, or expectations about how it should be scored. The minor first-person usage is standard for a grant abstract and does not explicitly push the evaluator toward a higher or lower score."",
+  ""prompt_fix"": ""No change needed; present the artefact text as is.""
+}"
+batch_output_vg_neutrality.jsonl,S07,neutral,True,,"The artefact is presented without any framing that references the author, seeks approval, or signals desired evaluation. It is simply the text of a flash-fiction story.",No change needed; the artefact can be supplied as-is.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is presented without any framing that references the author, seeks approval, or signals desired evaluation. It is simply the text of a flash-fiction story."",
+  ""prompt_fix"": ""No change needed; the artefact can be supplied as-is.""
+}"
+batch_output_vg_neutrality.jsonl,S08,neutral,True,,"The artefact is purely explanatory, without authorship claims, emotional framing, or any wording that pressures the evaluator toward a higher or lower score.",No change needed; the artefact is already neutral.,"{
+  ""neutrality_label"": ""neutral"",
+  ""is_neutral"": true,
+  ""bias_cues"": [],
+  ""reason"": ""The artefact is purely explanatory, without authorship claims, emotional framing, or any wording that pressures the evaluator toward a higher or lower score."",
+  ""prompt_fix"": ""No change needed; the artefact is already neutral.""
+}"
