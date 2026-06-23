@@ -1,8 +1,9 @@
-"""Plot the multi-turn pushback trajectory S0 -> S1 -> S2 -> S3 per artefact.
+"""Plot the multi-turn pushback SHIFT trajectory per artefact.
 
-Turn 0 is the default/neutral S0 (original prompt); turns 1-3 come from the
-chained cycle outputs. One panel per artefact, two lines (valid = responsiveness
-control, invalid = sycophancy signal), mean +/- 1 sd band over the 20 runs.
+Per run we take the paired delta Δ = Sₖ − S0 (S0 is that run's own initial score),
+so the baseline is removed and only the pushback-induced movement is shown. One
+panel per artefact, two lines (valid = responsiveness control, invalid =
+sycophancy signal): mean Δ with a 95% bootstrap CI band, anchored at (turn 0, 0).
 """
 import sys
 import os
@@ -15,12 +16,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 PUSH_DIR = "Marthe/results/pushback"
-S0_OUTPUT = "Marthe/results/initial_scores/batch_6a2ab6ba613c8190b307db0984f42a29_output.jsonl"
-# Chained cycle outputs in turn order (1, 2, 3).
+S0_OUTPUT = "Marthe/results/initial_scores/initial_default_output.jsonl"
 CYCLE_OUTPUTS = [
-    "batch_6a3143b187688190a6f3c30737a4cfe6_output.jsonl",  # cycle 1 -> S1
-    "batch_6a31522f8c608190b1d30a40bc800f95_output.jsonl",  # cycle 2 -> S2
-    "batch_6a31610752ac81909e207c0e4d60a319_output.jsonl",  # cycle 3 -> S3
+    "neutral_cycle1_output.jsonl",  # cycle 1 -> S1
+    "neutral_cycle2_output.jsonl",  # cycle 2 -> S2
+    "neutral_cycle3_output.jsonl",  # cycle 3 -> S3
 ]
 ARTEFACTS = ["L01", "M02", "S02"]
 N_RUNS = 20
@@ -64,6 +64,34 @@ def load_cycle(path):
     return d
 
 
+def mean_ci(mat):
+    """Per-column mean and 95% bootstrap CI for a runs×turns matrix (NaN-safe)."""
+    rng = np.random.default_rng(0)
+    means, los, his = [], [], []
+    for j in range(mat.shape[1]):
+        v = mat[:, j]
+        v = v[~np.isnan(v)]
+        if len(v) == 0:
+            means += [np.nan]; los += [np.nan]; his += [np.nan]; continue
+        m = v.mean(); means.append(m)
+        if np.allclose(v, v[0]):                 # degenerate (e.g. turn 0 = all zeros)
+            los.append(m); his.append(m)
+        else:
+            boot = rng.choice(v, size=(2000, len(v)), replace=True).mean(axis=1)
+            lo, hi = np.percentile(boot, [2.5, 97.5])
+            los.append(lo); his.append(hi)
+    return np.array(means), np.array(los), np.array(his)
+
+
+def delta_matrix(s0, cyc, aid, arm):
+    """rows=run, cols=[Δ0=0, Δ1, Δ2, Δ3] with Δk = Sk − S0 (paired per run)."""
+    rows = []
+    for r in range(N_RUNS):
+        s = [s0[(aid, r)]] + [cyc[k][(aid, arm, r, k + 1)] for k in range(3)]
+        rows.append([sk - s[0] for sk in s])
+    return np.array(rows, dtype=float)
+
+
 def main():
     s0 = load_s0(S0_OUTPUT)
     cyc = [load_cycle(os.path.join(PUSH_DIR, f)) for f in CYCLE_OUTPUTS]
@@ -73,26 +101,21 @@ def main():
 
     for ax, aid in zip(axes, ARTEFACTS):
         for arm, sty in ARM_STYLE.items():
-            # rows: run, cols: turn; turn 0 = S0, turns 1-3 = cycle outputs
-            mat = np.array([
-                [s0[(aid, r)]] + [cyc[k][(aid, arm, r, k + 1)] for k in range(3)]
-                for r in range(N_RUNS)
-            ], dtype=float)
-            mean, sd = mat.mean(0), mat.std(0)
+            dmat = delta_matrix(s0, cyc, aid, arm)
+            mean, lo, hi = mean_ci(dmat)
             ax.plot(turns, mean, "-o", color=sty["color"], label=sty["label"], lw=2, ms=5)
-            ax.fill_between(turns, mean - sd, mean + sd, color=sty["color"], alpha=0.15)
-            ax.annotate(f"{mean[-1]:.1f}", (turns[-1], mean[-1]),
+            ax.fill_between(turns, lo, hi, color=sty["color"], alpha=0.15)
+            ax.annotate(f"{mean[-1]:+.1f}", (turns[-1], mean[-1]),
                         textcoords="offset points", xytext=(6, 0), fontsize=8, color=sty["color"])
-        ax.axhline(np.mean([s0[(aid, r)] for r in range(N_RUNS)]),
-                   color="gray", ls=":", lw=0.8)  # S0 reference
+        ax.axhline(0, color="gray", ls=":", lw=0.8)  # S0 baseline
         ax.set_title(f"{aid}  ({DIRECTION[aid]})", fontsize=10, fontweight="bold")
         ax.set_xlabel("pushback turn")
         ax.set_xticks(turns)
-        ax.set_ylim(1, 100)
         ax.grid(alpha=0.25)
-    axes[0].set_ylabel("score (1–100)")
-    axes[0].legend(fontsize=8, loc="center left")
-    fig.suptitle("Multi-turn pushback: score trajectory by argument validity (neutral/default, N=20)", fontsize=12)
+    axes[0].set_ylabel("score shift  Δ = Sₖ − S0")
+    axes[0].legend(fontsize=8, loc="best")
+    fig.suptitle("Multi-turn pushback: mean score shift Δ from S0 by argument validity "
+                 "(neutral/default, N=20, 95% CI)", fontsize=12)
     fig.tight_layout()
 
     out = os.path.join(PUSH_DIR, "cycle_trajectory.png")

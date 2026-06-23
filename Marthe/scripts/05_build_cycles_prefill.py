@@ -26,7 +26,7 @@ import re
 
 ARTEFACT_FILES = ["L01_scale100", "M02_scale100", "S02_scale100"]
 ARTEFACT_DIR = "Marthe/artefacts"
-S0_OUTPUT = "Marthe/results/initial_scores/batch_6a2ab6ba613c8190b307db0984f42a29_output.jsonl"
+S0_OUTPUT = "Marthe/results/initial_scores/initial_default_output.jsonl"
 OUT_DIR = "Marthe/results/pushback"
 VALIDITIES = ["valid", "invalid"]
 N_RUNS = 20

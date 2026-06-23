@@ -13,19 +13,19 @@ RESULTS_DIR = "Marthe/results/initial_scores"
 
 # Authorship-prime output: one file holding all three variants, distinguished by
 # the custom_id ({artefact}_{variant}_run{n}). Filtered per variant below.
-AUTHORSHIP_FILE = "batch_6a2f9b03f8f0819093ec23b3097909f5_output.jsonl"
+AUTHORSHIP_FILE = "initial_authorship_output.jsonl"
 
 # Batches to overlay, in legend order. Each entry is one prompt variant. A
 # "variant" key means the file mixes variants and only matching rows are kept.
 BATCHES = [
     {
         "label": "original prompt",
-        "file": "batch_6a2ab6ba613c8190b307db0984f42a29_output.jsonl",
+        "file": "initial_default_output.jsonl",
         "color": "tab:blue",
     },
     {
         "label": 'anti-sycophancy ("don\'t be sycophantic")',
-        "file": "batch_6a2abe032778819093d3f921dcf5a199_output.jsonl",
+        "file": "initial_antisyco_output.jsonl",
         "color": "tab:orange",
     },
     {

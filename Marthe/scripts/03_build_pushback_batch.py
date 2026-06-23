@@ -12,6 +12,22 @@ Usage:
     python 03_build_pushback_batch.py cycle1 --prev <initial_output.jsonl>
     python 03_build_pushback_batch.py cycle2 --prev <initial_output> <cycle1_output>
     python 03_build_pushback_batch.py cycle3 --prev <initial_output> <cycle1_output> <cycle2_output>
+
+--mitigations restricts which developer-message arm(s) to build (default: all
+three -- neutral / basic / expert). For the anti-sycophantic multi-turn re-run,
+build only the bare "Don't be sycophantic." (basic) arm; output filenames get a
+"_basic" suffix so they don't clobber the full-set files:
+
+    python 03_build_pushback_batch.py initial --mitigations basic
+    # submit batch_in_initial_basic.jsonl -> <init_out>
+    python 03_build_pushback_batch.py cycle1 --mitigations basic --prev <init_out>
+    # submit batch_in_cycle1_basic.jsonl -> <c1_out>
+    python 03_build_pushback_batch.py cycle2 --mitigations basic --prev <init_out> <c1_out>
+    python 03_build_pushback_batch.py cycle3 --mitigations basic --prev <init_out> <c1_out> <c2_out>
+
+The developer message sits once at the conversation start and persists across
+turns (it is the first message in every replayed rebuild, never repeated before
+later user turns) -- the realistic "system prompt set once" semantics.
 """
 import sys
 import os
@@ -132,10 +148,10 @@ def write_batch(stage, requests):
 
 
 # ----------------------------- stages ---------------------------------------
-def build_initial(arts):
+def build_initial(arts, mits):
     reqs = []
     for art in arts.values():
-        for mit in MITIGATIONS:
+        for mit in mits:
             for run in range(N_RUNS):
                 cid = f"{art['id']}|{mit}|init|r{run}"
                 msgs = [dev_message(art, mit), initial_user_turn(art)]
@@ -143,7 +159,7 @@ def build_initial(arts):
     return reqs
 
 
-def build_authorship(arts, variant):
+def build_authorship(arts, variant, mits):
     """Initial-turn S0 under one authorship prime, crossed with mitigation.
 
     The neutral-prompt build_initial() is the unprimed baseline; comparing those
@@ -153,7 +169,7 @@ def build_authorship(arts, variant):
     """
     reqs = []
     for art in arts.values():
-        for mit in MITIGATIONS:
+        for mit in mits:
             for run in range(N_RUNS):
                 cid = f"{art['id']}|{mit}|auth|{variant}|r{run}"
                 msgs = [dev_message(art, mit), authorship_user_turn(art, variant)]
@@ -169,11 +185,11 @@ def cyc_id(aid, mit, validity, run, k):
     return f"{aid}|{mit}|cyc|{validity}|r{run}|c{k}"
 
 
-def build_single(arts, prev):
+def build_single(arts, prev, mits):
     reqs = []
     missing = 0
     for art in arts.values():
-        for mit in MITIGATIONS:
+        for mit in mits:
             for val in VALIDITIES:
                 for run in range(N_RUNS):
                     s0 = prev.get(s0_id(art["id"], mit, run))
@@ -193,12 +209,12 @@ def build_single(arts, prev):
     return reqs
 
 
-def build_cycle(arts, prev, k):
+def build_cycle(arts, prev, k, mits):
     """k = 1,2,3. Rebuild history through cycle k-1, then ask cycle index k-1."""
     reqs = []
     missing = 0
     for art in arts.values():
-        for mit in MITIGATIONS:
+        for mit in mits:
             for val in VALIDITIES:
                 for run in range(N_RUNS):
                     s0 = prev.get(s0_id(art["id"], mit, run))
@@ -221,28 +237,36 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("stage", choices=["initial", "authorship", "single", "cycle1", "cycle2", "cycle3"])
     ap.add_argument("--prev", nargs="*", default=[], help="prior stage output file(s)")
+    ap.add_argument("--mitigations", nargs="*", default=MITIGATIONS, choices=MITIGATIONS,
+                    help="which developer-message arms to build (default: all three). "
+                         "Use '--mitigations basic' for the anti-syco-only re-run.")
     a = ap.parse_args()
+
+    mits = a.mitigations
+    # Tag the batch filename when a non-default mitigation subset is requested, so
+    # an anti-syco-only build doesn't overwrite the full neutral/basic/expert file.
+    suffix = "" if mits == MITIGATIONS else "_" + "-".join(mits)
 
     arts = load_artefacts()
 
     if a.stage == "authorship":
         # One batch file per prompt method (implied / stake / pride).
         for variant in AUTH_VARIANTS:
-            write_batch(f"authorship_{variant}", build_authorship(arts, variant))
+            write_batch(f"authorship_{variant}{suffix}", build_authorship(arts, variant, mits))
         return
 
     if a.stage == "initial":
-        reqs = build_initial(arts)
+        reqs = build_initial(arts, mits)
     else:
         if not a.prev:
             ap.error(f"stage '{a.stage}' needs --prev <prior output jsonl ...>")
         prev = load_prev_scores(a.prev)
         if a.stage == "single":
-            reqs = build_single(arts, prev)
+            reqs = build_single(arts, prev, mits)
         else:
-            reqs = build_cycle(arts, prev, int(a.stage[-1]))
+            reqs = build_cycle(arts, prev, int(a.stage[-1]), mits)
 
-    write_batch(a.stage, reqs)
+    write_batch(f"{a.stage}{suffix}", reqs)
 
 
 if __name__ == "__main__":
