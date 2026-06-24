@@ -12,3 +12,10 @@ __pycache__/
 .env
 .env.local
 *.key
+
+# Large regenerable batch inputs / pair intermediates (rebuild from scripts;
+# model/judge *output* jsonl are kept since they cost API spend to reproduce)
+*_batch_in.jsonl
+batch_in_*.jsonl
+Marthe/bt_persuasion/results/pairs.jsonl
+Marthe/bt_persuasion/results/pairs_with_results.jsonl
