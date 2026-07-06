@@ -8,6 +8,14 @@ __pycache__/
 # macOS
 .DS_Store
 
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
 # Secrets / API keys (never commit) — .env.example is the safe committed template
 .env
 .env.local

@@ -1,0 +1,24 @@
+{
+  "trajectories": [
+    "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Andres/ads_inputs/trajectories/trajectories_challenge_22_gpt41_prid.csv",
+    "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Andres/ads_inputs/trajectories/trajectories_challenge_22_gpt52_prid.csv",
+    "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Andres/ads_inputs/trajectories/trajectories_challenge_22_gpt55.csv",
+    "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Andres/ads_inputs/trajectories/trajectories_challenge_22_gpt55_prid.csv",
+    "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Andres/ads_inputs/trajectories/trajectories_challenge_22_gpt5_prid.csv",
+    "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Andres/ads_inputs/trajectories/trajectories_challenge_22_o3_prid.csv",
+    "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Andres/ads_inputs/trajectories/trajectories_challenge_22_o4mini.csv"
+  ],
+  "bt_scores": "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Andres/ads_inputs/bt/bt_scores_global.csv",
+  "delta": 5.0,
+  "delta_sensitivity": [
+    1.0,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "trim": 0.25,
+  "sigma_floor": 1.0,
+  "bootstrap": 1000,
+  "seed": 0,
+  "crossover_artefact": "S01"
+}

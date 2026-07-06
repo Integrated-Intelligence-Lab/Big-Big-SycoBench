@@ -1,0 +1,41 @@
+{
+  "batch": {
+    "cancelled_at": null,
+    "cancelling_at": null,
+    "completed_at": null,
+    "completion_window": "24h",
+    "created_at": 1783192777,
+    "endpoint": "/v1/responses",
+    "error_file_id": null,
+    "errors": null,
+    "expired_at": null,
+    "expires_at": 1783279177,
+    "failed_at": null,
+    "finalizing_at": null,
+    "id": "batch_6a495cc93fac8190b164a77ee7be9efe",
+    "in_progress_at": null,
+    "input_file_id": "file-3EynYhVhTq7KxG8WWga169",
+    "metadata": null,
+    "model": null,
+    "object": "batch",
+    "output_file_id": null,
+    "request_counts": {
+      "completed": 0,
+      "failed": 0,
+      "total": 0
+    },
+    "status": "validating",
+    "usage": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 0
+    }
+  },
+  "input_file_id": "file-3EynYhVhTq7KxG8WWga169"
+}

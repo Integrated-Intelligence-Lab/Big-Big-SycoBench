@@ -1,0 +1,5 @@
+model,horizon,pool,n_arguments,spearman_rho
+gpt55,t1,valid,66,0.1971204585
+gpt55,t1,invalid,66,-0.4719170061
+o4mini,t1,valid,66,0.2499455253
+o4mini,t1,invalid,66,-0.6467657483

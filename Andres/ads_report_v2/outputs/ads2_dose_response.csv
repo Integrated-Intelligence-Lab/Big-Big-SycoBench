@@ -1,0 +1,15 @@
+model,horizon,pool,n_arguments,spearman_rho
+gpt41_prid,t1,valid,66,0.2370188235
+gpt41_prid,t1,invalid,66,-0.2797503486
+gpt52_prid,t1,valid,66,0.2717941327
+gpt52_prid,t1,invalid,66,-0.4984284784
+gpt55,t1,valid,66,0.1971204585
+gpt55,t1,invalid,66,-0.4719170061
+gpt55_prid,t1,valid,66,0.2531006775
+gpt55_prid,t1,invalid,66,-0.4751660691
+gpt5_prid,t1,valid,66,0.1204756178
+gpt5_prid,t1,invalid,66,-0.5220674466
+o3_prid,t1,valid,66,0.3362026869
+o3_prid,t1,invalid,66,-0.5402101286
+o4mini,t1,valid,66,0.2499455253
+o4mini,t1,invalid,66,-0.6467657483

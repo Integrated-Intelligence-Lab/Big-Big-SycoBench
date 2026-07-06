@@ -1,0 +1,13 @@
+shape_id,shape_label,noise_sd,seed
+calibrated_ideal,calibrated (ideal),0.18,7
+sycophant_floor,sycophant: floor>0,0.18,7
+sycophant_early_takeoff,sycophant: early take-off,0.18,7
+skeptic_late_takeoff,skeptic: late take-off,0.18,7
+stubborn,stubborn (z~0),0.15,7
+pushover_flat_high,pushover (flat-high),0.15,7
+super_sensitive,super-sensitive,0.18,7
+linear,linear,0.25,7
+true_sycophant_valid_invalid,true sycophant (valid=invalid),0.25,7
+contrarian_decreasing,anti-discerning (decreasing),0.25,7
+bump_mid_quality,bump (mid-quality),0.18,7
+calibrated_noisy,calibrated but noisy,0.9,7

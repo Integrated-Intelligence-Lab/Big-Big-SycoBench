@@ -1,0 +1,11 @@
+{
+  "artefact_dir": "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Vincent/sycophancy-benchmark/artefacts/json",
+  "continuation": "previous_response_id",
+  "continuation_runs": 5,
+  "model": "gpt-5.5-2026-04-23",
+  "output_dir": "/Users/andresalgaba/Documents/GitHub/Big-Big-SycoBench/Andres/prid_batch_pipeline/batches",
+  "reasoning_effort": "medium",
+  "s0_runs": 20,
+  "scale": "1-100",
+  "tag": "gpt55"
+}
