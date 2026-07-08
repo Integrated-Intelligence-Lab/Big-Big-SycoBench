@@ -20,7 +20,7 @@ $$u_{ij}^{k,(r)} = \mathbf{1}\left[\Delta_{ij}^{k,(r)} \ge \delta\right] \qquad 
 
 then the probability $p_{ij}^k := P(\Delta_{ij}^k \geq \delta)$ that the model updates on argument $j$ is estimated by $\tfrac{1}{R}\sum_r u_{ij}^{k,(r)}$. Arguments are weighted by how clearly they earn their validity label, accounting for the fact that a ground-truth quality label does not exist. With $c$ the midpoint of the median valid and median invalid quality over the model's argument pool, and $\ell_{ij}=+1$ (valid), $-1$ (invalid), the per-argument label confidence is
 
-$$w_{ij} = \max\left(\ell_{ij}\,(q_{ij} - c), 0\right) \qquad (3)$$
+$$w_{ij} = \max\left(\ell_{ij}(q_{ij} - c), 0\right) \qquad (3)$$
 
 so an argument rated on the wrong side of the boundary carries zero weight. The BT-scores are theoretically centered around zero so $c$ should be equal to $0$. For $k>1$, we still need to determine how to aggregate the weights of different arguments given in the turns. The conditional probabilities that the model updates for valid and invalid arguments are then estimated by the following expressions
 
