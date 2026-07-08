@@ -20,3 +20,6 @@ __pycache__/
 .env
 .env.local
 *.key
+
+# Local Claude Code config
+.claude/
