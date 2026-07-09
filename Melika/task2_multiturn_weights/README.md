@@ -3,7 +3,7 @@
 This local experiment tests how different ways of aggregating argument BT weights
 change multi-turn ADS-style scores.
 
-The important caveat from Marthe's updated `ads_v2_math.md` is that the official
+The important caveat `ads_v2_math.md` is that the official
 weighted ADS is cleanest at turn 1. At turn 2 and turn 3, the score shift mixes
 several arguments, so multi-turn weighting is exploratory/descriptive.
 
@@ -20,7 +20,6 @@ python3 task2_multiturn_weights/scripts/04_plot_results.py
 
 ## Inputs
 
-The scripts use these files from Marthe's GitHub folder:
 
 - `Marthe/bt_global/results/bt_scores.csv`
 - `Marthe/figure_1/results/trajectories_challenge_22.csv`
