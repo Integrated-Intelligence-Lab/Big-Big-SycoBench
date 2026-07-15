@@ -228,7 +228,7 @@ def draw_baseline(ax, s0, lower, aid):
     hist_and_curve(ax, s0.values, GRAY)
     ytop = kde_height(s0.values, m, hist_grid(s0.values), 0.95, 0.45)
     ax.plot([m, m], [0, ytop], color="k", lw=0.5, ls=(0, (2, 2)), zorder=5)
-    ax.text(m, 1.03, "$S_0$", fontsize=5.5,
+    ax.text(m, 1.03, "$S_{0_i}$", fontsize=5.5,
             ha="center", va="bottom", clip_on=False)
     # push direction: opposite the model's own S0; offset from the S0 tick
     s = -1 if lower else 1
@@ -267,7 +267,7 @@ def draw_turn1(ax, d, last):
         yt = kde_height(vals_of[v], mv, grid, 0.90, bw=0.7)
         ax.plot([mv, mv], [0, yt], color=color, lw=0.5, ls=(0, (2, 2)),
                 zorder=5)
-        ax.text(mv, yt + 0.10, "$S_1$", fontsize=5, color=color,
+        ax.text(mv, yt + 0.10, "$S_{k_{ij}}$", fontsize=5, color=color,
                 ha="center", va="bottom", clip_on=False)
     if last:
         ax.set_xlabel("score (1–100)", fontsize=5.5, labelpad=1.5)
@@ -276,11 +276,11 @@ def draw_turn1(ax, d, last):
 def draw_bt_scatter(ax, arg, c):
     # centre the (arbitrary-offset) quality axis so the boundary sits at 0
     ax.set_xlim(-2.9 - c, 1.9 - c)
-    ax.set_ylim(-4, 41)
+    ax.set_ylim(-0.08, 1.14)
     for s in ("top", "right"):
         ax.spines[s].set_visible(False)
     ax.set_xticks([-2, -1, 0, 1])
-    ax.set_yticks([0, 20, 40])
+    ax.set_yticks([0, 1])
     ax.axhline(0, color="0.85", lw=0.5, zorder=0)
     ax.axvline(0, color="k", lw=0.6, ls=(0, (3, 2)))
     # point opacity encodes the label-confidence weight
@@ -288,26 +288,26 @@ def draw_bt_scatter(ax, arg, c):
     for v, color in (("invalid", RED), ("valid", GREEN)):
         g = arg[arg.validity == v]
         for _, r in g.iterrows():
-            ax.plot(r.b - c, r.dmean, marker="o", ms=2.4, mew=0, mfc=color,
+            ax.plot(r.b - c, r.u, marker="o", ms=2.4, mew=0, mfc=color,
                     alpha=0.18 + 0.82 * r.w / wmax)
     ax.set_xticklabels([])
-    ax.set_ylabel(r"$\bar\Delta^{1}$", fontsize=6, labelpad=1.5)
-    # callouts: the two clear extremes, plus a valid argument the judge placed
-    # on the wrong side of the boundary (hinged to w = 0)
+    ax.set_ylabel(r"$p^{k}_{ij}$", fontsize=6.5, labelpad=-3.0)
+    # callouts: the two clear extremes, plus an invalid argument the judges
+    # placed on the valid side of the boundary (hinged to w = 0)
     inv = arg[arg.validity == "invalid"]
     val = arg[arg.validity == "valid"]
     picks = [
-        (val.nlargest(1, "b").iloc[0], "clearly\nvalid", (1.7, 28.0),
+        (val.nlargest(1, "b").iloc[0], "clearly\nvalid", (1.4, 0.55),
          "center"),
-        (val[val.b < c].nlargest(1, "dmean").iloc[0], "$w = 0$",
-         (-1.35, 33.0), "center"),
-        (inv.nsmallest(1, "b").iloc[0], "clearly\ninvalid", (-2.2, 13.0),
+        (inv[(inv.b > c) & (inv.u < 0.9)].nlargest(1, "b").iloc[0],
+         "$w_{ij} = 0$", (-0.9, 0.56), "center"),
+        (inv.nsmallest(1, "b").iloc[0], "clearly\ninvalid", (-2.2, 0.46),
          "center"),
     ]
     for r, lab, (tx, ty), ha in picks:
-        ax.plot(r.b - c, r.dmean, marker="o", ms=5.5, mfc="none", mec="0.1",
+        ax.plot(r.b - c, r.u, marker="o", ms=5.5, mfc="none", mec="0.1",
                 mew=0.6)
-        ax.annotate(lab, xy=(r.b - c, r.dmean), xytext=(tx, ty),
+        ax.annotate(lab, xy=(r.b - c, r.u), xytext=(tx, ty),
                     fontsize=4.8, ha=ha, va="center", linespacing=1.1,
                     color="0.1",
                     arrowprops=dict(arrowstyle="-", lw=0.5, color="0.4",
@@ -326,10 +326,40 @@ def draw_wpanel(ax, c):
     q = np.linspace(-2.9 - c, 1.9 - c, 100)
     ax.plot(q, np.maximum(q, 0), color=GREEN, lw=0.9)
     ax.plot(q, np.maximum(-q, 0), color=RED, lw=0.9)
-    ax.text(0.12, 1.0, "$w = 0$", fontsize=4.8,
+    ax.text(0.12, 1.7, "$w_{ij} = 0$", fontsize=4.8,
             color="0.3", ha="left", va="center")
     ax.set_xlabel("argument quality $q$ (BT)", fontsize=6, labelpad=1.5)
-    ax.set_ylabel("$w$", fontsize=6, labelpad=1.5)
+    ax.set_ylabel("$w_{ij}$", fontsize=6, labelpad=1.5)
+
+
+def draw_update_inset(ax, df, arg):
+    """How a per-argument update rate arises: for one clear valid and one clear
+    invalid argument, the histogram of 20 per-run shifts and the fraction ≥ δ."""
+    ax.set_xlim(-13, 32)
+    ax.set_ylim(0, 1)
+    for s in ("top", "right", "left"):
+        ax.spines[s].set_visible(False)
+    ax.set_yticks([])
+    edges = np.arange(-12, 33, 3.0)
+    ctr = edges[:-1] + 1.5
+    for v, color, ytxt, target in (("valid", GREEN, 0.96, 0.80),
+                                    ("invalid", RED, 0.58, 0.30)):
+        g = arg[arg.validity == v]
+        g = g.iloc[(g.u - target).abs().values.argmin()]
+        vals = df[(df.artefact == g.artefact) & (df.validity == v)
+                  & (df.lead == g.lead)].d1.values
+        h = np.histogram(vals, bins=edges)[0].astype(float)
+        h = h / h.max() * 0.82
+        ax.bar(ctr, h, width=2.7, color=color, alpha=0.42, lw=0, zorder=2)
+        ax.text(31.5, ytxt, f"$p^k_{{ij}}\\!=\\!{(vals >= DELTA).mean():.2f}$",
+                fontsize=5, color=color, ha="right", va="center")
+    ax.axvline(DELTA, color="k", lw=0.7, ls=(0, (3, 2)), zorder=3)
+    ax.text(0.00, 1.06, "argument$_{ij}$", transform=ax.transAxes,
+            fontsize=5, color="0.35", style="italic", ha="left", va="bottom")
+    ax.set_xlabel("$\\Delta^{k,(r)}_{ij}$", fontsize=5.5, labelpad=0.5)
+    ax.set_xticks([-10, 0, DELTA, 30])
+    ax.set_xticklabels(["$-10$", "0", "$\\delta$", "30"])
+    ax.tick_params(labelsize=5, length=1.8, pad=1)
 
 
 def draw_plane(ax, wpt, turn_pts):
@@ -339,9 +369,15 @@ def draw_plane(ax, wpt, turn_pts):
     ax.set_anchor("N")
     ax.set_xticks([0, 1])
     ax.set_yticks([0, 1])
+    for s in ("top", "right"):
+        ax.spines[s].set_visible(False)
     ax.add_patch(Polygon([(0, 0), (1, 1), (1, 0)], closed=True,
                          fc="0.93", ec="none", zorder=0))
     ax.plot([0, 1], [0, 1], ls="--", color="0.4", lw=0.7)
+    # the diagonal p_val = p_inv: equal updating of valid and invalid = sycophancy
+    ax.text(0.75, 0.65, "100% sycophancy", rotation=45, fontsize=4.6,
+            color="0.4", ha="center", va="center", rotation_mode="anchor",
+            style="italic")
     x, y = wpt["pinv"], wpt["pval"]
     # projections onto the axes for every horizon
     for (px, py), a in [((x, y), 0.8)] + [(p, 0.45)
@@ -352,10 +388,8 @@ def draw_plane(ax, wpt, turn_pts):
                 alpha=a, zorder=2)
     # the height above the diagonal is the score: solid segment, label at left
     ax.plot([x, x], [x, y], ls="-", color=BLUE, lw=0.9)
-    ax.annotate(r"ADS", xy=(x, (x + y) / 2), xytext=(x - 0.06, (x + y) / 2),
-                fontsize=5.5, color=BLUE, ha="right", va="center",
-                arrowprops=dict(arrowstyle="-", lw=0.5, color=BLUE,
-                                shrinkA=1, shrinkB=1))
+    ax.text(x - 0.005, (x + y) / 2, "ADS$^k$", fontsize=5.5, color=BLUE,
+            ha="right", va="center")
     # turns 2 and 3 (cumulative): open markers, same model
     for px, py in turn_pts.values():
         ax.plot([px], [py], marker="o", ms=3.2, mfc="white", mec=BLUE,
@@ -375,17 +409,22 @@ def plane_table(fig, ax, wpt):
     """Header + first row of the results table, under the plane."""
     fig.canvas.draw()
     pos = ax.get_position()
-    cols = [pos.x0 + f * pos.width for f in (0.0, 0.42, 0.65, 0.90)]
-    y1, y2 = pos.y0 - 0.145, pos.y0 - 0.215
-    heads = ["model", "$p_{val}$", "$p_{inv}$", "ADS"]
+    # table starts a touch left (aligned with the x-axis "0" label) and runs to
+    # the plane's right edge; heading font matches the value font
+    x0, x1 = pos.x0 - 0.018, pos.x1
+    cols = [x0 + f * (x1 - x0) for f in (0.0, 0.40, 0.70, 1.0)]
+    aligns = ["left", "center", "center", "right"]
+    # shifted down, well clear of the plane's own "p_inv" x-axis label
+    y1, y2 = pos.y0 - 0.140, pos.y0 - 0.200
+    heads = ["model", "$p_{\\mathrm{val}}^{k}$", "$p_{\\mathrm{inv}}^{k}$",
+             "$\\mathrm{ADS}^{k}$"]
     row = ["gpt-5.5", f"{wpt['pval']:.2f}", f"{wpt['pinv']:.2f}",
-           f"{wpt['ads']:.0f}"]
-    for cx, h, r in zip(cols, heads, row):
-        ha = "left" if h == "model" else "center"
-        fig.text(cx, y1, h, fontsize=5.5, color="0.25", ha=ha, va="center")
-        fig.text(cx, y2, r, fontsize=5.5, color=BLUE, ha=ha, va="center")
-    # rules span from the model column to just past the ADS column
-    x_l, x_r = cols[0] - 0.006, cols[3] + 0.014
+           f"{wpt['ads']:.0f}%"]
+    for cx, h, r, ha in zip(cols, heads, row, aligns):
+        fig.text(cx, y1, h, fontsize=4.6, color="0.25", ha=ha, va="center")
+        fig.text(cx, y2, r, fontsize=4.6, color=BLUE, ha=ha, va="center")
+    # rules span the whole table width
+    x_l, x_r = cols[0] - 0.004, cols[3] + 0.004
     fig.add_artist(matplotlib.lines.Line2D(
         [x_l, x_r], [(y1 + y2) / 2] * 2,
         color="0.6", lw=0.5, transform=fig.transFigure))
@@ -431,6 +470,7 @@ def main():
     bt3 = pd.read_parquet(BT_PARQUET).rename(
         columns={"artefact_id": "artefact"})
     mids = []
+    bot_base = top_base = None
     for k, aid in enumerate(ROWS):
         d = df[df.artefact == aid]
         lower = d.direction.iloc[0] == "lower"
@@ -439,35 +479,40 @@ def main():
         draw_baseline(axb, d.groupby("run").S0.first(), lower, aid)
         axt = fig.add_subplot(gs2[k, 1])
         draw_turn1(axt, d, last=(k == 2))
+        if k == 0:
+            top_pos = axb.get_position()          # S02 axis (step-3 top row)
+            top_base = top_pos.y0
         if k == 1:
             mids = [axb, axt]
+        if k == 2:
+            bot_base = axb.get_position().y0      # L01 baseline (step-3 bottom axis)
     ax_bt = fig.add_subplot(gs2[:, 2])
     cell = ax_bt.get_position()
-    # scatter + weight panel: shrunk a touch; the scatter's x-axis sits on the
-    # middle distribution row's baseline (shared with the arrows)
-    base = mids[0].get_position().y0
+    # step-4 panels shifted DOWN: weight panel's baseline aligns with step 3's
+    # bottom (L01) axis; the Delta scatter sits above it; the update-rate inset
+    # (how u_ij arises) fills the freed space on top.
     pw = cell.width * 0.84
-    h_bt, h_w, gap = 0.255, 0.095, 0.045
+    # weight panel shorter, the two lower panels close together; the histogram
+    # inset matches the step-2/3 row axes (same baseline and height as S02).
+    h_bt, h_w, gap, h_u = 0.215, 0.060, 0.035, top_pos.height
     px0 = cell.x0 + (cell.width - pw) / 2
-    ax_bt.set_position([px0, base, pw, h_bt])
+    y_w0 = bot_base
+    y_bt0 = y_w0 + h_w + gap
+    ax_bt.set_position([px0, y_bt0, pw, h_bt])
     draw_bt_scatter(ax_bt, arg, c)
-    ax_w = fig.add_axes([px0, base - gap - h_w, pw, h_w])
+    ax_w = fig.add_axes([px0, y_w0, pw, h_w])
     draw_wpanel(ax_w, c)
+    ax_u = fig.add_axes([px0, top_base, pw, h_u])   # baseline aligned with S02
+    draw_update_inset(ax_u, df, arg)
     ax_plane = fig.add_subplot(gs2[:, 3])
     draw_plane(ax_plane, wpt, unweighted_turn_points(df))
-    # symmetric padding (space before 0 and after 1) chosen so the plane's
-    # p = 0 line lands on the scatter's Delta = 0 line
-    fig.canvas.draw()
-    bp, pp = ax_bt.get_position(), ax_plane.get_position()
-    z0 = bp.y0 + (0 - (-4)) / (41 - (-4)) * bp.height
-    g = (z0 - pp.y0) / pp.height
-    pad = g / (1 - 2 * g)
-    ax_plane.set_xlim(-pad, 1 + pad)
-    ax_plane.set_ylim(-pad, 1 + pad)
+    # clipped at zero; only a small top margin for the near-1 markers/labels
+    ax_plane.set_xlim(0, 1.045)
+    ax_plane.set_ylim(0, 1.045)
     # turn-1 coordinates written just outside each axis
-    ax_plane.text(-pad - 0.04, wpt["pval"], f"{wpt['pval']:.2f}", ha="right",
+    ax_plane.text(-0.03, wpt["pval"], f"{wpt['pval']:.2f}", ha="right",
                   va="center", color=BLUE, fontsize=4.6, clip_on=False)
-    ax_plane.text(wpt["pinv"], -pad - 0.04, f"{wpt['pinv']:.2f}", ha="center",
+    ax_plane.text(wpt["pinv"], -0.03, f"{wpt['pinv']:.2f}", ha="center",
                   va="top", color=BLUE, fontsize=4.6, clip_on=False)
     plane_table(fig, ax_plane, wpt)
 
@@ -485,42 +530,44 @@ def main():
         return 0.5 * (p.x0 + p.x1)
 
     # the prompts of stages 2 and 3, each centred over its own stage
-    fig.text(cx(mids[0]), 0.90, "“Rate the quality of this artefact.”",
+    fig.text(cx(mids[0]), 0.90, "“Rate the quality of this artefact. {artefact$_i$}”",
              fontsize=4.1, style="italic", color="0.25", ha="center",
              va="center")
     fig.text(cx(mids[1]), 0.90,
-             "“{argument$_j$} What score would you give now?”",
+             "“{argument$_{ij}$} What score would you give now?”",
              fontsize=4.1, style="italic", color="0.25", ha="center",
              va="center")
 
-    # arrows between stages, aligned with the middle row's x-axis line
+    # arrows between stages, aligned with the middle row's x-axis line.
+    # step 2->3 sets the length; 3->4 and 4->5 match it and start the same short
+    # offset past the left panel's edge (not centred in the gap).
     yarr = mids[0].get_position().y0
     arrow(fig, 0.188, 0.212, yarr)
-    for a, b in ((mids[0], mids[1]), (mids[1], ax_bt), (ax_bt, ax_plane)):
-        arrow(fig, a.get_position().x1 + 0.006, b.get_position().x0 - 0.020,
-              yarr)
+    p0, p1 = mids[0].get_position(), mids[1].get_position()
+    L = (p1.x0 - 0.020) - (p0.x1 + 0.006)
+    arrow(fig, p0.x1 + 0.006, p1.x0 - 0.020, yarr)
+    for a, b in ((mids[1], ax_bt), (ax_bt, ax_plane)):
+        xa = a.get_position().x1 + 0.006
+        arrow(fig, xa, xa + L, yarr)
 
     caps = [
-        (0.097, "1. The benchmark",
-         "artefacts + graded arguments"),
-        (cx(mids[0]), "2. Baseline scoring",
-         "20 runs $\\rightarrow S_0$; push opposite"),
-        (cx(mids[1]), "3. Rescoring (turn $k$)",
-         "distributions at $k$ = 1"),
-        (cx(ax_bt), "4. Weighted update rates",
-         "update $u_{ij}$: $\\Delta^{1} \\geq \\delta$; "
-         "weights $w(q)$ below"),
-        (cx(ax_plane), "5. Operating point $\\rightarrow$ ADS",
-         "table: $k$ = 1; open: $k$ = 2, 3"),
+        (0.097, "1. The benchmark"),
+        (cx(mids[0]), "2. Baseline scoring"),
+        (cx(mids[1]), "3. Rescoring (turn $k$)"),
+        (cx(ax_bt), "4. Weighting update probabilities"),
+        (cx(ax_plane), "5. The benchmark score"),
     ]
-    for x, bold, plain in caps:
+    for x, bold in caps:
         fig.text(x, 0.115, bold, fontsize=6.2, ha="center", va="center",
                  weight="bold")
-        fig.text(x, 0.055, plain, fontsize=6.2, ha="center", va="center")
 
+    # save a shorter page: drop the empty band under the step captions
+    # without moving anything (all layout fractions stay valid)
+    w, h = fig.get_size_inches()
+    crop = matplotlib.transforms.Bbox([[0, 0.22], [w, h]])
     for ext in ("pdf", "png"):
         out = os.path.join(RESULTS_DIR, f"fig1_concept.{ext}")
-        fig.savefig(out, dpi=300)
+        fig.savefig(out, dpi=300, bbox_inches=crop)
         print(f"Saved {out}")
 
 
