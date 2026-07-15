@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f8fafc"/>
+<rect width="1600" height="16" fill="#2563eb"/>
+<style>text{font-family:Arial,sans-serif;fill:#14213d}.title{font-size:48px;font-weight:700}.subtitle{font-size:23px;fill:#526071}.section{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:17px;fill:#526071}.metric{font-size:45px;font-weight:700}.cardtitle{font-size:20px;font-weight:700}.white{fill:#fff}.bold{font-weight:700}</style>
+<text x="70" y="82" class="title">What do the model results show?</text>
+<text x="72" y="122" class="subtitle">Turn 1 · run-level shifts · artefact-first aggregation · 2,000 bootstrap samples</text>
+<text x="1530" y="82" text-anchor="end" class="small">2 / 3</text>
+<rect x="70" y="165" width="900" height="610" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<text x="105" y="210" class="cardtitle">Model</text>
+<text x="560" y="210" text-anchor="end" class="cardtitle">ADS</text>
+<text x="750" y="210" text-anchor="end" class="cardtitle">Invalid update</text>
+<text x="920" y="210" text-anchor="end" class="cardtitle">MSS</text>
+<line x1="105" y1="226" x2="935" y2="226" stroke="#cbd5e1" stroke-width="2"/>
+<circle cx="112" cy="263" r="7" fill="#2563eb"/>
+<text x="132" y="270" class="body">GPT-5.5 PRID</text>
+<text x="560" y="270" text-anchor="end" class="body">62.7</text>
+<text x="750" y="270" text-anchor="end" class="body">27.9%</text>
+<text x="920" y="270" text-anchor="end" class="body bold" style="fill:#2563eb">13.9</text>
+<rect x="90" y="303" width="860" height="52" rx="6" fill="#f8fafc"/>
+<circle cx="112" cy="330" r="7" fill="#2563eb"/>
+<text x="132" y="337" class="body">GPT-5.5</text>
+<text x="560" y="337" text-anchor="end" class="body">64.2</text>
+<text x="750" y="337" text-anchor="end" class="body">27.6%</text>
+<text x="920" y="337" text-anchor="end" class="body bold" style="fill:#2563eb">14.1</text>
+<circle cx="112" cy="397" r="7" fill="#c2410c"/>
+<text x="132" y="404" class="body">GPT-5.2 PRID</text>
+<text x="560" y="404" text-anchor="end" class="body">23.3</text>
+<text x="750" y="404" text-anchor="end" class="body">64.5%</text>
+<text x="920" y="404" text-anchor="end" class="body bold" style="fill:#c2410c">35.6</text>
+<rect x="90" y="437" width="860" height="52" rx="6" fill="#f8fafc"/>
+<circle cx="112" cy="464" r="7" fill="#c2410c"/>
+<text x="132" y="471" class="body">o3 PRID</text>
+<text x="560" y="471" text-anchor="end" class="body">26.7</text>
+<text x="750" y="471" text-anchor="end" class="body">62.7%</text>
+<text x="920" y="471" text-anchor="end" class="body bold" style="fill:#c2410c">36.2</text>
+<circle cx="112" cy="531" r="7" fill="#c2410c"/>
+<text x="132" y="538" class="body">o4-mini</text>
+<text x="560" y="538" text-anchor="end" class="body">32.9</text>
+<text x="750" y="538" text-anchor="end" class="body">57.3%</text>
+<text x="920" y="538" text-anchor="end" class="body bold" style="fill:#c2410c">38.1</text>
+<rect x="90" y="571" width="860" height="52" rx="6" fill="#f8fafc"/>
+<circle cx="112" cy="598" r="7" fill="#c2410c"/>
+<text x="132" y="605" class="body">GPT-5 PRID</text>
+<text x="560" y="605" text-anchor="end" class="body">32.4</text>
+<text x="750" y="605" text-anchor="end" class="body">57.3%</text>
+<text x="920" y="605" text-anchor="end" class="body bold" style="fill:#c2410c">42.8</text>
+<circle cx="112" cy="665" r="7" fill="#9d174d"/>
+<text x="132" y="672" class="body">GPT-4.1 PRID</text>
+<text x="560" y="672" text-anchor="end" class="body">2.4</text>
+<text x="750" y="672" text-anchor="end" class="body">93.3%</text>
+<text x="920" y="672" text-anchor="end" class="body bold" style="fill:#9d174d">68.6</text>
+<rect x="1010" y="165" width="520" height="190" rx="18" fill="#e8f0ff"/>
+<text x="1045" y="208" class="section">Lowest severity</text>
+<text x="1045" y="268" class="metric" style="fill:#2563eb">14.1</text>
+<text x="1175" y="267" class="body">GPT-5.5 MSS</text>
+<text x="1045" y="316" class="small">Low typical movement, but localized tail failures remain.</text>
+<rect x="1010" y="385" width="520" height="190" rx="18" fill="#fff1f2"/>
+<text x="1045" y="428" class="section">Highest severity</text>
+<text x="1045" y="488" class="metric" style="fill:#9d174d">68.6</text>
+<text x="1175" y="487" class="body">GPT-4.1 PRID MSS</text>
+<text x="1045" y="536" class="small">93% invalid updates: high-frequency, high-severity pushover.</text>
+<rect x="1010" y="605" width="520" height="170" rx="18" fill="#fff7ed"/>
+<text x="1045" y="648" class="section">What magnitude adds</text>
+<text x="1045" y="690" class="body">o4-mini and GPT-5 PRID: ≈57% invalid updates</text>
+<text x="1045" y="730" class="body bold">MSS 38.1 vs 42.8</text>
+<text x="1045" y="758" class="small">Same failure frequency, different severity.</text>
+<text x="1530" y="865" text-anchor="end" class="small">ADS broadly agrees with MSS, but does not expose the size or tail of invalid shifts.</text>
+</svg>

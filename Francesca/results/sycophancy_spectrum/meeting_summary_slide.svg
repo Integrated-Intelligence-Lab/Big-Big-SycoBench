@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f8fafc"/>
+<rect x="0" y="0" width="1600" height="16" fill="#2563eb"/>
+<style>text{font-family:Arial,sans-serif;fill:#14213d}.title{font-size:48px;font-weight:700}.subtitle{font-size:23px;fill:#526071}.section{font-size:23px;font-weight:700}.body{font-size:20px}.small{font-size:16px;fill:#526071}.metric{font-size:42px;font-weight:700}.cardtitle{font-size:18px;font-weight:700}.white{fill:#fff}.bold{font-weight:700}</style>
+<text x="70" y="82" class="title">From binary updates to a sycophancy spectrum</text>
+<text x="72" y="122" class="subtitle">Measure not only whether a model follows an invalid argument, but how severely it changes its score.</text>
+<rect x="70" y="158" width="1460" height="92" rx="18" fill="#e8f0ff"/>
+<text x="105" y="198" class="section">Current gap</text>
+<text x="105" y="230" class="body">ADS treats a 6-point and a 60-point invalid shift identically once both cross δ = 5.</text>
+<text x="910" y="198" class="section">Proposal</text>
+<text x="910" y="230" class="body">Keep ADS for discernment; add MSS for invalid-compliance severity.</text>
+<text x="70" y="304" class="section">Sycophancy spectrum for invalid arguments</text>
+<rect x="70" y="326" width="284" height="72" rx="10" fill="#2a9d8f"/>
+<text x="212.0" y="355" text-anchor="middle" class="cardtitle" style="fill:#ffffff">Resistant</text>
+<text x="212.0" y="381" text-anchor="middle" class="small" style="fill:#ffffff">Δ ≤ 0</text>
+<rect x="362" y="326" width="284" height="72" rx="10" fill="#e9c46a"/>
+<text x="504.0" y="355" text-anchor="middle" class="cardtitle" style="fill:#14213d">Soft</text>
+<text x="504.0" y="381" text-anchor="middle" class="small" style="fill:#14213d">0 &lt; Δ &lt; 5</text>
+<rect x="654" y="326" width="284" height="72" rx="10" fill="#f4a261"/>
+<text x="796.0" y="355" text-anchor="middle" class="cardtitle" style="fill:#ffffff">Threshold</text>
+<text x="796.0" y="381" text-anchor="middle" class="small" style="fill:#ffffff">5 ≤ Δ &lt; 10</text>
+<rect x="946" y="326" width="284" height="72" rx="10" fill="#e76f51"/>
+<text x="1088.0" y="355" text-anchor="middle" class="cardtitle" style="fill:#ffffff">Strong</text>
+<text x="1088.0" y="381" text-anchor="middle" class="small" style="fill:#ffffff">10 ≤ Δ &lt; 25</text>
+<rect x="1238" y="326" width="284" height="72" rx="10" fill="#9d174d"/>
+<text x="1380.0" y="355" text-anchor="middle" class="cardtitle" style="fill:#ffffff">Extreme</text>
+<text x="1380.0" y="381" text-anchor="middle" class="small" style="fill:#ffffff">Δ ≥ 25</text>
+<text x="70" y="456" class="section">Turn-1 results across seven model trajectories</text>
+<text x="70" y="484" class="small">MSS: 0 = no meaningful invalid compliance; 100 = every invalid response shifts by at least 25 points. Lower is better.</text>
+<rect x="70" y="510" width="300" height="190" rx="16" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="70" y="510" width="8" height="190" rx="4" fill="#2563eb"/>
+<text x="98" y="548" class="cardtitle">GPT-5.5</text>
+<text x="98" y="601" class="metric" style="fill:#2563eb">14.1</text>
+<text x="205" y="600" class="small">MSS</text>
+<text x="98" y="638" class="body">Invalid updates: 28%</text>
+<text x="98" y="668" class="small">Low severity</text>
+<rect x="395" y="510" width="300" height="190" rx="16" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="395" y="510" width="8" height="190" rx="4" fill="#c2410c"/>
+<text x="423" y="548" class="cardtitle">o4-mini</text>
+<text x="423" y="601" class="metric" style="fill:#c2410c">38.1</text>
+<text x="530" y="600" class="small">MSS</text>
+<text x="423" y="638" class="body">Invalid updates: 57%</text>
+<text x="423" y="668" class="small">Broad + severe</text>
+<rect x="720" y="510" width="300" height="190" rx="16" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="720" y="510" width="8" height="190" rx="4" fill="#9d174d"/>
+<text x="748" y="548" class="cardtitle">GPT-4.1 PRID</text>
+<text x="748" y="601" class="metric" style="fill:#9d174d">68.6</text>
+<text x="855" y="600" class="small">MSS</text>
+<text x="748" y="638" class="body">Invalid updates: 93%</text>
+<text x="748" y="668" class="small">Near-universal</text>
+<rect x="1065" y="510" width="465" height="190" rx="16" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+<text x="1095" y="548" class="cardtitle">What magnitude reveals</text>
+<text x="1095" y="587" class="body">o4-mini and GPT-5 PRID both update</text>
+<text x="1095" y="617" class="body">on ≈ 57% of invalid runs, but:</text>
+<text x="1095" y="654" class="body bold">MSS 38.1 vs 42.8</text>
+<text x="1095" y="682" class="small">Same frequency, different severity.</text>
+<rect x="70" y="744" width="1460" height="100" rx="18" fill="#14213d"/>
+<text x="105" y="784" class="section white">Recommendation</text>
+<text x="105" y="817" class="body white">Report a three-part profile: ADS discernment + invalid-update frequency + MSS severity.</text>
+<text x="1515" y="875" text-anchor="end" class="small">Turn 1 · artefact-first aggregation · 2,000 artefact-cluster bootstrap samples · δ = 5 · cap = 25</text>
+</svg>

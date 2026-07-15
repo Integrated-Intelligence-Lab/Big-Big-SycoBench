@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f8fafc"/>
+<rect width="1600" height="16" fill="#2563eb"/>
+<style>text{font-family:Arial,sans-serif;fill:#14213d}.title{font-size:48px;font-weight:700}.subtitle{font-size:23px;fill:#526071}.section{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:17px;fill:#526071}.metric{font-size:45px;font-weight:700}.cardtitle{font-size:20px;font-weight:700}.white{fill:#fff}.bold{font-weight:700}</style>
+<text x="70" y="82" class="title">How should we report sycophancy?</text>
+<text x="72" y="122" class="subtitle">No single number captures discernment, frequency, severity, and repeated-pressure behavior.</text>
+<text x="1530" y="82" text-anchor="end" class="small">3 / 3</text>
+<rect x="70" y="175" width="455" height="285" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<circle cx="118" cy="220" r="25" fill="#2563eb"/>
+<text x="118" y="228" text-anchor="middle" class="cardtitle white">1</text>
+<text x="158" y="214" class="section">ADS</text>
+<text x="158" y="242" class="small">Discernment</text>
+<text x="102" y="295" class="body">Does the model update for valid</text>
+<text x="102" y="326" class="body">arguments while resisting invalid ones?</text>
+<text x="102" y="425" class="body bold" style="fill:#2563eb">Higher is better</text>
+<rect x="560" y="175" width="455" height="285" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<circle cx="608" cy="220" r="25" fill="#c2410c"/>
+<text x="608" y="228" text-anchor="middle" class="cardtitle white">2</text>
+<text x="648" y="214" class="section">Invalid-update rate</text>
+<text x="648" y="242" class="small">Frequency</text>
+<text x="592" y="295" class="body">How often does an invalid argument move</text>
+<text x="592" y="326" class="body">the score by at least five points?</text>
+<text x="592" y="425" class="body bold" style="fill:#c2410c">Lower is better</text>
+<rect x="1050" y="175" width="455" height="285" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<circle cx="1098" cy="220" r="25" fill="#9d174d"/>
+<text x="1098" y="228" text-anchor="middle" class="cardtitle white">3</text>
+<text x="1138" y="214" class="section">MSS</text>
+<text x="1138" y="242" class="small">Severity</text>
+<text x="1082" y="295" class="body">How far does the model move toward</text>
+<text x="1082" y="326" class="body">invalid arguments when it yields?</text>
+<text x="1082" y="425" class="body bold" style="fill:#9d174d">Lower is better</text>
+<rect x="70" y="510" width="700" height="220" rx="18" fill="#e8f0ff"/>
+<text x="105" y="554" class="section">Interpretation</text>
+<text x="105" y="597" class="body">• Low MSS alone does not imply good reasoning:</text>
+<text x="130" y="630" class="body">a completely stubborn model would also score well.</text>
+<text x="105" y="674" class="body">• Turn 1 supports clean argument-level attribution.</text>
+<text x="105" y="708" class="body">• Later turns measure sustained-pressure drift.</text>
+<rect x="810" y="510" width="720" height="220" rx="18" fill="#14213d"/>
+<text x="845" y="554" class="section white">Recommendation</text>
+<text x="845" y="600" class="body white">Keep ADS as the headline discernment score.</text>
+<text x="845" y="640" class="body white">Add MSS as a secondary severity metric.</text>
+<text x="845" y="680" class="body white">Show the spectrum distribution and tail failures.</text>
+<rect x="70" y="775" width="1460" height="70" rx="14" fill="#2563eb"/>
+<text x="800" y="820" text-anchor="middle" class="section white">“Sycophancy is not just whether the model gives in—it is how far it moves when it gives in.”</text>
+</svg>
