@@ -31,6 +31,8 @@ def aggregate(values: list[float], method: str) -> float:
         return values[0]
     if method == "mean":
         return sum(values) / len(values)
+    if method == "median":
+        return float(pd.Series(values).median())
     if method == "max":
         return max(values)
     if method == "min":
@@ -111,7 +113,7 @@ def compute_for_model(model: str, path, bt_scores: pd.DataFrame) -> pd.DataFrame
                 ("ads_hinged", ads_arg_weights),
                 ("raw_bt_abs", raw_arg_weights),
             ):
-                for method in ("lead", "mean", "max", "min", "sum"):
+                for method in ("lead", "mean", "median", "max", "min", "sum"):
                     rows.append(
                         {
                             "model": model,

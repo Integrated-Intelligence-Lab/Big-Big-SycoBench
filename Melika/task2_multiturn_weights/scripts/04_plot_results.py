@@ -10,11 +10,12 @@ from common import FIGURES_DIR, RESULTS_DIR, ensure_dirs
 
 SUMMARY = RESULTS_DIR / "multiturn_ads_by_method.csv"
 
-METHOD_ORDER = ["unweighted", "lead", "mean", "max", "min", "sum"]
+METHOD_ORDER = ["unweighted", "lead", "mean", "median", "max", "min", "sum"]
 METHOD_LABEL = {
     "unweighted": "unweighted",
     "lead": "lead",
     "mean": "mean",
+    "median": "median",
     "max": "max",
     "min": "min",
     "sum": "sum",
@@ -23,6 +24,7 @@ METHOD_MARKER = {
     "unweighted": "o",
     "lead": "s",
     "mean": "^",
+    "median": "X",
     "max": "D",
     "min": "v",
     "sum": "P",
@@ -31,6 +33,7 @@ METHOD_COLOR = {
     "unweighted": "#333333",
     "lead": "#1f77b4",
     "mean": "#ff7f0e",
+    "median": "#8c564b",
     "max": "#2ca02c",
     "min": "#d62728",
     "sum": "#9467bd",
@@ -40,6 +43,7 @@ MODEL_COLOR = {
     "o4-mini": "#de8f05",
 }
 TURN_MARKER = {
+    1: "^",
     2: "s",
     3: "o",
 }
@@ -143,7 +147,7 @@ def plot_ads_plane(focus: pd.DataFrame) -> None:
         labels,
         title="aggregation",
         loc="lower center",
-        ncol=6,
+        ncol=7,
         frameon=False,
     )
     fig.suptitle("ADS Plane, Zoomed by Model and Turn")
@@ -189,15 +193,15 @@ def style_plane(ax: plt.Axes, zoom: bool) -> None:
     ax.set_ylabel("p_val = P(update | valid argument)", fontsize=9)
 
 
-def plot_style_turn23(focus: pd.DataFrame) -> None:
-    """Show turn-2 -> turn-3 movement in ADS-plane style."""
+def plot_style_all_turns(focus: pd.DataFrame) -> None:
+    """Show turn-1 -> turn-2 -> turn-3 movement in ADS-plane style."""
 
-    turn23 = focus[focus["turn"].isin([2, 3])].copy()
-    models = sorted(turn23["model"].unique())
+    all_turns = focus[focus["turn"].isin([1, 2, 3])].copy()
+    models = sorted(all_turns["model"].unique())
     fig, axes = plt.subplots(2, len(models), figsize=(12, 8), squeeze=False)
 
     for col_i, model in enumerate(models):
-        sub = turn23[turn23["model"] == model]
+        sub = all_turns[all_turns["model"] == model]
 
         full_ax = axes[0][col_i]
         style_plane(full_ax, zoom=False)
@@ -238,22 +242,23 @@ def plot_style_turn23(focus: pd.DataFrame) -> None:
                     label=METHOD_LABEL[method],
                     zorder=4,
                 )
-                if len(x) == 2:
+                for start, end in zip(range(len(x) - 1), range(1, len(x))):
                     ax.annotate(
                         "",
-                        xy=(x[1], y[1]),
-                        xytext=(x[0], y[0]),
+                        xy=(x[end], y[end]),
+                        xytext=(x[start], y[start]),
                         arrowprops={
                             "arrowstyle": "-|>",
                             "color": METHOD_COLOR[method],
-                            "lw": 1.0,
-                            "shrinkA": 5,
-                            "shrinkB": 5,
+                            "lw": 1.15,
+                            "mutation_scale": 10,
+                            "shrinkA": 7,
+                            "shrinkB": 7,
                         },
                         zorder=5,
                     )
 
-            for turn, label_offset in ((2, (4, 4)), (3, (4, -9))):
+            for turn, label_offset in ((1, (4, 4)), (2, (4, -9)), (3, (4, 4))):
                 point = sub[
                     (sub["turn"] == turn)
                     & (sub["aggregation"] == "unweighted")
@@ -284,17 +289,18 @@ def plot_style_turn23(focus: pd.DataFrame) -> None:
     ]
     fig.legend(
         handles=handles,
-        title="aggregation",
+        title="aggregation (arrow direction: t1 -> t2 -> t3)",
         loc="lower center",
-        ncol=6,
+        ncol=7,
         frameon=False,
     )
     fig.suptitle(
+        "Task 2 ADS Plane: Turn 1 to Turn 3 by Aggregation",
         fontsize=14,
         y=0.98,
     )
     fig.tight_layout(rect=[0, 0.07, 1, 0.95])
-    out = FIGURES_DIR / "turn23_ads_plane.png"
+    out = FIGURES_DIR / "turn123_ads_plane.png"
     fig.savefig(out, dpi=220, bbox_inches="tight")
     print(f"Wrote {out}")
 
@@ -304,7 +310,7 @@ def plot_one_aggregation_ads_plane(focus: pd.DataFrame, method: str) -> None:
 
     sub = focus[
         (focus["aggregation"] == method)
-        & (focus["turn"].isin([2, 3]))
+        & (focus["turn"].isin([1, 2, 3]))
     ].copy()
     if sub.empty:
         return
@@ -315,7 +321,7 @@ def plot_one_aggregation_ads_plane(focus: pd.DataFrame, method: str) -> None:
     style_plane(zoom_ax, zoom=True)
 
     full_ax.set_title("full ADS plane", fontsize=11, fontweight="bold")
-    zoom_ax.set_title("zoom on turn 2 -> turn 3", fontsize=11, fontweight="bold")
+    zoom_ax.set_title("zoom on turn 1 -> turn 3", fontsize=11, fontweight="bold")
 
     zoom_ax.set_xlim(
         max(0, sub["p_inval"].min() - 0.045),
@@ -379,7 +385,7 @@ def plot_one_aggregation_ads_plane(focus: pd.DataFrame, method: str) -> None:
     ]
     turn_handles = [
         plt.Line2D([0], [0], color="#555555", marker=TURN_MARKER[turn], linewidth=0, markersize=6, label=f"turn {turn}")
-        for turn in (2, 3)
+        for turn in (1, 2, 3)
     ]
     fig.legend(
         handles=model_handles + turn_handles,
@@ -393,7 +399,7 @@ def plot_one_aggregation_ads_plane(focus: pd.DataFrame, method: str) -> None:
         y=0.98,
     )
     fig.tight_layout(rect=[0, 0.09, 1, 0.93])
-    out = FIGURES_DIR / f"ads_plane_{method}_turn23.png"
+    out = FIGURES_DIR / f"ads_plane_{method}_turn123_full_zoom.png"
     fig.savefig(out, dpi=220, bbox_inches="tight")
     print(f"Wrote {out}")
 
@@ -500,10 +506,10 @@ def plot_aggregation_mosaic_turn23(focus: pd.DataFrame) -> None:
         return
 
     mosaic = [
-        ["unweighted", "lead", "mean"],
-        ["max", "min", "sum"],
+        ["unweighted", "lead", "mean", "median"],
+        ["max", "min", "sum", "."],
     ]
-    fig, axes = plt.subplot_mosaic(mosaic, figsize=(12, 7.2), sharex=True, sharey=True)
+    fig, axes = plt.subplot_mosaic(mosaic, figsize=(14, 7.2), sharex=True, sharey=True)
 
     xmin = max(0, sub["p_inval"].min() - 0.04)
     xmax = min(1, sub["p_inval"].max() + 0.04)
@@ -578,6 +584,157 @@ def plot_aggregation_mosaic_turn23(focus: pd.DataFrame) -> None:
     print(f"Wrote {out}")
 
 
+def plot_all_turns_per_aggregation(focus: pd.DataFrame) -> None:
+    """Create one ADS-plane figure per aggregation for turns 1, 2, and 3."""
+
+    for method in METHOD_ORDER:
+        sub = focus[focus["aggregation"] == method].copy()
+        if sub.empty:
+            continue
+
+        fig, ax = plt.subplots(figsize=(6.4, 5.6))
+        style_plane(ax, zoom=False)
+        ax.set_title(
+            f"{METHOD_LABEL[method]} aggregation: turn 1 to turn 3",
+            fontsize=12,
+            fontweight="bold",
+        )
+
+        for model in sorted(sub["model"].unique()):
+            model_df = sub[sub["model"] == model].sort_values("turn")
+            color = MODEL_COLOR.get(model, "#444444")
+            x = model_df["p_inval"].tolist()
+            y = model_df["p_val"].tolist()
+            ax.plot(x, y, color=color, linewidth=1.3, zorder=3)
+
+            for row in model_df.itertuples(index=False):
+                turn = int(row.turn)
+                ax.scatter(
+                    row.p_inval,
+                    row.p_val,
+                    s=54,
+                    marker=TURN_MARKER[turn],
+                    color=color,
+                    edgecolor="white",
+                    linewidth=0.8,
+                    zorder=5,
+                )
+                ax.annotate(
+                    f"t{turn}",
+                    (row.p_inval, row.p_val),
+                    xytext=(5, 5),
+                    textcoords="offset points",
+                    fontsize=7,
+                    color=color,
+                )
+
+        handles = [
+            plt.Line2D(
+                [0],
+                [0],
+                color=color,
+                marker="o",
+                linewidth=1.3,
+                markersize=5,
+                label=model,
+            )
+            for model, color in MODEL_COLOR.items()
+            if model in set(sub["model"])
+        ]
+        handles.extend(
+            plt.Line2D(
+                [0],
+                [0],
+                color="#555555",
+                marker=TURN_MARKER[turn],
+                linewidth=0,
+                markersize=6,
+                label=f"turn {turn}",
+            )
+            for turn in (1, 2, 3)
+        )
+        fig.legend(handles=handles, loc="lower center", ncol=5, frameon=False)
+        fig.tight_layout(rect=[0, 0.10, 1, 1])
+        out = FIGURES_DIR / f"ads_plane_{method}_turn123.png"
+        fig.savefig(out, dpi=220, bbox_inches="tight")
+        plt.close(fig)
+        print(f"Wrote {out}")
+
+
+def plot_aggregation_mosaic_all_turns(focus: pd.DataFrame) -> None:
+    """Mosaic of aggregation methods showing turns 1, 2, and 3."""
+
+    mosaic = [
+        ["unweighted", "lead", "mean", "median"],
+        ["max", "min", "sum", "."],
+    ]
+    fig, axes = plt.subplot_mosaic(mosaic, figsize=(14, 7.2), sharex=True, sharey=True)
+
+    for method in METHOD_ORDER:
+        ax = axes[method]
+        method_df = focus[focus["aggregation"] == method]
+        style_plane(ax, zoom=False)
+        ax.set_title(METHOD_LABEL[method], fontsize=11, fontweight="bold")
+
+        for model in sorted(method_df["model"].unique()):
+            model_df = method_df[method_df["model"] == model].sort_values("turn")
+            color = MODEL_COLOR.get(model, "#444444")
+            ax.plot(
+                model_df["p_inval"],
+                model_df["p_val"],
+                color=color,
+                linewidth=1.2,
+                zorder=3,
+            )
+            for row in model_df.itertuples(index=False):
+                turn = int(row.turn)
+                ax.scatter(
+                    row.p_inval,
+                    row.p_val,
+                    s=46,
+                    marker=TURN_MARKER[turn],
+                    color=color,
+                    edgecolor="white",
+                    linewidth=0.7,
+                    zorder=5,
+                )
+
+    handles = [
+        plt.Line2D(
+            [0],
+            [0],
+            color=color,
+            marker="o",
+            linewidth=1.3,
+            markersize=5,
+            label=model,
+        )
+        for model, color in MODEL_COLOR.items()
+    ]
+    handles.extend(
+        plt.Line2D(
+            [0],
+            [0],
+            color="#555555",
+            marker=TURN_MARKER[turn],
+            linewidth=0,
+            markersize=6,
+            label=f"turn {turn}",
+        )
+        for turn in (1, 2, 3)
+    )
+    fig.legend(handles=handles, loc="lower center", ncol=5, frameon=False)
+    fig.suptitle(
+        "Task 2 ADS Plane Mosaic: Argument Weight at Turn 1 and Aggregated Weights Thereafter",
+        fontsize=14,
+    )
+    fig.tight_layout(rect=[0, 0.07, 1, 0.94])
+    out = FIGURES_DIR / "ads_plane_aggregation_mosaic_turn123.png"
+    fig.savefig(out, dpi=220, bbox_inches="tight")
+    plt.close(fig)
+    print(f"Wrote {out}")
+
+
 def main() -> None:
     ensure_dirs()
     df = pd.read_csv(SUMMARY)
@@ -585,9 +742,10 @@ def main() -> None:
     plot_ads_lines(focus)
     plot_ads_plane(focus)
     plot_turn1_ads_plane(focus)
-    plot_style_turn23(focus)
+    plot_style_all_turns(focus)
     plot_style_per_aggregation(focus)
-    plot_aggregation_mosaic_turn23(focus)
+    plot_all_turns_per_aggregation(focus)
+    plot_aggregation_mosaic_all_turns(focus)
 
 
 if __name__ == "__main__":
