@@ -180,6 +180,7 @@ function artefactDone(a) { return a.arguments.every(g => verdictOf(a.id, g.key).
 
 function renderList() {
   const el = document.getElementById('list');
+  const keepScroll = el.scrollTop;
   el.innerHTML = '';
   let done = 0, total = 0;
   for (let n = range[0]; n <= range[1]; n++) {
@@ -195,6 +196,7 @@ function renderList() {
   }
   document.getElementById('progress').textContent =
     `${done}/${total} fully reviewed in your range`;
+  el.scrollTop = keepScroll;
 }
 
 function applyRange() {
@@ -260,8 +262,14 @@ function show(n) {
 
 function setV(id, key, val) {
   const cur = verdictOf(id, key);
-  store.set(`v.${id}.${key}`, {v: cur.v === val ? null : val, note: cur.note});
-  show(current);
+  const next = cur.v === val ? null : val;
+  store.set(`v.${id}.${key}`, {v: next, note: cur.note});
+  // update in place - no re-render, no scroll jump
+  const card = document.getElementById('arg-' + key.replaceAll('/','-'));
+  const [okBtn, issueBtn] = card.querySelectorAll('.verdict button');
+  okBtn.className = next === 'ok' ? 'sel-ok' : '';
+  issueBtn.className = next === 'issue' ? 'sel-issue' : '';
+  renderList();
 }
 function setNote(id, key, note) {
   const cur = verdictOf(id, key);
