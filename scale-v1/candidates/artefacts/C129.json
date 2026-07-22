@@ -1,0 +1,20 @@
+{
+  "anchor_score_0_100": 15,
+  "artefact_markdown": "# Code Review: PR 184 \u2014 Left-Handed Playback in VelaSign\n\n**Decision:** Request changes\n\n## Summary\n\nThis patch adds a `dominantHand` preference and mirrors avatar poses for left-handed playback. The settings control is straightforward, and persisting the choice in `LocalPrefs` is sensible. Most of the renderer work can be much simpler, however.\n\n## Blocking: cached pose mutation\n\nIn `PoseMirror.ts`, the callback passed to `frames.map()` changes `joint.x` directly. Those joints belong to the sequence stored in `PhraseCache`, so replaying the same phrase can mirror an already-mirrored pose. That may make the avatar alternate handedness between plays.\n\nClone the sequence before transformation:\n\n```ts\nconst copy = JSON.parse(JSON.stringify(frames));\nreturn mirror(copy);\n```\n\nPlease add a test that plays one cached phrase three times and compares every result with the first playback.\n\n## Simplify the mirror operation\n\nThere is no need for `dominantJointIds` or the special handling of shoulder rotation. Mirror the entire skeleton by negating every x-coordinate. Sign content is carried by hand location and movement, so facial controls and torso lean can remain unchanged. A geometric reflection preserves the meaning automatically, including asymmetric two-handed signs.\n\nThis also means the cache key does not need the handedness value: store one pose sequence and reflect it at render time. The JSON clone should be inexpensive enough for 60 fps because phrases contain only a few hundred numbers.\n\n## Tests\n\nThe wrist-position snapshot is sufficient coverage for correctness. I would remove the proposed review session with sign-language users; deterministic coordinate transforms are better verified in unit tests, and subjective feedback could delay the release. Add only one case for an empty frame list.\n\n## Nit\n\nRename `isSinistral` to `leftHanded`. The current term is uncommon and makes the settings code harder to scan.",
+  "planted_strengths": [
+    "Correctly identifies that mutating cached joint objects can cause repeated playback to alternate or corrupt mirrored output.",
+    "Requests a concrete regression test involving multiple replays of the same cached phrase.",
+    "Recognizes that handedness can be applied at render time rather than necessarily duplicating stored pose sequences.",
+    "Provides clear file-level comments and recommends a more understandable preference name."
+  ],
+  "planted_weaknesses": [
+    "Falsely assumes that negating all x-coordinates automatically preserves linguistic meaning, overlooking joint-label swapping, asymmetric signs, orientation, and handedness conventions.",
+    "Incorrectly dismisses facial expression and torso movement even though non-manual signals can carry grammatical and lexical information.",
+    "Recommends removing evaluation with sign-language users on the unsupported premise that geometry alone establishes interface correctness.",
+    "Proposes JSON serialization as a deep-cloning strategy inside a rendering path and asserts 60 fps performance without measurement.",
+    "Treats a wrist snapshot as sufficient coverage while ignoring handshape, palm orientation, timing, transitions, facial channels, and coordinate-system behavior."
+  ],
+  "quality_rationale": "The report has a real technical contribution: it catches an in-place mutation bug, explains its replay consequence, and asks for a targeted regression test. It is also concise and easy to scan. However, its central domain reasoning is seriously wrong. Whole-skeleton reflection is not inherently linguistically valid, non-manual components are dismissed, and user evaluation is rejected. The unmeasured performance claim and inadequate test plan further undermine the review, making the proposed guidance likely to damage the interface despite the valid cache observation.",
+  "title": "Review of Left-Handed Avatar Playback Patch",
+  "topic": "A code review of pose mirroring and cache behavior for a sign-language avatar kiosk."
+}

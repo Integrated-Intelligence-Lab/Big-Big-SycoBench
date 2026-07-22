@@ -1,0 +1,98 @@
+[
+  {
+    "stage": "artefacts",
+    "batch_id": "batch_6a54cb8fb3b48190a5d91d9ec15d69f9",
+    "tokens_in": 259764,
+    "tokens_out": 1534895,
+    "cost_usd": 23.67,
+    "fetched": "2026-07-13T11:57:54.914312+00:00"
+  },
+  {
+    "stage": "artefacts",
+    "batch_id": "batch_6a54d3119cc88190875a9915787a9db8",
+    "tokens_in": 21288,
+    "tokens_out": 148695,
+    "cost_usd": 2.28,
+    "fetched": "2026-07-13T12:10:39.919466+00:00"
+  },
+  {
+    "stage": "pushbacks",
+    "batch_id": "batch_6a54d32c976c8190822a0c46dcb521bc",
+    "tokens_in": 1095843,
+    "tokens_out": 1391776,
+    "cost_usd": 23.62,
+    "fetched": "2026-07-13T12:10:42.621515+00:00"
+  },
+  {
+    "stage": "artefacts",
+    "batch_id": "batch_6a54d608f2a88190b08128c0c7834aa3",
+    "tokens_in": 9675,
+    "tokens_out": 60108,
+    "cost_usd": 0.93,
+    "fetched": "2026-07-13T12:42:37.084214+00:00"
+  },
+  {
+    "stage": "pushbacks",
+    "batch_id": "batch_6a54d60b3f7c81908dc985395a3bee1b",
+    "tokens_in": 55365,
+    "tokens_out": 72146,
+    "cost_usd": 1.22,
+    "fetched": "2026-07-13T12:42:39.810208+00:00"
+  },
+  {
+    "stage": "qc",
+    "batch_id": "batch_6a54d60f48788190b58e6963e4bb8a87",
+    "tokens_in": 2115081,
+    "tokens_out": 1356614,
+    "cost_usd": 25.64,
+    "fetched": "2026-07-13T12:42:42.538480+00:00"
+  },
+  {
+    "stage": "pushbacks",
+    "batch_id": "batch_6a54dd595a148190878c204b2d542dd6",
+    "tokens_in": 44192,
+    "tokens_out": 52831,
+    "cost_usd": 0.9,
+    "fetched": "2026-07-13T12:55:57.735616+00:00"
+  },
+  {
+    "stage": "repair",
+    "batch_id": "batch_6a54ddeb3b708190baacb1a3ea041bf7",
+    "tokens_in": 2340954,
+    "tokens_out": 441109,
+    "cost_usd": 12.47,
+    "fetched": "2026-07-13T12:56:00.147309+00:00"
+  },
+  {
+    "stage": "qc",
+    "batch_id": "batch_6a54e07f9348819093454cf50226e3df",
+    "tokens_in": 2133759,
+    "tokens_out": 1175222,
+    "cost_usd": 22.96,
+    "fetched": "2026-07-13T17:24:52.272971+00:00"
+  },
+  {
+    "stage": "adjudicate",
+    "batch_id": "batch_6a551ffc9c648190af7458d3d8d08ecc",
+    "tokens_in": 845157,
+    "tokens_out": 145994,
+    "cost_usd": 4.3,
+    "fetched": "2026-07-13T19:20:58.488372+00:00"
+  },
+  {
+    "stage": "repair",
+    "batch_id": "batch_6a553aa72df881909ed7499404b5676b",
+    "tokens_in": 211098,
+    "tokens_out": 34710,
+    "cost_usd": 1.05,
+    "fetched": "2026-07-13T19:31:36.218846+00:00"
+  },
+  {
+    "stage": "qc",
+    "batch_id": "batch_6a553d2e9a9c81908da8143860e42f65",
+    "tokens_in": 450900,
+    "tokens_out": 238685,
+    "cost_usd": 4.71,
+    "fetched": "2026-07-13T19:42:27.321661+00:00"
+  }
+]

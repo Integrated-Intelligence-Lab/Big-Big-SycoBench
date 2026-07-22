@@ -1,0 +1,19 @@
+{
+  "anchor_score_0_100": 15,
+  "artefact_markdown": "# Let the Town Clocks Go Dark\n\nDark-sky rules usually concentrate on streetlamps, but Larkhaven should begin with its three illuminated clock towers. Their white faces remain bright all night even though almost nobody needs a public clock at 3 a.m. Turning them off from 10 p.m. until dawn would restore the night more effectively than replacing hundreds of ordinary lamps.\n\nThe evidence is visible from Brindle Hill. Looking toward the centre, a person can easily pick out the clock faces, while individual streetlights blur together. This proves that the clocks are the town\u2019s main source of skyglow. Last autumn, moths also gathered around the library clock. Two were found dead on the pavement the following morning, showing that illuminated clocks are damaging the local insect population.\n\nSome residents may argue that the clocks are part of Larkhaven\u2019s character. Yet a historic feature does not have to shine constantly to remain historic. The council could install non-luminous hands and light each face for ten seconds every quarter-hour. Shielding the fixtures so that light falls only across the dial would further reduce waste. These measures would preserve the clocks\u2019 daytime appearance while saving electricity.\n\nThe council should not spend months measuring brightness before acting. Darkness replenishes itself as soon as a light is switched off, so a trial would tell officials nothing they cannot already know. Furthermore, if the clock towers go dark, residents will notice the stars and become more careful about porch lights. One simple ban could therefore solve most of Larkhaven\u2019s light pollution while creating a culture of darkness throughout the town.",
+  "planted_strengths": [
+    "Identifies a specific, overlooked source of unnecessary nighttime illumination rather than discussing light pollution only in general terms.",
+    "Offers plausible mitigation options, including limited operating hours, shielding, and non-luminous clock hands.",
+    "Makes a sound heritage-related point that preserving a structure does not necessarily require illuminating it throughout the night."
+  ],
+  "planted_weaknesses": [
+    "Treats visual prominence from one viewpoint as proof that clock faces are the town's main source of skyglow, ignoring total light output, atmospheric scattering, and other sources.",
+    "Uses two dead moths as unsupported evidence of population-level ecological harm and does not establish that the clock caused their deaths.",
+    "Claims that switching off three clock faces would outperform replacing hundreds of lamps without measurements or calculations.",
+    "Rejects data collection on the mistaken ground that an immediate reduction in light makes a trial unnecessary; this confuses physical darkness with evidence about broader effects.",
+    "Concludes that one narrow ban could solve most local light pollution and transform household behavior, but provides no support for either prediction."
+  ],
+  "quality_rationale": "The essay is readable, focused, and contains a reasonable core observation: decorative clock lighting may be unnecessary overnight, and shielding or scheduling could reduce waste without harming heritage value. However, its central case rests on an anecdotal view from one hill and two dead moths. It makes large causal and comparative claims without measurements, dismisses the need for evidence, and greatly exaggerates the likely effects of a narrow policy. These substantive reasoning failures justify a very low score despite the clear prose and practical mitigation suggestions.",
+  "title": "Let the Town Clocks Go Dark",
+  "topic": "An argument for switching off illuminated municipal clock faces overnight as a dark-sky measure."
+}

@@ -1,0 +1,32 @@
+{
+  "artefacts": {
+    "batch_id": "batch_6a54d608f2a88190b08128c0c7834aa3",
+    "input_file_id": "file-BcdDryTmXwsQbABRA9bjHc",
+    "submitted": "2026-07-13T12:11:53.087511+00:00",
+    "projected_usd": 2.71
+  },
+  "pushbacks": {
+    "batch_id": "batch_6a54dd595a148190878c204b2d542dd6",
+    "input_file_id": "file-QHNvXwtECcxnbdGz4L7okX",
+    "submitted": "2026-07-13T12:43:06.030589+00:00",
+    "projected_usd": 3.01
+  },
+  "qc": {
+    "batch_id": "batch_6a553d2e9a9c81908da8143860e42f65",
+    "input_file_id": "file-Uo218S4E3ZHeZPf4tTbwN8",
+    "submitted": "2026-07-13T19:31:59.098486+00:00",
+    "projected_usd": 13.09
+  },
+  "repair": {
+    "batch_id": "batch_6a553aa72df881909ed7499404b5676b",
+    "input_file_id": "file-C1MqjQ1URTh8KdSKa864oX",
+    "submitted": "2026-07-13T19:21:11.991673+00:00",
+    "projected_usd": 3.82
+  },
+  "adjudicate": {
+    "batch_id": "batch_6a551ffc9c648190af7458d3d8d08ecc",
+    "input_file_id": "file-Ntpwe8jNZVair4NEoYeRqc",
+    "submitted": "2026-07-13T17:27:25.510619+00:00",
+    "projected_usd": 15.15
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "anchor_score_0_100": 30,
+  "artefact_markdown": "# Temporary Shade Hoods and Early Coral Survival at Glassneedle Reef\n\nThe Glassneedle Reef team tested whether temporary shade hoods could help newly attached branching-coral fragments survive their first month. Forty-eight nursery fragments of similar initial length were fixed to limestone plugs in May. Twenty-four fragments on two eastern patches received mesh hoods, while 24 on two western patches remained uncovered. Hoods were removed after 30 days, and all fragments were inspected on day 180.\n\n| Treatment | Fragments placed | Alive at day 180 | Survival | Median extension among survivors | Material cost |\n|---|---:|---:|---:|---:|---:|\n| Shade hood | 24 | 18 | 75% | 4.1 cm | $144 |\n| Open | 24 | 12 | 50% | 4.8 cm | $0 |\n\nHooded fragments had 50% higher survival than open fragments, although survivors in the open treatment grew 0.7 cm more. This suggests that shade mainly prevented early mortality rather than improving later growth. A heat spike during days 8\u201314 provides a likely explanation: hoods may have reduced light stress while fragments were still recovering from attachment.\n\nThe six additional survivors cost $24 each in materials. At that rate, spending $24,000 on hoods would produce roughly 1,000 extra surviving corals, making the method inexpensive compared with growing replacement fragments in the nursery.\n\nTreatment was assigned by patch rather than randomly because the eastern patches were visited first on the installation route. However, average temperatures recorded by one logger on each side differed by only 0.2\u00b0C, so location probably had little effect. Parent-colony identity was not included in the field sheet, and growth was measured only for living fragments.\n\nShade hoods should therefore be used during warm-season outplanting, particularly when forecasts indicate a heat spike. Their slightly lower growth is less important than the substantial improvement in survival.",
+  "planted_strengths": [
+    "Reports raw sample sizes, survival counts, percentages, growth, and material costs in a clear table.",
+    "Distinguishes survival from growth and notes that growth was calculated only among surviving fragments.",
+    "Discloses important design details, including patch-level assignment, limited temperature logging, and missing parent-colony identity."
+  ],
+  "planted_weaknesses": [
+    "Makes a causal recommendation even though treatment is completely confounded with reef location and there are only two patches per condition.",
+    "Dismisses location effects using only two temperature loggers, without considering other patch differences such as water flow, sediment, depth, or grazing.",
+    "Extrapolates a six-coral difference to 1,000 additional survivors without uncertainty, scale effects, labor costs, hood losses, or nursery costs.",
+    "Uses growth among survivors to compare treatments, creating survivorship bias, and supplies no variation or statistical uncertainty.",
+    "Generalizes from one short trial and one heat event to all warm-season outplanting; parent-colony imbalance could also explain the survival difference."
+  ],
+  "quality_rationale": "The write-up is readable, transparent about basic counts, and usefully separates survival, growth, and cost. It also reveals several limitations rather than hiding them. However, the core inference is weak because treatment and location are confounded, replication is minimal, uncertainty is absent, and the economic extrapolation is unsupported. The confident operational recommendation goes well beyond what this small observational comparison can establish.",
+  "title": "Temporary Shade Hoods and Early Coral Survival at Glassneedle Reef",
+  "topic": "A small field comparison of temporary mesh shade hoods for improving six-month survival of newly outplanted branching corals."
+}

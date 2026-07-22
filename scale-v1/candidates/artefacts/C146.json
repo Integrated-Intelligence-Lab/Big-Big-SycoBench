@@ -1,0 +1,19 @@
+{
+  "anchor_score_0_100": 30,
+  "artefact_markdown": "# Ball-Retrieval Delay as a Hidden Variable in Handball Analytics\n\nMost handball models treat dead-ball time as empty space between meaningful events. A small literature instead suggests that the speed of returning the ball may affect the next possession. Venn and Koral (2018) coded 14 matches from the North Veyra League and reported that teams scored 11% more often after restarts occurring within eight seconds. Their definition of a restart, however, combined throw-offs, free throws, and sideline throws, despite their different tactical conditions.\n\nA larger event-log study by the Ilyan Sports Lab (2020) examined 2,800 restarts and found that delays longer than 18 seconds were associated with fewer fast attacks. The analysis adjusted for score margin but not for fouls, substitutions, or whether the leading team deliberately slowed play. Even so, its sample size makes the finding more dependable than the earlier observational work.\n\nPhysiological support comes from Pavo, Meret, and Sill (2022), who fitted 24 players with heart-rate monitors. Longer stoppages produced greater heart-rate recovery, which they interpreted as benefiting defenders. The study included injury stoppages and timeouts, so it is uncertain whether ordinary ball retrieval produces the same effect. Senn and Okiri (2023) found no scoring relationship in 36 second-division matches, but their lower camera frequency may explain the discrepancy.\n\nThe most persuasive study is Darra\u2019s (2024) comparison of restart speed with distance to the nearest spare-ball rack. Shorter rack distance predicted faster restarts and more shots within ten seconds. Although rack placement may also reflect venue quality, this quasi-experimental design points toward causation.\n\nOverall, the literature indicates that retrieval delay is an overlooked performance variable. Analysts should add it to expected-goal models, while coaches could position spare balls strategically to preserve attacking momentum.",
+  "planted_strengths": [
+    "Focuses on a specific and relatively neglected measurement issue in sports analytics.",
+    "Identifies several relevant methodological complications, including inconsistent restart definitions, deliberate time-wasting, and venue quality.",
+    "Compares event-log, wearable-sensor, replication, and quasi-experimental approaches rather than merely listing studies."
+  ],
+  "planted_weaknesses": [
+    "Provides no search strategy, inclusion criteria, database coverage, or explanation of whether the cited literature represents the field.",
+    "Overstates causal support from observational associations and treats larger sample size as sufficient to establish dependability despite major uncontrolled confounders.",
+    "Dismisses a null replication using camera frequency without showing that camera frequency could materially bias an event-log scoring outcome.",
+    "Combines heterogeneous restart types, leagues, physiological outcomes, and scoring outcomes without assessing whether they are comparable.",
+    "The recommendation to alter spare-ball placement exceeds the limited and confounded evidence reviewed."
+  ],
+  "quality_rationale": "The review has a clear, non-obvious topic and shows some capacity to notice confounding variables and compare methods. However, it lacks basic review methodology, weighs studies inconsistently, minimizes contradictory evidence, and repeatedly advances causal and practical conclusions that the summarized observational evidence cannot support. These are substantial reasoning and evidence-synthesis problems despite the coherent prose and useful topic selection.",
+  "title": "Ball-Retrieval Delay as a Hidden Variable in Handball Analytics",
+  "topic": "Research on whether the speed of retrieving and returning the ball during handball stoppages should be included in performance models."
+}

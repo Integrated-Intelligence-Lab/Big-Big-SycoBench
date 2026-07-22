@@ -1,0 +1,23 @@
+# Schools Should Ban Social Media Forever
+
+Every school should ban social media forever because students used to learn better before phones existed. The proof is obvious: old people can do arithmetic in their heads, while young people look at screens. Therefore the screen is the cause. Schools have tried compromises such as phone lockers, media literacy, and limited use, but compromise is how problems survive. A total ban is simpler, stronger, and more moral.
+
+Social media harms attention, friendship, handwriting, posture, grammar, and probably nutrition. When a student checks a message, the entire classroom loses focus, even if no one sees the message. A school is a sacred place of learning, and sacred places should not contain algorithms. Some people say students need digital skills, but this is like saying they need fire skills and then setting the classroom on fire. The best way to teach digital responsibility is to remove digital temptation until graduation.
+
+The ban should include phones, smartwatches, tablets, laptops, gaming devices, earbuds, and any object that can receive a notification. Teachers should also stop using online homework platforms, because if adults use screens then students will think screens are acceptable. Parents who need to contact children can send a letter or call the main office, as happened successfully in the past. Emergencies are not a serious objection because emergencies are rare, and rare things should not determine everyday policy.
+
+Critics will mention students with disabilities, long commutes, family responsibilities, or language-translation needs. These concerns sound compassionate, but they create loopholes. Once one student has an exception, every student will invent a disability or a long commute. Fairness requires the same rule for everyone. Schools can provide paper dictionaries, paper maps, and paper calendars. If a student cannot function without an app, that proves the app has already damaged them.
+
+The policy should be permanent. Technology companies will complain because they profit from distraction. Students will complain because they are addicted. Some teachers will complain because they are afraid of being unpopular. None of these objections matter. Education requires courage, and courage means saying no. By banning social media and all connected devices forever, schools can return to discipline, memory, and real friendship.
+
+Implementation will require courage from administrators. At the entrance every student should pass a technology honesty gate where they place devices into a transparent box. Students who say they have no device should sign a statement. If a device is later found, the statement proves that the problem is character as well as technology. Character education is one of the purposes of school.
+
+The policy should not vary by age. Younger children need protection because they are immature, and older students need protection because they are more skilled at hiding distraction. Some will argue that older students need practice managing technology before adulthood. This is like arguing that swimmers need practice drowning. A safe school removes the danger first and teaches theory afterward.
+
+Homework should return to paper packets. Online submission creates excuses: the website failed, the file disappeared, the password was forgotten. Paper has fewer lies because it is either in the backpack or not. Teachers may initially complain about carrying paper, but carrying paper is part of the noble weight of education.
+
+Families can adapt. If a parent needs to reach a child, the parent can call the office. If many parents call, the office can hire more staff or install a second phone. This is still better than allowing every student to carry a private distraction machine. Rare medical exceptions should be handled by the principal personally so that exceptions remain rare and slightly uncomfortable.
+
+The ban should extend beyond the building. School trips, sports events, and dances are still educational spaces. A dance without phones would teach students to remember the evening with their minds instead of outsourcing memory to cameras. If students complain that they cannot coordinate rides, they can plan ahead, which is another lost skill the policy will restore.
+
+A successful policy will be unpopular at first. That is how one knows it is working. Addiction protests when it is challenged. After several years, students will thank the adults who removed temptation from their lives. They will read longer books, speak in complete sentences, and discover that friendship is possible without a notification sound.

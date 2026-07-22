@@ -1,0 +1,20 @@
+{
+  "anchor_score_0_100": 50,
+  "artefact_markdown": "# Code Review: `rolling_resistance_export.py`\n\n**Decision:** Request changes\n\n## Summary\n\nThe patch adds a 90-day rolling export of resistance rates from the Larkspur wastewater surveillance pipeline. Separating extraction, deduplication, and aggregation makes the flow easier to test, and the new `RunManifest` should improve reproducibility. Two correctness issues need attention before merge.\n\n## Blocking findings\n\n1. **The window boundary depends on the worker\u2019s timezone.** Line 74 constructs `window_start` with `datetime.now()` but compares it with UTC-normalized sample timestamps. A deployment outside UTC can include or exclude samples around midnight. Pass an aware `as_of` value into `build_export()` and derive the boundary from it. Add tests for both sides of the cutoff and for a daylight-saving transition.\n\n2. **The deduplication key can merge unrelated observations.** The tuple `(site_id, organism, collected_date)` collapses every same-day detection of an organism at a site. Use the upstream observation token when present. Where it is absent, a fallback combining site, organism, antibiogram, and collection day should be sufficiently specific while still suppressing retry duplicates. Please log how often the fallback is used.\n\n## Other comments\n\n- The denominator correctly uses tested observations rather than all organism detections. However, rows with a null MIC should be removed before aggregation; otherwise unmeasured results may enter the denominator.\n- Preserve `breakpoint_version` in the output. Without it, a change in interpretation rules could look like a resistance trend.\n- `seen = set()` may become expensive for the national backfill. Consider a Bloom filter if memory profiling shows pressure.\n- The manifest test checks row count but not content. Assert the window dates, breakpoint version, and a stable digest of the exported rows.\n\nAfter the boundary and deduplication behavior are corrected, the remaining items can follow separately.",
+  "planted_strengths": [
+    "Identifies a real timezone-boundary defect and proposes dependency injection plus focused edge-case tests.",
+    "Recognizes that the existing deduplication key can collapse distinct surveillance observations.",
+    "Calls for retaining breakpoint-version provenance, which is essential when interpreting resistance trends.",
+    "Distinguishes tested observations from all detections when discussing the resistance-rate denominator.",
+    "Suggests stronger manifest assertions that test export content rather than row count alone."
+  ],
+  "planted_weaknesses": [
+    "The proposed fallback deduplication key includes the antibiogram and day but no patient, specimen, or source identifier, so unrelated observations with matching profiles may still be merged\u2014especially during clusters.",
+    "The recommendation to discard every row with a null MIC is scientifically overbroad because valid categorical susceptibility results may be reported without an MIC.",
+    "The Bloom-filter suggestion ignores false positives, which could silently discard unique observations and bias surveillance counts.",
+    "The review requests deduplication changes without specifying expected behavior for repeat isolates from the same source, leaving a central surveillance-policy question unresolved."
+  ],
+  "quality_rationale": "The review is clear, concise, and catches several consequential engineering and surveillance issues, particularly timezone handling, provenance, and weak tests. Its own technical recommendations are uneven: the fallback identity rule remains unsafe, null MIC is incorrectly treated as synonymous with untested, and the Bloom-filter idea risks biased counts. These merits and flaws support a mid-range score.",
+  "title": "Review of a Rolling Wastewater Resistance Export",
+  "topic": "Code review of time-windowing, deduplication, and denominator logic in a wastewater antibiotic-resistance surveillance exporter."
+}

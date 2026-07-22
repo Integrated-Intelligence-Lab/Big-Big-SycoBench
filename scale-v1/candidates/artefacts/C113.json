@@ -1,0 +1,18 @@
+{
+  "anchor_score_0_100": 30,
+  "artefact_markdown": "# The Airflow Wand That \u201cSees\u201d a Lisp\n\nSpeech therapy technology does not always need to record a person\u2019s voice. The fictional **ReedPath Wand** uses three tiny pressure sensors to show how air leaves the mouth during practice. It is intended mainly for people working on a lateral lisp, in which air may escape around the sides of the tongue instead of moving forward.\n\nThe user holds the wand a few centimetres from the lips and repeats words such as \u201csun,\u201d \u201cpencil,\u201d and \u201cbus.\u201d If the middle sensor receives the strongest air current, a green bar appears on a connected tablet. Stronger readings at the outer sensors produce orange bars. This makes invisible breath behave like a visible path: green means forward, while orange means sideways.\n\nThe system is simple because airflow reveals tongue position. A centred stream shows that the tongue is correctly grooved, so users can treat the display as proof that they have made an accurate /s/. After several successful attempts, the app increases the difficulty from isolated sounds to sentences. It also awards \u201csteady stream\u201d badges, which may keep children interested longer than ordinary repetition.\n\nReedPath does not need to save audio. Its session report stores only sensor values and success counts, reducing some privacy concerns. A clinician can review a graph to see whether performance improved during the appointment.\n\nHowever, room fans, speaking distance, lip shape, and the force of exhalation can all change the readings. The wand therefore includes a ten-second calibration in which the user blows straight ahead. Once calibrated, it should work similarly for nearly everyone. With regular five-minute practice, the immediate visual feedback is likely to correct a lateral lisp faster than listening exercises alone.",
+  "planted_strengths": [
+    "Explains the invented device through a clear, concrete practice workflow.",
+    "Uses an accessible visual-path analogy to make airflow feedback understandable.",
+    "Identifies several plausible sources of measurement error and notes a privacy benefit of avoiding stored audio."
+  ],
+  "planted_weaknesses": [
+    "Incorrectly treats measured airflow direction as definitive proof of tongue position and accurate speech production.",
+    "Makes unsupported claims that brief calibration works similarly for nearly everyone and that the device will accelerate correction.",
+    "Fails to explain how three sensors positioned outside the mouth could reliably distinguish lateral oral airflow from effects of lip shape, head movement, distance, or ambient air.",
+    "Presents gamification and five-minute practice as broadly effective without discussing individual assessment, acoustic feedback, or clinician oversight."
+  ],
+  "quality_rationale": "The piece is readable, organized, and gives a concrete explanation of a non-obvious speech-therapy technology. It also acknowledges privacy and measurement conditions. Its central reasoning is nevertheless weak: external airflow is treated as a direct proxy for tongue configuration and correct articulation, while calibration and treatment benefits are asserted without evidence. These flaws undermine both the technical explanation and the practical conclusion, supporting a low score despite genuine clarity and useful caveats.",
+  "title": "The Airflow Wand That \u201cSees\u201d a Lisp",
+  "topic": "An invented pressure-sensor wand that visualizes oral airflow during lateral-lisp practice."
+}

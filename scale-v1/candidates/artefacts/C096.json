@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 70,
+  "artefact_markdown": "# Repayment Calendars as a Hidden Treatment in Microfinance Evaluation\n\nMicrofinance evaluations commonly treat loan size, interest, and group liability as the principal design variables. A smaller literature suggests that repayment timing may be equally important. Fixed weekly schedules can conflict with seasonal earnings, so measured default may reflect a calendar mismatch rather than an unproductive investment. This distinction matters because delinquency is often used as a proxy for both programme sustainability and borrower welfare.\n\nEvidence is mixed but points toward a timing mechanism. The randomized Riverbend Credit Trial assigned vegetable traders to weekly or harvest-linked instalments. Harvest-linked borrowers invested more in inventory and reported fewer emergency asset sales, although late repayment increased immediately after poor harvests. By contrast, the observational Lattice Market Panel found lower delinquency among vendors choosing daily collection. Its authors interpreted this as a discipline effect, but self-selection is a plausible alternative: vendors with stable cash flow were more able to accept daily repayment.\n\nTwo cooperative pilots add nuance. In the Sundial Villages study, a one-month grace period increased enterprise spending but also household consumption, making it difficult to identify the channel behind later income gains. The North Quay pilot allowed borrowers to select repayment dates; retention improved, yet administrative costs rose because field officers made less predictable collection rounds. Together, these studies indicate that flexibility can shift risk from borrowers to lenders rather than eliminate it.\n\nThe literature therefore supports evaluating repayment calendars as part of the treatment, not as an implementation detail. Future trials should stratify by income seasonality, report both lender costs and borrower liquidity, and follow households beyond a single loan cycle. However, the existing evidence remains thin across agricultural regions, and outcomes are reported inconsistently. Lower delinquency under a better-aligned calendar is encouraging, but without measures of consumption volatility and debt substitution it cannot establish that borrowers are better off.",
+  "planted_strengths": [
+    "Identifies a comparatively neglected evaluation issue: repayment timing as an active treatment component.",
+    "Synthesizes experimental, observational, and pilot evidence while distinguishing their inferential strengths.",
+    "Offers plausible mechanisms connecting seasonal income, liquidity, investment, default, and lender costs.",
+    "Avoids equating programme performance with borrower welfare and proposes concrete outcomes for future studies.",
+    "Maintains a coherent structure from problem definition through evidence synthesis to research implications."
+  ],
+  "planted_weaknesses": [
+    "Provides no search strategy, inclusion criteria, publication dates, or explanation of how the reviewed studies were selected.",
+    "Reports no sample sizes, effect sizes, confidence intervals, or comparable quantitative results.",
+    "Relies on only four invented study settings, limiting the breadth expected of a literature review.",
+    "The claim that flexibility shifts risk to lenders is plausible but not directly demonstrated by all the evidence summarized.",
+    "Potentially important dimensions such as gender, group liability, interest rates, and informal refinancing receive little attention."
+  ],
+  "quality_rationale": "The review has a clear, non-obvious thesis and integrates several research designs with appropriate caution about selection and welfare interpretation. Its synthesis produces useful methodological recommendations rather than merely listing studies. The score is held near 70 because the evidence base is narrow and non-systematically presented, quantitative details are absent, and one of the central conclusions extends somewhat beyond the summarized findings.",
+  "title": "Repayment Calendars as a Hidden Treatment in Microfinance Evaluation",
+  "topic": "How repayment-calendar design and income seasonality complicate causal evaluation of microfinance outcomes."
+}

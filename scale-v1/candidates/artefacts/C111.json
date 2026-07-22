@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 70,
+  "artefact_markdown": "# Using Spent Separators to Remove Graphite from LFP Black Mass\n\n## Research idea\n\nLithium iron phosphate (LFP) recycling is often hindered by graphite, which consumes oxidants and complicates purification. Meanwhile, polyethylene and polypropylene separators are usually discarded or burned. This project will test whether recovered separator flakes can act as thermoplastic \u201cscavengers\u201d that selectively agglomerate graphite before hydrometallurgical treatment.\n\nThe central hypothesis is that softened polyolefin will preferentially wet hydrophobic graphite particles while leaving more polar LFP particles dispersed. Shredded separator material will be cleaned, milled, and mixed with synthetic LFP\u2013graphite black mass in a heated rotary drum. A factorial experiment will vary temperature (110\u2013170\u00b0C), separator loading (2\u201312% by mass), mixing time, and moisture. Agglomerates will be removed by sieving.\n\nPerformance will be measured using graphite removal, lithium and phosphorus loss to the agglomerate fraction, energy consumption, and polymer carryover into the mineral fraction. Controls will include untreated black mass, virgin separator polymer, and heating without polymer. Promising conditions will then be tested on three batches of production scrap supplied by the fictional Northmere Cell Works.\n\nDownstream consequences will be assessed by acid-leaching treated and untreated material under identical conditions. The proposal\u2019s success threshold is at least 70% graphite removal with less than 5% lithium loss and a 20% reduction in oxidant demand. Carbon and lithium mass balances will be closed to within 10%. Evolved gases will be screened during heating because residual electrolyte may remain on separators.\n\nA preliminary process comparison will estimate electricity, polymer-disposal avoidance, and reagent savings per tonne of black mass. If successful, the method would turn one difficult battery waste fraction into a separation reagent for another, without introducing a new solvent. However, the study will not initially examine separator degradation after repeated thermal cycling or the effect of fluorinated binder residues on agglomeration.",
+  "planted_strengths": [
+    "Targets an overlooked integration opportunity by using discarded separator material as a process reagent.",
+    "States a clear, testable mechanism and quantitative success criteria.",
+    "Includes relevant controls, a factorial parameter study, mass balances, and downstream leaching validation.",
+    "Recognizes residual-electrolyte safety concerns and includes evolved-gas screening.",
+    "Measures both separation performance and lithium losses rather than reporting graphite removal alone."
+  ],
+  "planted_weaknesses": [
+    "The proposed selective wetting mechanism is plausible but insufficiently supported, particularly because aged particle surfaces may differ strongly from ideal synthetic mixtures.",
+    "Validation on only three production-scrap batches is unlikely to represent the variability of end-of-life LFP feedstocks.",
+    "The preliminary process comparison omits capital costs, separator cleaning requirements, and the fate or value of graphite\u2013polymer agglomerates.",
+    "Potential polymer contamination of downstream products is measured but no remediation strategy is proposed.",
+    "The project explicitly postpones important questions about fluorinated binder residues and repeated thermal exposure."
+  ],
+  "quality_rationale": "The proposal is focused, original, and experimentally actionable. Its controls, quantitative thresholds, material balances, and downstream validation make it stronger than a merely speculative idea. It also connects two recycling waste streams in a potentially useful way. The score is limited by weak prior justification for selective agglomeration, narrow feedstock validation, and an incomplete economic and residue-management plan. These issues could materially affect feasibility but do not undermine the value of the proposed initial experiments.",
+  "title": "Using Spent Separators to Remove Graphite from LFP Black Mass",
+  "topic": "Testing recovered polyolefin battery separators as thermoplastic scavengers for graphite removal from lithium iron phosphate black mass."
+}

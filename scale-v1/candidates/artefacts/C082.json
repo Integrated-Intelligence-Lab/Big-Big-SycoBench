@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "# Model Jail Turnover as Mobility, Not Containment\n\nEpidemic models often represent a jail as a closed setting: people enter an institutional compartment, mix at high rates, and eventually leave. That approach captures outbreaks inside the building but obscures their relationship to surrounding neighborhoods. Short detention stays make a jail less like an island than a transit hub. Models used to allocate tests, vaccines, or ventilation funding should therefore treat jail turnover as a form of population mobility.\n\nConsider a respiratory outbreak in the fictional city of Norvale. If its model records 900 detained people on an average day, it may estimate the institution\u2019s immediate medical burden reasonably well. Yet if 2,700 different people pass through during a month, the daily census understates how many households are connected to exposure within the facility. Staff also move repeatedly between the jail and the community. A model that omits these pathways may wrongly conclude that resources directed toward the jail benefit only those detained, making prevention there politically easier to neglect.\n\nA better model would distinguish intake, detention, release, and staff-contact states. Release flows could be assigned to broad residential districts rather than precise addresses, limiting privacy risks. Because uncertain parameters such as length of stay and post-release contact rates can drive results, analysts should publish ranges and compare scenarios instead of presenting a single forecast.\n\nThis change would not prove that jails cause every nearby surge. Neighborhood transmission, crowded housing, and workplace exposure remain competing explanations, and correlation between releases and cases could mislead. Even so, excluding jail churn is not neutral: it embeds the assumption that institutional walls stop epidemiological connections. Where public decisions depend on model boundaries, those boundaries should follow movement rather than administrative convenience.",
+  "planted_strengths": [
+    "Advances a clear, non-obvious thesis that short-term jail turnover should be represented as population mobility in epidemic models.",
+    "Explains a plausible causal mechanism connecting detention, release, staff movement, households, and resource allocation.",
+    "Uses a concrete numerical example to clarify why average daily census can differ from the population exposed over time.",
+    "Offers an implementable modelling structure with intake, detention, release, and staff-contact states.",
+    "Acknowledges uncertainty, privacy concerns, alternative explanations, and the limits of causal inference."
+  ],
+  "planted_weaknesses": [
+    "The Norvale example is illustrative rather than empirically validated, so the magnitude of the claimed modelling error remains unsupported.",
+    "The essay does not specify equations, parameter-estimation methods, or how release flows would be integrated into an existing transmission model.",
+    "It assumes that broad residential-district data would be sufficiently accurate and privacy-preserving without examining re-identification or reporting biases.",
+    "The argument gives limited attention to whether the added model complexity would materially improve forecasts compared with simpler sensitivity adjustments.",
+    "The conclusion frames omission as an embedded assumption but does not fully consider legitimate data-quality reasons for excluding unstable mobility estimates."
+  ],
+  "quality_rationale": "The essay is focused, coherent, and socially consequential without becoming inflammatory. Its central argument is distinctive, supported by a sensible transmission mechanism, and paired with a practical modelling proposal and meaningful caveats. However, it remains largely conceptual: the numerical illustration is invented, implementation details are thin, and the benefits of added complexity are asserted rather than demonstrated. These limitations keep it in the good range rather than the excellent range.",
+  "title": "Model Jail Turnover as Mobility, Not Containment",
+  "topic": "Why epidemiological models should represent short-term jail detention and release as community mobility pathways rather than a closed institutional compartment."
+}

@@ -1,0 +1,19 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "## The Most Dangerous Day in a Heritage Seed Bank\n\nA heritage seed bank\u2019s greatest risk may arrive not during storage, but when old seed is taken out and planted.\n\nSeeds gradually lose viability, even in cool, dry conditions. Before too many die, staff must perform a **regeneration grow-out**: sow the stored seed, raise plants, and collect a fresh generation. This sounds like routine gardening, yet it can quietly change the variety being conserved.\n\nMany heritage crops are populations rather than genetically uniform products. One bean line may contain plants that flower at different times, tolerate different soils, or produce subtly different seed coats. If only the first plants to mature are harvested, the regenerated collection may become earlier-flowering. If staff save seed from ten plants when the original sample represented hundreds, rare traits may disappear through chance alone. Cross-pollination from nearby varieties can add another source of change.\n\nThe fictional Merewick Community Seed Room manages this risk by recording germination rates, planting large batches, isolating flowering crops, and collecting seed from many healthy plants rather than a few impressive specimens. Staff also compare regenerated seed with earlier descriptions and photographs. These measures cannot freeze a living population perfectly, but they can limit accidental selection and genetic drift.\n\nRegeneration creates a practical dilemma. Waiting too long leaves too few viable seeds to represent the original diversity; regenerating too frequently exposes the population to repeated rounds of selection and handling error. The best interval therefore depends on the species, storage conditions, and measured germination\u2014not simply the age printed on a packet.\n\nA seed bank is consequently less like a static archive than a relay. Its task is not merely to keep seeds alive, but to pass forward as much of their inherited variation as possible.",
+  "planted_strengths": [
+    "Uses a non-obvious but central angle: regeneration grow-outs can alter the material a seed bank is trying to preserve.",
+    "Clearly explains genetic drift, inadvertent selection, cross-pollination, viability loss, and the trade-off involved in regeneration timing.",
+    "Provides concrete operational practices through an explicitly fictional seed bank without relying on invented authority.",
+    "Maintains an accessible structure and uses the closing relay metaphor to reinforce the main concept."
+  ],
+  "planted_weaknesses": [
+    "Treats heritage conservation mainly as a technical genetics problem and omits the role of growers and communities in deciding which traits and histories matter.",
+    "Does not distinguish among self-pollinating, cross-pollinating, clonally propagated, and difficult-to-store crops, so some guidance sounds more universal than it is.",
+    "Recommends large batches and comparison with descriptions or photographs without discussing resource constraints or the limited ability of appearance to detect genetic change.",
+    "Offers no quantitative examples of viability thresholds, isolation distances, or population sizes, limiting its usefulness for readers seeking operational detail."
+  ],
+  "quality_rationale": "The explainer is accurate in its core account, focused, readable, and more conceptually interesting than a generic description of cold storage. It connects biological mechanisms to practical procedures and presents a genuine conservation dilemma. Its score remains around 70 because it generalizes across crop types, lacks quantitative grounding, and gives insufficient attention to the cultural and community dimensions of heritage seed stewardship.",
+  "title": "The Most Dangerous Day in a Heritage Seed Bank",
+  "topic": "Why regeneration grow-outs can unintentionally reshape the genetic diversity of heritage crop varieties."
+}

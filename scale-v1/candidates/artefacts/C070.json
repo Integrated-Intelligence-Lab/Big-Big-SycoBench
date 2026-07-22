@@ -1,0 +1,20 @@
+{
+  "anchor_score_0_100": 51,
+  "artefact_markdown": "# Leaving the Gap: Measuring Visitor Response to Conservation Rotations\n\nThe Brindlewick Museum rotates light-sensitive works on paper every eight weeks. Curators usually fill each vacated position immediately, but an alternative is to leave a framed blank backing board with a note explaining why the work is resting in dark storage.\n\nWe compared these approaches across two gallery bays for 16 days. During the first eight days, Bay A displayed a conservation gap while Bay B received a substitute work; the treatments were then reversed. School visits and two evening events were excluded. Ceiling counters recorded passers-by, and an observer timed stopping parties. Every fifth party was asked, \u201cWhy might an artwork be removed from this gallery?\u201d\n\n| Measure | Conservation gap | Substitute work |\n|---|---:|---:|\n| Passers-by | 1,540 | 1,580 |\n| Parties stopping | 508 (33%) | 426 (27%) |\n| Median dwell time | 74 seconds | 68 seconds |\n| Correct survey response | 81/132 (61%) | 49/128 (38%) |\n\nThe gap increased the stopping rate by six percentage points. A visitor-level bootstrap gave a 95% interval of 2\u201310 points. The difference appeared in both bays after reversal, although it was larger in Bay A. Dwell time changed little, suggesting that the gap attracted attention more reliably than it sustained it.\n\nSurvey responses indicate that visible absence may communicate preventive conservation better than seamless substitution. However, the question tested immediate recall rather than durable understanding, and respondents who agreed to answer may not represent all visitors. The analysis also treats observations from the same day as independent, despite shared crowd conditions.\n\nFor the next rotation, the museum should retain one explained gap in each bay rather than leaving every removed position open. This preserves the interpretive benefit without allowing blank spaces to dominate the display. A later trial should randomize treatments by day and test whether visitors remember the explanation after leaving the gallery.",
+  "planted_strengths": [
+    "Uses a clear crossover comparison in which both gallery bays receive each treatment.",
+    "Reports sample sizes, operational outcomes, exclusions, and a confidence interval rather than relying only on impressions.",
+    "Separates attraction, dwell time, and immediate comprehension instead of collapsing them into one engagement measure.",
+    "Ends with a restrained, operationally useful recommendation rather than proposing wholesale redesign."
+  ],
+  "planted_weaknesses": [
+    "The bootstrap incorrectly treats visitor observations as independent and does not cluster by day, so the interval may be too narrow.",
+    "Only two bays and 16 days were studied, limiting generalizability across displays, seasons, and object types.",
+    "The voluntary one-question survey is vulnerable to response bias and measures immediate recall rather than meaningful or lasting understanding.",
+    "Differences in the visual appeal of substitute works and unmeasured daily crowd conditions could confound the treatment comparison.",
+    "The recommendation specifies one gap per bay even though that exact display density was not tested."
+  ],
+  "quality_rationale": "The write-up is concise, legible, and practically relevant, with a sensible crossover design and transparent descriptive results. Its interpretation acknowledges several limitations. However, the inferential method ignores clustered observations, key confounders remain uncontrolled, and the survey supports only a narrow claim about recall. The recommendation is plausible but somewhat more specific than the evidence warrants, placing the work near the middle of the quality scale.",
+  "title": "Leaving the Gap: Measuring Visitor Response to Conservation Rotations",
+  "topic": "Analysis of whether visibly empty display positions improve visitor understanding of conservation-driven artwork rotations."
+}

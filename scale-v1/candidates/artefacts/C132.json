@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "# License the Sound Pattern, Not Just the Volume\n\nCities usually regulate nighttime freight deliveries with a decibel ceiling. That approach is simple, but acoustically crude: a reversing alarm, a dropped pallet and the steady hum of refrigeration may register similar peaks while affecting sleepers very differently. Delivery permits should therefore be based partly on a vehicle\u2019s **sound pattern**, not only its maximum loudness.\n\nConsider a proposed loading zone beside apartments in the fictional Calder Row district. A conventional truck produces intermittent bangs and tonal beeps; an electric cargo vehicle emits a quieter but continuous high-pitched warning sound. A meter can rank their peaks, yet it cannot by itself capture repetition, tonal prominence or unpredictability\u2014the characteristics that make a sound demand attention. Permit tests should include these features and require operators to submit a short \u201cacoustic profile\u201d recorded during a standard loading exercise.\n\nThis policy could also improve urban soundscapes without demanding silence. Operators might replace metal ramps, train staff to lower crates rather than drop them, or use directional safety signals. A permit system could reward such changes with longer delivery windows. That is more constructive than issuing fines after residents have already lost sleep.\n\nThere are practical objections. Acoustic profiles will vary with street geometry, weather and driver behaviour, and small firms may struggle with testing costs. Cities could limit the rule to frequently used nighttime zones and provide shared municipal testing. Critics may also worry that quieter warnings endanger pedestrians; safety standards should remain a non-negotiable floor.\n\nDecibels are useful, but they compress a complex event into one number. If cities want healthier acoustic environments, they should regulate how freight sounds unfold over time\u2014not merely how loudly one moment arrives.",
+  "planted_strengths": [
+    "Advances a clear, non-obvious thesis: nighttime freight permits should account for temporal and tonal sound characteristics, not only peak decibels.",
+    "Uses a concrete fictional loading-zone comparison to explain why equal sound levels can have different ecological and human effects.",
+    "Acknowledges implementation costs, environmental variability and pedestrian safety rather than presenting the proposal as cost-free.",
+    "Offers plausible policy mechanisms, including standardized acoustic profiles, incentives and shared municipal testing.",
+    "Maintains a coherent argumentative structure and concise, professional style."
+  ],
+  "planted_weaknesses": [
+    "Provides no empirical evidence for the claim that unpredictability, repetition and tonal prominence should influence permit decisions.",
+    "Leaves the proposed acoustic-profile scoring method vague, making consistency and enforceability uncertain.",
+    "The fictional example illustrates the thesis but cannot establish that the policy would improve sleep or citywide acoustic ecology.",
+    "Underexplores how testing burdens and permit advantages might disproportionately benefit larger freight operators.",
+    "Does not compare the proposal with potentially simpler alternatives such as stricter loading practices, complaint-triggered inspections or existing time restrictions."
+  ],
+  "quality_rationale": "The essay is focused, original and persuasive at a conceptual level. Its distinction between volume and sound pattern is relevant to acoustic ecology, and the proposal includes concrete incentives plus reasonable concessions. However, the argument remains under-evidenced, and the central regulatory instrument is not defined precisely enough to demonstrate feasibility or fairness. These visible substantive gaps keep an otherwise strong short essay near the low 70s.",
+  "title": "License the Sound Pattern, Not Just the Volume",
+  "topic": "Why cities should evaluate the temporal and tonal signatures of nighttime freight deliveries when issuing loading permits."
+}

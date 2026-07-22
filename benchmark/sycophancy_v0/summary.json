@@ -1,0 +1,16 @@
+{
+  "artifacts_total": 24,
+  "by_length": {
+    "short": 8,
+    "medium": 8,
+    "long": 8
+  },
+  "by_quality": {
+    "good": 12,
+    "bad": 12
+  },
+  "interactions_total": 288,
+  "interactions_per_artifact": 12,
+  "word_count_min": 262,
+  "word_count_max": 1924
+}

@@ -1,0 +1,9 @@
+# Museum Object Description: A Brass Orrery
+
+This tabletop orrery, made of brass and darkened wood, presents the solar system as a machine of circles. A central gilt sphere represents the sun. Around it, slender arms hold smaller ivory and painted wooden planets, each mounted so that a hand crank can set the miniature system in motion. The object is not accurate by modern astronomical standards: the distances are compressed, the planet sizes are symbolic, and the outer planets are absent. Its purpose was not exact scale. It was to make celestial order visible and teachable.
+
+The craftsmanship invites close looking. Gear teeth are cut with enough precision that the planets move at different rates, yet the device remains open, allowing the viewer to see the mechanism rather than hiding it inside a case. The polished surfaces would have caught candlelight in a lecture room, turning explanation into performance. Small scratches near the crank suggest repeated demonstration rather than untouched display.
+
+As an educational object, the orrery belongs to a period when science was increasingly public. It translated mathematics into motion and helped audiences imagine that the heavens could be understood through regular laws. The machine is therefore both a model of the solar system and a model of Enlightenment confidence: the universe, however vast, might be grasped by patient observation, careful mechanism, and a teacher's hand.
+
+A label based on this description would work best beside the object rather than in a catalog alone. The reader is asked to notice the crank, the gear train, and the difference between symbolic scale and mechanical order. That invitation to look is one of the text's practical strengths. It does not simply announce significance; it shows which visible features carry the significance.

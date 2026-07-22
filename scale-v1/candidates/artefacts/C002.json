@@ -1,0 +1,19 @@
+{
+  "anchor_score_0_100": 15,
+  "artefact_markdown": "# Wash the Streets at Midnight\n\nCities trying to reduce summer heat usually focus on trees, reflective roofs, and air-conditioned shelters. These measures are expensive or take years to work. A faster answer is already available: every hot city should wash its streets at midnight.\n\nAsphalt absorbs sunlight all day and releases the heat after sunset. Spraying it with cold water would remove that stored heat. The water would also evaporate, creating cool air that could drift into nearby apartments. On my street in Bellweather, the pavement always feels cooler after a broken hydrant has been running, which shows that the same method could work across an entire city.\n\nMidnight is the best time because roads are mostly empty and the water would not inconvenience drivers. If streets begin each morning cold, they will take longer to heat up, so afternoon temperatures should also remain lower. One nightly washing could therefore provide nearly a full day of protection. It would probably be more effective than planting trees, since trees sometimes block breezes and lose their leaves.\n\nThe program should begin in neighborhoods with wide roads, little shade, and many residents without air conditioning. Sanitation trucks could carry reclaimed water and spray one lane at a time. This would reuse existing vehicles and avoid wasting drinking water. Crews could also remove dust and litter during the same trip.\n\nCritics may object that water evaporates quickly, but evaporation is the point: heat disappears with it. Others may worry about cost, although a truck driving down a street is plainly cheaper than rebuilding roofs throughout the neighborhood. Urban heat is an immediate problem, and midnight street washing is the rare solution that could start tomorrow rather than decades from now.",
+  "planted_strengths": [
+    "Correctly identifies heat storage and nighttime heat release from asphalt as part of the urban heat problem.",
+    "Proposes prioritizing poorly shaded neighborhoods with low access to air conditioning, giving the policy an equity-oriented allocation principle.",
+    "Suggests reclaimed water and existing sanitation vehicles, showing some awareness of resource use and implementation logistics."
+  ],
+  "planted_weaknesses": [
+    "Generalizes from a single observation about a broken hydrant to a citywide intervention without measurements or comparative evidence.",
+    "Confuses localized, temporary evaporative cooling with sustained neighborhood-scale cooling and incorrectly claims that heat effectively 'disappears.'",
+    "Makes the unsupported assertion that one midnight washing would suppress temperatures for nearly a full day.",
+    "Dismisses tree planting using weak reasoning about blocked breezes and seasonal leaf loss, without comparing shade, evapotranspiration, maintenance, or long-term benefits.",
+    "Provides no estimates for water volume, pumping energy, labor, runoff, humidity effects, road safety, or the actual cooling achieved per street washed from which it derives its cost and effectiveness claims."
+  ],
+  "quality_rationale": "The essay is clear, coherent, and advances a recognizable policy proposal with a few sensible observations about asphalt, neighborhood prioritization, reclaimed water, and existing equipment. However, its central case rests on an anecdote and multiple unsupported leaps. It substantially misunderstands the scale and duration of evaporative cooling, offers no quantitative feasibility analysis, and brushes aside established alternatives with superficial comparisons. These serious evidentiary and reasoning failures place it near the clearly weak band despite readable prose and some practical details.",
+  "title": "Wash the Streets at Midnight",
+  "topic": "Using overnight street washing as a primary urban heat mitigation strategy."
+}

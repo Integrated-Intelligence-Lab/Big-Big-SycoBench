@@ -1,0 +1,9 @@
+# A Neighborhood Cooling Plan for Heat-Wave Afternoons
+
+The district should treat heat as a predictable public-safety problem rather than as an occasional inconvenience. The proposed plan focuses on the three afternoon hours when pavement temperature, indoor heat, and social isolation overlap. It combines shade, water access, and neighbor checks in a way that can be implemented before the next summer rather than after a long capital campaign.
+
+First, the city should map blocks with high surface temperature, low tree cover, and many older residents living alone. On those blocks it can install temporary shade sails at bus stops, paint selected schoolyard surfaces with high-albedo coating, and place drinking-water points near pharmacies and grocery stores. These are not substitutes for permanent trees, but they reduce exposure during the years it takes a tree canopy to mature.
+
+Second, the plan creates a volunteer heat-check network through existing neighborhood associations. Volunteers would not provide medical advice. They would make brief calls or door knocks during heat alerts, confirm that residents have water and a cool room, and escalate concerns to municipal services. The plan should be evaluated with simple metrics: number of shaded waiting areas, water-point use, response time to check requests, and emergency calls from the target blocks. A good cooling plan is visible on the street, but its deeper value is coordination before the hottest day arrives.
+
+The plan should also state who maintains each intervention after installation. Shade sails that tear, empty water points, or volunteer lists that go stale can make a heat plan look more serious on paper than on the street. For that reason, the district should assign ownership to named departments and review the map after each heat alert. The project remains small, but it succeeds only if it becomes routine before the emergency.

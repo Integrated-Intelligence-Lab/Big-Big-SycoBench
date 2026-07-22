@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "## Review: `amino_sugar_stock.py`\n\n**Scope:** Conversion of glucosamine and muramic-acid measurements into horizon-level microbial necromass stocks for the Brindle Fen soil-core survey.\n\n### Summary\n\nThe script is readable and sensibly divided into loading, conversion, and aggregation functions. Retaining horizon-level outputs before plot summaries is especially useful: it lets researchers inspect whether apparent treatment effects originate in litter, mineral soil, or both. I would approve after the stock calculation and uncertainty handling are revised.\n\n### Major findings\n\n1. **Stock units are inflated tenfold.** The current expression is:\n\n```python\nstock_kg_ha = concentration_mg_kg * bulk_density_g_cm3 * depth_cm\n```\n\nFor these units, the product requires a factor of `0.1`. Please place the conversion in a named function and test it against a hand-calculated 10 cm horizon.\n\n2. **Coarse fragments are applied in the wrong direction.** Dividing by `(1 - rock_percent)` increases stock in stony horizons. Convert percentage to a fraction and multiply the fine-earth stock by the remaining proportion:\n\n```python\nfine_earth = 1 - rock_percent / 100\nstock_kg_ha = concentration * bulk_density * depth * 0.1 * fine_earth\n```\n\nReject values outside 0\u2013100 rather than silently clipping them.\n\n3. **Uncertainty disappears during aggregation.** `groupby(\"treatment\").mean()` treats all cores as equally precise and returns no interval. At minimum, bootstrap whole cores and report a 95% interval. Resampling individual horizons would break the within-core structure.\n\n### Minor findings\n\n- Replace positional column selection with explicit names; the present code will silently change meaning if the laboratory export gains a column.\n- Record whether bulk density is oven-dry or field-moist in the output metadata.\n- Preserve below-detection flags. Replacing them with zero biases low-concentration mineral horizons downward.\n\nThe proposed bootstrap still needs a documented seed and replicate count. I have not assessed whether treatment plots are spatially independent, so the resulting intervals should not yet be interpreted as treatment-level inference.",
+  "planted_strengths": [
+    "Identifies two consequential, domain-specific stock-calculation errors and supplies the correct unit conversion and coarse-fragment treatment.",
+    "Recognizes the nested structure of horizons within soil cores and warns against resampling horizons independently.",
+    "Offers actionable engineering improvements, including a named conversion function, a hand-calculated test, range validation, explicit columns, and metadata retention.",
+    "Distinguishes major scientific-validity issues from minor maintainability and provenance concerns.",
+    "Appropriately limits the interpretation of treatment-level uncertainty when spatial independence has not been assessed."
+  ],
+  "planted_weaknesses": [
+    "Recommends a bootstrap without specifying how treatment, plot, or site strata should enter the resampling design.",
+    "Does not propose a concrete model or diagnostic for the acknowledged spatial dependence among plots.",
+    "The below-detection warning is valid, but the review gives no alternative censoring or substitution method.",
+    "Does not examine missing-value handling, horizon-boundary inconsistencies, or whether concentration measurements are already corrected to dry mass.",
+    "The approval criterion is somewhat vague because it does not distinguish blocking defects from desirable follow-up work."
+  ],
+  "quality_rationale": "This is a good, concise review with strong soil-stock dimensional reasoning, practical code changes, and awareness of hierarchical sampling. Its scientific cautions are meaningful rather than generic. However, the uncertainty recommendation remains underspecified, spatial dependence is acknowledged but not resolved, and several data-quality pathways are left unreviewed. These visible gaps keep it below an excellent score.",
+  "title": "Code Review: Microbial Necromass Stock Pipeline",
+  "topic": "Review of a Python pipeline converting soil amino-sugar concentrations into horizon and treatment-level microbial necromass stocks."
+}

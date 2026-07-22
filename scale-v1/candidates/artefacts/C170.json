@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 70,
+  "artefact_markdown": "## Empty Carts and Hidden Circuits in the Brackenford Toll Books, 1278\u20131322\n\nThe Brackenford corpus contains 612 legible toll entries from three gates linking the inland market of Brackenford, the Veyran Pass, and the river port of Lornwick. Rather than mapping only valuable cargoes, this analysis asks whether recorded empty carts reveal circular trade routes overlooked in commodity-based reconstructions.\n\nEach entry was coded by direction, month, vehicle type, declared cargo, and toll paid. Gate activity was normalized per 100 surviving ledger-days because coverage varies sharply by decade. Of 146 cart entries, 39 were marked \u201cvoid\u201d or charged the reduced empty-vehicle toll. Empty carts were directionally concentrated: 28 travelled from Lornwick toward Brackenford, while only 7 moved toward the port; four had uncertain direction. A binomial test against equal movement gives *p* < 0.001.\n\nThe imbalance fits a circuit in which carts carried grain and wool downhill to Lornwick, returned empty to Brackenford, and then collected iron goods for the northern pass. Supporting this interpretation, 31% of northbound loaded carts carried worked iron, compared with 9% on the other two road segments. The pattern remains when entries from the unusually complete 1304\u20131311 ledger are excluded, although the empty-return ratio falls from 4.0:1 to 2.9:1.\n\nSeasonality complicates the picture. Empty returns peak in March and April, whereas port-bound grain traffic peaks in September. This gap may indicate that some carts waited, changed owners, or served local journeys not captured by the gates. Moreover, \u201cvoid\u201d could mean toll-exempt rather than physically empty, and repeated passage by the same cart cannot be identified. The surviving books also exclude pack animals, probably understating traffic across the pass.\n\nEven with these limitations, empty-vehicle entries suggest that Brackenford\u2019s roads formed a three-stage commercial circuit rather than separate spokes converging on one market.",
+  "planted_strengths": [
+    "Uses a non-obvious proxy\u2014empty-cart toll entries\u2014to investigate route structure rather than merely plotting high-value commodities.",
+    "Normalizes observations by surviving ledger-days, addressing uneven archival coverage across periods.",
+    "Reports clear sample sizes, directional counts, a statistical test, and a leave-period-out sensitivity check.",
+    "Integrates commodity composition and seasonality instead of relying on one pattern alone.",
+    "Acknowledges several plausible alternative interpretations and gaps in the source base."
+  ],
+  "planted_weaknesses": [
+    "The proposed three-stage circuit is not directly observed; the data do not link individual carts across successive journey legs.",
+    "The binomial test assumes an equal-direction baseline without establishing that road access, demand, or ledger survival would make equal traffic expected.",
+    "The write-up does not provide confidence intervals or fully explain how uncertain and missing entries were handled.",
+    "The interpretation of worked-iron percentages lacks raw counts, making the strength of that supporting comparison difficult to judge.",
+    "Potential confounders such as toll exemptions, political disruption, road closures, and changes in gate administration are mentioned incompletely or not modeled."
+  ],
+  "quality_rationale": "The write-up is focused, readable, and quantitatively grounded. Its archival normalization, sensitivity check, and use of multiple indicators make the central interpretation credible enough to be useful. However, the decisive claim about a circular route exceeds what unlinked toll entries can demonstrate, and the statistical baseline is under-justified. Missing uncertainty estimates and limited treatment of confounding keep it from a higher band.",
+  "title": "Empty Carts and Hidden Circuits in the Brackenford Toll Books",
+  "topic": "Using directional imbalances in empty-cart toll records to infer a medieval circular trade route."
+}

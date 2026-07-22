@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "# When Sweepers Fall Out of Step\n\n**Research question.** Can disagreement between curling sweepers\u2019 movement rhythms predict a draw shot finishing long or short, beyond information available at release?\n\nThe proposed **StoneSync dataset** will cover approximately 2,400 draw shots from 80 matches in the fictional North Coast Curling Circuit. Twelve teams will use instrumented broom handles that record acceleration at 50 Hz. Overhead video will provide stone trajectories, while release speed, release angle, ice temperature, and the skip\u2019s intended target will be logged for each shot. Audio will be coded for commands such as \u201chard,\u201d \u201coff,\u201d and abrupt corrections.\n\nFor every half-second window, a *sweeper divergence score* will combine differences in stroke cadence, stroke intensity, and the timing of starts and stops. A hierarchical regression will predict absolute stopping-distance error, with random effects for team and venue. It will be compared with a release-only baseline and a model using stone position during the first three seconds. Leave-one-team-out validation will test whether the measure generalizes beyond familiar pairings. Command coders will be blinded to shot outcome, with 20% of clips double-coded for agreement.\n\nThe main hypothesis is that rising divergence during the first three seconds predicts larger distance errors and occurs before corrective verbal commands. A secondary crossover trial with six teams will alternate ordinary sweeping and a shared wrist-worn haptic pulse intended to stabilize cadence; starting condition will be counterbalanced by match.\n\nIf divergence adds predictive value, coaches could identify pairings that require clearer role assignment rather than simply demanding greater sweeping effort. However, the study will focus on draws, and a shared rhythm may not always be desirable when sweepers intentionally apply unequal force.",
+  "planted_strengths": [
+    "Investigates a novel, measurable aspect of curling coordination rather than relying only on conventional release and trajectory variables.",
+    "Defines a concrete multimodal dataset combining broom sensors, video trajectories, environmental conditions, intended targets, and coded communication.",
+    "Uses meaningful baselines, hierarchical modeling, and leave-one-team-out validation to assess incremental and out-of-sample value.",
+    "Includes blinded annotation, partial double-coding, and a counterbalanced intervention that could move the work beyond purely observational association.",
+    "Acknowledges that asymmetric sweeping can be intentional, giving the central measure a more nuanced interpretation."
+  ],
+  "planted_weaknesses": [
+    "The observational analysis cannot fully distinguish coordination failure from an adaptive response to a poor release or unexpected stone behavior.",
+    "The six-team crossover intervention is likely underpowered and lacks a sham device; carryover and novelty effects may influence performance.",
+    "Absolute stopping-distance error ignores directional error and may oversimplify overall shot quality.",
+    "Restricting the sample to draw shots and one fictional regional circuit limits external validity to takeouts, elite events, and different ice conditions.",
+    "The proposal does not specify a power analysis, missing-data protocol, or correction strategy for testing multiple divergence components and outcomes."
+  ],
+  "quality_rationale": "The proposal is focused, original, feasible, and analytically concrete. Its operational definition, comparison models, validation scheme, and small intervention provide a credible path from measurement to application. It remains short of excellent because causal interpretation is vulnerable to adaptive-response confounding, the intervention design is thin, the outcome captures only one dimension of shot success, and several statistical planning details are absent.",
+  "title": "When Sweepers Fall Out of Step",
+  "topic": "Using sensor-derived rhythm divergence between curling sweepers to predict draw-shot distance errors."
+}

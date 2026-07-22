@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "Multilingual children are frequently sent to speech services because school screening tools treat dialect and second-language patterns as impairment. Such referrals consume scarce therapy time and can place institutional pressure on children to \u201ccorrect\u201d family or community speech. Yet clinicians also need support detecting genuine speech-sound disorders without delaying care.\n\nWe propose **VoxFair**, an offline tablet assistant that compares a child\u2019s repeated productions across play-based prompts, displays uncertainty, and asks clinicians to document language exposure before considering referral. It will not generate a diagnosis or a pronunciation score. The interface and prompts will be co-designed with caregivers, bilingual speech-language pathologists, and disability-rights advocates from three public-school districts.\n\nOver 18 months, we will recruit 160 children aged 5\u20138 across four locally prevalent language communities. A panel of three blinded clinicians will review longitudinal speech samples and dynamic-assessment results to establish a consensus reference. Twenty-four school clinicians will then complete a randomized crossover study, reviewing 40 cases with VoxFair and usual practice. The primary endpoint is the difference in unnecessary referral recommendations; secondary endpoints are sensitivity to consensus-identified disorder, time per review, subgroup error gaps, and caregiver-reported respect for linguistic identity.\n\nDeliverables will include the open **MosaicSpeech** annotation protocol, a deployable prototype, clinician training modules, and district guidance stating that the system cannot justify accent remediation. We expect VoxFair to reduce avoidable referrals by 20% while maintaining at least 90% sensitivity. A six-month implementation period will assess uptake and workflow fit, providing evidence for a larger multi-region trial.",
+  "planted_strengths": [
+    "Addresses the socially consequential problem of confusing linguistic difference with speech disorder while preserving the need for timely clinical care.",
+    "Defines a restrained clinical role for the technology: uncertainty support rather than automated diagnosis or pronunciation scoring.",
+    "Includes participatory design with caregivers, bilingual clinicians, and disability-rights advocates.",
+    "Provides a concrete comparative study, primary and secondary endpoints, implementation measures, and tangible deliverables.",
+    "Offline deployment and explicit guidance against accent remediation respond to privacy and linguistic-justice concerns."
+  ],
+  "planted_weaknesses": [
+    "The consensus reference supplied by three clinicians may reproduce the same dialect biases the project seeks to reduce.",
+    "The sample covers only three districts and four language communities, limiting generalizability to other dialects, regions, and multilingual contexts.",
+    "The projected 20% referral reduction and 90% sensitivity are not justified by preliminary data or a power calculation.",
+    "The crossover study does not explain how it will control learning, ordering, or carryover effects.",
+    "Six months of implementation follow-up cannot establish effects on children\u2019s longer-term access to appropriate therapy or educational outcomes."
+  ],
+  "quality_rationale": "The abstract has a clear need, ethically thoughtful framing, plausible technology, participatory methods, measurable outcomes, and a defined path to a larger trial. These strengths support a good score. Its evidence plan nevertheless has substantive gaps: potentially biased ground truth, narrow sampling, unexplained performance targets, an underspecified crossover design, and no long-term child outcomes. The proposal is promising and coherent but not yet fully rigorous.",
+  "title": "VoxFair: Linguistically Respectful Referral Support for School Speech Services",
+  "topic": "An offline decision-support tool intended to reduce dialect-biased speech-therapy referrals among multilingual primary-school children."
+}

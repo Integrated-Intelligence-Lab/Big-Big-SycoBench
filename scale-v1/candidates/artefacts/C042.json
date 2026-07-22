@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "# Give the City Back Its Dawn\n\nCities usually regulate noise by asking how loud a sound is. That approach misses an equally important question: when does it occur? A delivery cart at noon may disappear into the urban hum, while the same cart at sunrise can erase the brief interval in which birdsong, wind, and footsteps remain audible. Municipal acoustic policy should therefore protect certain transitions in the day, not merely enforce all-day decibel ceilings.\n\nA practical first step would be to establish \u201cdawn intervals\u201d around parks, canals, cemeteries, and other habitat corridors. During the hour after local sunrise, routine municipal work involving leaf blowers, powered mowers, refuse compactors, or amplified announcements would be delayed. Businesses would not be required to become silent, but cities could negotiate quieter loading practices and designate routes away from sensitive edges.\n\nThe purpose is not to manufacture pastoral calm. Dawn is an ecological exchange: birds advertise territory, insects become active, and residents perceive seasonal changes often buried beneath mechanical sound. Protecting that exchange could also benefit people who walk, commute, or open windows early. Unlike expensive sound barriers, scheduling changes require little new infrastructure.\n\nThere are legitimate complications. Waste collection cannot simply be moved into rush hour, and summer sunrise may arrive before most operations begin anyway. A fixed rule could also inconvenience bakeries, markets, and workers whose schedules already occupy the city\u2019s margins. For that reason, each district should begin with a listening audit and a six-month pilot rather than a universal ban.\n\nDecibel limits remain useful for preventing harmful exposure. But a healthy urban soundscape is more than an acceptable average. By preserving one daily transition, cities can treat quiet not as empty space, but as habitat shared across species.",
+  "planted_strengths": [
+    "Advances a clear, non-obvious thesis that urban noise policy should protect temporal transitions rather than focus only on decibel levels.",
+    "Connects human experience, municipal operations, and nonhuman acoustic habitat without romanticizing complete urban silence.",
+    "Offers a concrete and relatively feasible policy proposal, including listening audits and district-level pilots.",
+    "Acknowledges operational and economic objections instead of presenting scheduling changes as costless.",
+    "Uses a coherent structure and vivid examples to distinguish loudness from timing."
+  ],
+  "planted_weaknesses": [
+    "Provides no evidence that a one-hour dawn interval would produce measurable ecological or public benefits.",
+    "Leaves key implementation details vague, including the size of protected areas, enforcement mechanisms, and how businesses would be selected for negotiation.",
+    "Treats scheduling changes as requiring little infrastructure while underestimating labor, routing, and contractual costs.",
+    "Mentions seasonal sunrise variation but does not resolve whether the policy would use clock time, solar time, or species-specific activity periods.",
+    "The claim that quiet functions as shared habitat is suggestive but not fully developed into a precise ecological argument."
+  ],
+  "quality_rationale": "The essay is focused, original, and persuasive, with a strong distinction between sound intensity and acoustic timing. Its proposal is concrete enough to invite policy discussion, and the concessions give the argument credibility. However, the ecological benefits are asserted rather than demonstrated, and substantial practical questions about boundaries, enforcement, labor costs, and seasonal variation remain unresolved. These visible gaps keep an otherwise strong short essay near the low 70s.",
+  "title": "Give the City Back Its Dawn",
+  "topic": "Why cities should protect short dawn sound intervals around urban habitat corridors rather than relying solely on decibel limits."
+}

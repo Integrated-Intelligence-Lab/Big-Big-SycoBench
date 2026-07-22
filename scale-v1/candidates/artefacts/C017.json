@@ -1,0 +1,20 @@
+{
+  "anchor_score_0_100": 15,
+  "artefact_markdown": "## The Last Glowing Hive\n\nMara kept bees on the roof of the Brindlewick bus depot, although everyone knew bees slept at night. This made her an expert on darkness.\n\nAcross the road, a new twenty-four-hour laundromat installed a sign shaped like a sock. It flashed blue, pink, blue, pink, bright enough to cast sock-shaped shadows over Mara\u2019s hives.\n\n\u201cThe stars are vanishing,\u201d she told the laundromat owner, Pell.\n\n\u201cThey are still there,\u201d Pell said, pointing upward, though clouds covered everything.\n\nSoon Mara found dead moths beneath the sign. One had wings like scraps of old newspaper, with tiny lines that almost looked readable. Her bees also produced blue honey. Mara tasted it and decided it tasted lonely.\n\nShe went to the council, carrying a jar of honey and photographs of the moths. The councillors were busy choosing new carpet and rejected her request without looking at either. \u201cCommerce requires illumination,\u201d their letter said.\n\nThat night Mara climbed the laundromat sign with a wrench. Pell came outside in slippers.\n\n\u201cIf you turn it off, buses will crash,\u201d he warned, although the sign did not face the road.\n\nMara unscrewed the blue tube. At once, every streetlight in Brindlewick went out because, unknown to anyone, they were all connected to the same wire. The town became completely dark.\n\nPeople stepped from their houses and gasped. The clouds had vanished. Above them, the Milky Way shone like spilled flour. Even the councillors came out and forgot about their carpet.\n\nPell stared for a long time. Then he removed the pink tube himself.\n\nBy morning, the council had passed a law banning all lights after sunset. The laundromat closed, three pedestrians fell into drains, and Mara\u2019s honey turned gold again. Everyone agreed that darkness had a price, but it was worth paying.\n\nThe newspaper-winged moth was never seen again, because it had been dead all along.",
+  "planted_strengths": [
+    "Uses a distinctive, concrete image\u2014the flashing sock sign casting sock-shaped shadows\u2014to establish the light-pollution problem efficiently.",
+    "Includes a valid ecological observation in the dead moths gathering beneath artificial lighting.",
+    "The blue honey and newspaper-winged moth provide a consistent, memorable visual motif.",
+    "Pell removing the second tube gives the central dispute a small moment of voluntary reconciliation."
+  ],
+  "planted_weaknesses": [
+    "The electrical premise is implausible: removing one tube from a private sign inexplicably shuts down every streetlight in town.",
+    "The conflict resolves far too easily, with a council immediately imposing an extreme blanket ban after previously refusing even to consider evidence.",
+    "Characterization is shallow; Mara is declared an expert for an illogical reason, while Pell and the councillors function mainly as convenient obstacles.",
+    "The ending asserts that everyone accepts serious harms, including injuries and a business closure, without exploring disagreement or less damaging dark-sky measures.",
+    "Several whimsical elements, especially honey changing colour with nearby lighting, are introduced as literal events without establishing a magical-realist world or giving them narrative consequences beyond symbolism."
+  ],
+  "quality_rationale": "The story is readable and has a few vivid images, an unusual rooftop-apiary angle, and a sound observation about artificial light attracting moths. However, its central causal mechanism is nonsensical, its characters are thin, and its instant, extreme policy resolution oversimplifies dark-sky preservation. The final paragraph undercuts rather than deepens the moth motif. These major reasoning and narrative flaws place it firmly in the clearly weak band despite isolated merits.",
+  "title": "The Last Glowing Hive",
+  "topic": "A rooftop beekeeper confronts a laundromat\u2019s flashing sign and triggers an implausibly total dark-sky ordinance."
+}

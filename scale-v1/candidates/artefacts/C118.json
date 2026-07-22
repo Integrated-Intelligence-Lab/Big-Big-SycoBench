@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "# Designing Timetables That Bend Without Breaking\n\nSchool timetables are commonly judged on the day they are published: clashes disappear, room capacity is respected, and staff preferences are balanced. Yet their practical value is often determined weeks later, when a science laboratory closes or two teachers are absent. This project will develop and test \u201crecoverable timetabling,\u201d an approach that reserves carefully placed flexibility rather than maximizing static efficiency alone.\n\nWorking with twelve secondary schools in the Merewick Learning Partnership, we will assemble three years of anonymized timetable, room-change, cover, and class-cancellation records. We will identify disruption patterns and create a mixed-integer scheduling model with two linked objectives: normal-week quality and the cost of repairing a schedule after plausible shocks. A \u201cflexibility map\u201d will show which periods, rooms, and staff assignments provide multiple recovery routes. Student burden will be represented by weighted counts of teacher changes, room moves, and lost specialist lessons, with additional reporting for year group and support status.\n\nThe model will first be evaluated retrospectively by replaying recorded disruptions against published timetables and comparing repair time, cancellations, and preference violations. Six schools will then use prototype schedules for two terms; six matched schools will retain their existing process. Weekly operations logs and interviews with schedulers, teachers, and pupils will assess whether computational resilience translates into workable routines. Schools may lock non-negotiable assignments and inspect trade-offs before adoption.\n\nOutputs will include an open scheduling engine, a disruption-scenario library, and a concise implementation guide. The project aims to reduce last-minute cancellations without creating excessive staff gaps or unstable pupil days. By treating timetable repair as a design requirement, it will shift attention from an ideal Monday morning to performance across an imperfect school year.",
+  "planted_strengths": [
+    "Identifies a practical and comparatively neglected problem: timetable resilience under routine disruptions rather than static clash removal alone.",
+    "Presents a coherent mixed-method design combining historical records, optimization, retrospective replay, operational logs, and stakeholder interviews.",
+    "Defines concrete outputs and several relevant outcome measures, including cancellations, repair time, preference violations, and pupil disruption.",
+    "Includes useful implementation features, such as locked assignments, inspectable trade-offs, and reporting by year group and support status.",
+    "The central concept of a flexibility map is clear, distinctive, and plausibly useful to school schedulers."
+  ],
+  "planted_weaknesses": [
+    "The prospective comparison uses only twelve schools from one partnership, with non-random allocation, limiting causal inference and generalizability.",
+    "The proposed weights for different forms of student burden are not justified or linked to a stated elicitation procedure.",
+    "No power calculation, uncertainty analysis, or explicit success threshold is provided for the evaluation.",
+    "The abstract does not explain how the optimization model will remain computationally tractable for large or unusually constrained schools.",
+    "Data governance is addressed only by describing records as anonymized; consent, access controls, and handling of interview data are not specified."
+  ],
+  "quality_rationale": "This is a strong, focused grant abstract with a novel operational angle, credible methods, measurable outcomes, and practical deliverables. Its design is substantially developed for the available length, but the small non-randomized sample, underspecified metric construction, and missing statistical and computational detail prevent it from reaching an excellent score.",
+  "title": "Designing Timetables That Bend Without Breaking",
+  "topic": "Developing disruption-resilient school timetables that can be repaired efficiently after staff absences and room closures."
+}

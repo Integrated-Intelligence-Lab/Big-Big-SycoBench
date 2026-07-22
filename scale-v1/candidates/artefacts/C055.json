@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "# TalusTrace: Debris-Ice Mass Monitor\n\n**Purpose.** TalusTrace measures seasonal mass change on debris-covered glacier tongues, where optical surveys may track shifting rocks rather than ice. Each station combines an ultrasonic ranger, thermistor chain, tilt sensor, and satellite-connected gateway. Raw observations remain available for later scientific reprocessing.\n\n**Primary users:** glacier field teams requiring unattended point records between annual stake visits.\n\n## Components\n\n- **Sensor node:** 0\u20133 m ultrasonic range, six temperature probes at 10 cm intervals, tilt sensing, GNSS timestamping, and a replaceable lithium pack.\n- **Reference foot:** drilled into ice beneath the debris; a breakaway collar limits damage from moving rocks.\n- **Gateway:** stores 18 months of hourly data from up to 24 nodes within 2 km line of sight.\n\n## Functional requirements\n\n1. Record range, temperature, tilt, battery, and signal strength every 30 minutes; transmit one daily packet.\n2. Flag readings when tilt exceeds 8\u00b0, three echoes differ by more than 40 mm, or the temperature profile suggests probe exposure.\n3. Convert corrected height change to water-equivalent mass using an operator-entered density profile. Preserve inputs, corrections, and outputs.\n4. Export CSV and display station status, cumulative change, assumptions, and flagged gaps on a local-first dashboard.\n5. Resume collection after a 14-day communications outage without duplicated records.\n\n## Acceptance criteria\n\n- Median ranging error below 15 mm during a 30-day outdoor test against a fixed target.\n- At least 95% of scheduled records retained after thermal cycling from \u221230\u00b0C to 20\u00b0C and three simulated satellite outages.\n- IP68 enclosure; connectors operable while wearing insulated gloves.\n- Density values and manual corrections must appear in every export.\n\n## Constraints\n\nTalusTrace reports point mass change only. Glacier-wide totals require an external sampling and interpolation plan. Debris thicker than 60 cm exceeds probe reach and is unsupported.",
+  "planted_strengths": [
+    "Clearly identifies a difficult and specific monitoring context: debris-covered glacier tongues where optical surface tracking is unreliable.",
+    "Provides a coherent hardware architecture, operating cadence, data-retention behavior, and practical field requirements.",
+    "Includes measurable acceptance criteria for ranging accuracy, record retention, temperature exposure, ingress protection, and gloved operation.",
+    "Preserves raw data and correction history, supporting scientific auditability and future reprocessing.",
+    "States important scope limits rather than presenting point measurements as glacier-wide mass estimates."
+  ],
+  "planted_weaknesses": [
+    "The conversion from measured surface-height change to water-equivalent mass is underspecified; debris movement, compaction, ice density, and the inferred debris\u2013ice interface are not adequately modeled.",
+    "The fixed-target acceptance test validates the ultrasonic ranger but not end-to-end mass-change accuracy under realistic debris and melt conditions.",
+    "No calibration schedule, field validation procedure, or reference-stake comparison is specified.",
+    "Power capacity and solar performance are not quantified despite unattended operation in cold, shaded glacier terrain.",
+    "Network range is stated only for line of sight, without defining behavior where glacier topography blocks communication."
+  ],
+  "quality_rationale": "This is a solid short product specification with a clear use case, sensible components, testable requirements, data provenance, and explicit scope constraints. Its main scientific transformation\u2014from surface observations to mass change\u2014remains too vague, and validation focuses on component performance rather than end-to-end accuracy. Missing calibration and power requirements further limit implementation readiness, keeping it in the good rather than excellent range.",
+  "title": "TalusTrace: Debris-Ice Mass Monitor",
+  "topic": "A field sensor network for point-scale mass-change monitoring on debris-covered glacier tongues."
+}

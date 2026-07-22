@@ -1,0 +1,19 @@
+{
+  "anchor_score_0_100": 30,
+  "artefact_markdown": "# Code Review: FermaLoop Antifoam Controller Patch 18\n\n## Scope\n\nThis patch changes antifoam dosing on the Mireglass 12 kL fermenter by combining the capacitance foam probe with exhaust-line pressure:\n\n```python\nif foam_signal > 0.72 and exhaust_kpa > 18:\n    dose_ml = (foam_signal - 0.72) * vessel_l * 0.4\n    pump_seconds = dose_ml / pump_rate_l_min * 60\n    await pump.run(pump_seconds)\n```\n\n## Findings\n\n**Blocking \u2014 pump duration has a unit error.** `dose_ml` is millilitres while `pump_rate_l_min` is litres per minute. The calculation therefore requests roughly 1,000 times the intended duration. It should be:\n\n```python\npump_seconds = dose_ml / (pump_rate_l_min * 1000) * 60\n```\n\nA unit-bearing variable name such as `pump_rate_ml_min` would make the correction easier to preserve.\n\n**Moderate \u2014 the pressure condition is too permissive.** Exhaust pressure above 18 kPa usually confirms that a high probe signal is real foam rather than residue on the probe. However, pressure can stay elevated briefly after foam collapses. Add a three-second delay and read the pressure again. Three seconds should be sufficient because the exhaust pipe is short.\n\n**Minor \u2014 unexplained constants.** The values `0.72`, `18`, and `0.4` should be moved into configuration. Operators can then tune them between organisms without a deployment.\n\n## Test Assessment\n\nThe supplied eight-hour signal replay contains two foam events and neither produces an unwanted dose after the unit correction. This is enough to show that the combined-sensor method will prevent false dosing. I do not think separate tests for a wet exhaust filter or a disconnected foam probe are necessary, since both conditions should produce abnormal pressure values.\n\n## Recommendation\n\nApprove after fixing the conversion and adding the pressure reread. The approach is simpler than maintaining organism-specific foam models and should be safe for production.",
+  "planted_strengths": [
+    "Correctly identifies a severe millilitre-versus-litre conversion error and supplies the correct formula.",
+    "Suggests clearer unit-bearing variable names and moving unexplained thresholds into configuration.",
+    "Uses a concrete code excerpt and prioritised findings, making the main defect easy to act on."
+  ],
+  "planted_weaknesses": [
+    "Treats elevated exhaust pressure as reliable confirmation of foam without evidence, overlooking wet filters, blockage, airflow changes, and sensor faults.",
+    "Declares an eight-hour replay with only two foam events sufficient to establish production safety and dismisses important fault-injection tests.",
+    "Recommends an arbitrary three-second delay based only on pipe length, with no process-dynamics analysis.",
+    "Fails to review essential safeguards such as maximum pulse duration, cumulative antifoam limits, pump cancellation, stale sensor data, and concurrent dosing calls.",
+    "Recommends approval despite unresolved validation and fail-safe concerns in a production fermentation control path."
+  ],
+  "quality_rationale": "The report earns credit for catching a potentially catastrophic unit mismatch, proposing a correct calculation, and presenting findings clearly. Its overall judgement is nevertheless weak: it makes unsupported process assumptions, accepts extremely limited testing, omits several basic control-system hazards, and recommends production approval prematurely.",
+  "title": "Code Review: FermaLoop Antifoam Controller Patch 18",
+  "topic": "Review of a dual-sensor antifoam dosing patch for a 12 kL industrial fermenter."
+}

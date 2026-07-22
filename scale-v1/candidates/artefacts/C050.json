@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "# Accounting for Stale Gauge Packets in Six-Hour Flood Forecasts\n\nWe tested whether explicitly modelling telemetry age improves six-hour stage forecasts at Reed Narrows on the fictional Lydon River. The dataset covered 42 high-flow episodes from October 2019 to March 2026, defined as periods when stage exceeded 3.2 m. Predictors included current stage at Reed Narrows, three upstream gauges, radar rainfall totals, antecedent 24-hour rainfall, and the minutes elapsed since each gauge\u2019s last successful transmission.\n\nEpisodes were kept intact to avoid placing observations from the same flood in both training and evaluation sets. The first 32 episodes trained two gradient-boosted tree models; the latest 10 formed a chronological test set. The standard model carried the last received upstream value forward. The latency-aware model also received packet age and an interaction between packet age and the recent upstream stage slope. Persistence served as a baseline.\n\nAcross 1,184 hourly test forecasts, mean absolute error was 0.29 m for persistence, 0.22 m for the standard model, and 0.18 m for the latency-aware model. During the four episodes containing transmission gaps longer than 45 minutes, the corresponding errors were 0.41 m, 0.38 m, and 0.24 m. For crossings of the 4.6 m warning threshold, recall increased from 71% with the standard model to 83% with the latency-aware model at six hours. The largest improvement occurred on steep rising limbs, when carrying forward an old upstream reading otherwise implied a false flattening of the hydrograph.\n\nThese results suggest packet age is useful information rather than merely a data-quality flag. However, the test set contains only ten events from one catchment, and hourly forecasts within an episode are strongly correlated. No uncertainty intervals were calculated, and threshold precision was not reported, so the apparent gain in recall could include additional false alarms. A multi-basin evaluation with event-level resampling is needed before operational adoption.",
+  "planted_strengths": [
+    "Uses an operationally relevant and relatively non-obvious predictor: telemetry packet age.",
+    "Preserves whole flood episodes in a chronological train-test split, reducing event leakage.",
+    "Includes both a simple persistence baseline and a standard model comparison.",
+    "Reports overall error, performance during long transmission gaps, and warning-threshold recall.",
+    "Connects the model improvement to a plausible hydrological and data-system mechanism on rising limbs."
+  ],
+  "planted_weaknesses": [
+    "The evaluation uses only ten test events from a single fictional catchment, limiting generalisability.",
+    "Results are aggregated over serially correlated hourly forecasts without event-level uncertainty estimates.",
+    "Warning-threshold recall is reported without precision or false-alarm rate, leaving the operational trade-off unclear.",
+    "No confidence intervals or statistical significance assessment is provided.",
+    "The write-up does not specify hyperparameter selection or whether model choices were fixed before examining the test results."
+  ],
+  "quality_rationale": "The analysis is coherent, concise, and operationally grounded, with sensible event-based splitting, meaningful baselines, and interpretable error stratification. Its central conclusion is supported by the reported comparisons. The score is held near 70 because the evidence base is narrow, uncertainty is unquantified, threshold performance is incomplete, and model-selection details are absent.",
+  "title": "Accounting for Stale Gauge Packets in Six-Hour Flood Forecasts",
+  "topic": "Evaluating telemetry packet age as a predictive feature for short-horizon river-stage and warning-threshold forecasts."
+}

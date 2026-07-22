@@ -1,0 +1,9 @@
+# Memory Crystals for Universal Language Translation
+
+This project proposes a new translation device based on memory crystals. A memory crystal is a clear mineral that has been exposed to many languages through sound waves. Because crystals vibrate, they can store the emotional shape of words. When a person speaks near the crystal, the crystal remembers similar vibrations from other languages and releases the correct translation as a pattern of light.
+
+The scientific basis is resonance. All languages are vibrations, and all crystals vibrate, so the connection is natural. Instead of training artificial intelligence on millions of sentences, we can place crystals in libraries and airports for several weeks. They will absorb the language environment automatically. After exposure, the crystal can be put in a small box with a microphone and a light sensor. A phone app will read the light and print the translated sentence.
+
+The first experiment will use quartz because quartz is already used in watches, which proves that it understands time. Since grammar is also a kind of time, quartz should be especially good at grammar. We will test English, French, and Japanese by asking tourists to speak into the device. If the tourist smiles, the translation will be counted as correct. This approach is cheaper than current systems and more humane because it uses natural memory instead of corporate data.
+
+The budget is expected to be low because crystals are already common in shops and do not require salaries. The main expense will be teaching the crystals enough language. This can be done by playing audiobooks to them at night. If a crystal breaks, the pieces may remember smaller parts of the language, creating a modular translation system. The project will therefore also contribute to sustainable computing.

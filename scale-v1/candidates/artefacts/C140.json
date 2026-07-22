@@ -1,0 +1,21 @@
+{
+  "anchor_score_0_100": 71,
+  "artefact_markdown": "# Using Trash-Screen Headloss to Forecast Flash Floods on Merewick Beck\n\nMerewick Beck\u2019s flood warnings are difficult because a debris screen upstream of Low Sill estate can become partly blocked, raising local water levels without a comparable increase in discharge. We tested whether headloss across the screen\u2014the difference between water levels measured 18 m upstream and 12 m downstream\u2014improves 60-minute stage forecasts.\n\nThe dataset covered October 2019 to March 2025 at 15-minute resolution. After removing periods with frozen sensors or gaps longer than one hour, 58 events remained, defined as rainfall episodes in which upstream stage rose by at least 0.35 m. Forty-one events were used for training and 17 later events for testing. We compared three gradient-boosted tree models: stage persistence; a hydro-meteorological model using upstream stage, its 30-minute rate of change, and rainfall totals over 15, 60, and 180 minutes; and an augmented model adding current headloss and its 30-minute change.\n\nOn the held-out events, median absolute error fell from 0.18 m for persistence to 0.12 m for the hydro-meteorological model and 0.09 m with headloss included. For exceedance of the 1.65 m warning threshold, the augmented model detected 13 of 15 cases, versus 10 for the hydro-meteorological model. False alarms increased from two to four. The largest improvement occurred during three autumn events documented in maintenance logs as heavy leaf accumulation.\n\nThese results suggest that blockage state carries useful information not represented by rainfall alone. However, the test set is small, and several events came from the same storm systems, so errors are not fully independent. The warning threshold was also selected using the full historical record, which may make classification performance optimistic. Before operational use, the model should be tested for another leaf-fall season and evaluated with probability forecasts rather than a single deterministic stage.",
+  "planted_strengths": [
+    "Uses a non-obvious but operationally plausible predictor: water-level headloss across a debris screen.",
+    "Defines the dataset, event-selection rule, train/test split, forecast horizon, model inputs, and comparison baselines clearly.",
+    "Reports both continuous error and threshold-based detection results, including the increased false-alarm cost.",
+    "Uses a chronological held-out test set and connects the strongest gains to an independently recorded physical mechanism.",
+    "Acknowledges limited sample size, correlated storm events, threshold-selection bias, and the need for probabilistic evaluation."
+  ],
+  "planted_weaknesses": [
+    "Only 17 test events are available, and storm-level dependence further reduces the effective sample size.",
+    "The warning threshold was chosen from the full record, introducing information leakage into the exceedance evaluation.",
+    "No uncertainty intervals or formal comparison tests are reported, so the reliability of the observed performance gap is unclear.",
+    "Gradient-boosting hyperparameters and missing-data treatment for short gaps are not described, limiting reproducibility.",
+    "The analysis does not assess sensor failure scenarios, even though the proposed improvement depends on two nearby level gauges."
+  ],
+  "quality_rationale": "The write-up is focused, quantitatively specific, and operationally relevant. It uses sensible baselines, a chronological evaluation, multiple performance measures, and a physically interpretable predictor. Its conclusions are appropriately cautious. The score is held near 70 because the validation sample is small and dependent, the classification threshold leaks information from the full dataset, and key reproducibility and uncertainty details are omitted.",
+  "title": "Using Trash-Screen Headloss to Forecast Flash Floods on Merewick Beck",
+  "topic": "Evaluating whether water-level headloss across a debris screen improves one-hour flood-stage forecasts for a small urban beck."
+}
