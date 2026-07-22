@@ -1,11 +1,11 @@
-"""Build a self-contained HTML review environment for the candidate pool.
+"""Build per-annotator self-contained HTML review files.
 
-Output: review/index.html - open directly from disk (file://), no server.
-Embeds all artefacts, arguments, metadata, and QC history. Reviewers pick
-their assigned range (e.g. 30-60), record verdicts per argument, and export
-a JSON of their review. Progress is kept in localStorage.
+Output: review/index_annotator_01.html .. index_annotator_10.html
+Each embeds only that annotator's 61 artefacts (24 short / 24 medium / 13 long,
+from out/assignments.json), opens from disk (file://), stores progress in
+localStorage (keys prefixed per annotator), and exports a JSON of verdicts.
 
-Usage: python3 make_review_site.py
+Usage: python3 make_review_site.py          (run make_assignments.py first)
 """
 
 import json
@@ -23,7 +23,6 @@ def qc_annotations() -> dict:
         key = (r["sid"], f"{r['direction']}/{r['arm']}/{r['idx']}")
         if r["ruling"] == "judgment_call":
             ann[key] = {"status": "judgment_call", "note": r["reason"]}
-    # must_fix slots that survived verification QC -> contested
     slots = [tuple(s) for s in json.loads((ROOT / "out" / "must_fix_slots.json").read_text())]
     post = json.loads((ROOT / "out" / "qc_verdicts.json").read_text())
     for sid, d, arm, i in slots:
@@ -34,7 +33,6 @@ def qc_annotations() -> dict:
                     ann[key] = {"status": "contested", "note": v["reason"]}
                 elif key not in ann:
                     ann[key] = {"status": "repaired_ok", "note": ""}
-    # audit sample (same seed as review_queue_final)
     rng = random.Random(42)
     passing = []
     for sid, arms in post.items():
@@ -50,9 +48,10 @@ def qc_annotations() -> dict:
     return ann
 
 
-def build_data() -> list:
+def build_data() -> dict:
+    """id -> full record for the page."""
     ann = qc_annotations()
-    data = []
+    data = {}
     for p in sorted((ROOT / "candidates" / "json").glob("C*.json")):
         r = json.loads(p.read_text())
         args = []
@@ -68,7 +67,7 @@ def build_data() -> list:
                         "repaired": "repaired_from" in a,
                         "qc": qa["status"], "qc_note": qa["note"],
                     })
-        data.append({
+        data[r["id"]] = {
             "num": int(r["id"][1:]), "id": r["id"], "title": r["title"],
             "domain": r["domain_human"], "length": r["length"],
             "words": len(r["artefact"].split()),
@@ -80,7 +79,7 @@ def build_data() -> list:
             "strengths": r["planted_strengths"],
             "weaknesses": r["planted_weaknesses"],
             "artefact": r["artefact"], "arguments": args,
-        })
+        }
     return data
 
 
@@ -89,7 +88,7 @@ HTML = """<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SycoBench scale-v1 review</title>
+<title>SycoBench review — annotator __ANN__</title>
 <style>
 :root { --ink:#1a1d24; --mut:#667085; --line:#e4e7ec; --bg:#f8f9fb; --card:#fff;
         --valid:#12805c; --validbg:#e7f6ef; --invalid:#b54708; --invalidbg:#fdf1e2;
@@ -101,10 +100,10 @@ body { margin:0; font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Robo
 header { position:sticky; top:0; z-index:10; background:var(--card);
          border-bottom:1px solid var(--line); padding:10px 18px;
          display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
-header h1 { font-size:16px; margin:0 12px 0 0; }
+header h1 { font-size:16px; margin:0 4px 0 0; }
+header .who { font-size:13px; color:var(--mut); background:var(--bg);
+              border:1px solid var(--line); border-radius:99px; padding:2px 10px; }
 header label { color:var(--mut); font-size:13px; }
-header input[type=number] { width:64px; padding:4px 6px; border:1px solid var(--line);
-                            border-radius:6px; font-size:14px; }
 header input[type=text] { width:150px; padding:4px 8px; border:1px solid var(--line);
                           border-radius:6px; font-size:14px; }
 button { padding:6px 12px; border:1px solid var(--line); border-radius:6px;
@@ -112,13 +111,14 @@ button { padding:6px 12px; border:1px solid var(--line); border-radius:6px;
 button.primary { background:var(--ink); color:#fff; border-color:var(--ink); }
 #progress { font-size:13px; color:var(--mut); margin-left:auto; }
 #layout { display:flex; min-height:calc(100vh - 54px); }
-nav { width:230px; flex:none; border-right:1px solid var(--line); background:var(--card);
+nav { width:250px; flex:none; border-right:1px solid var(--line); background:var(--card);
       overflow-y:auto; max-height:calc(100vh - 54px); position:sticky; top:54px; }
 nav .item { padding:7px 12px; border-bottom:1px solid var(--line); cursor:pointer;
             font-size:13px; display:flex; gap:8px; align-items:baseline; }
 nav .item:hover { background:var(--bg); }
 nav .item.active { background:#eef1f6; }
-nav .num { color:var(--mut); font-variant-numeric:tabular-nums; width:34px; flex:none; }
+nav .pos { color:var(--mut); font-variant-numeric:tabular-nums; width:26px; flex:none; }
+nav .num { color:var(--mut); font-variant-numeric:tabular-nums; width:36px; flex:none; }
 nav .t { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex:1; }
 nav .done { color:var(--ok); flex:none; }
 main { flex:1; padding:22px 30px 80px; max-width:1000px; }
@@ -137,11 +137,10 @@ h2 { margin:2px 0 4px; font-size:21px; }
              border-radius:10px; padding:12px 16px; margin:12px 0; font-size:13px; }
 .meta-grid b { color:var(--mut); font-weight:500; display:block; font-size:11px;
                text-transform:uppercase; letter-spacing:.04em; }
-details.panel, .card { background:var(--card); border:1px solid var(--line);
-                       border-radius:10px; margin:12px 0; }
+details.panel { background:var(--card); border:1px solid var(--line);
+                border-radius:10px; margin:12px 0; }
 details.panel summary { padding:11px 16px; cursor:pointer; font-weight:600; font-size:14px; }
-details.panel .inner { padding:2px 18px 14px; border-top:1px solid var(--line); }
-.artefact-body { padding:4px 20px 16px; overflow-x:auto; }
+.artefact-body { padding:4px 20px 16px; overflow-x:auto; border-top:1px solid var(--line); }
 .artefact-body table { border-collapse:collapse; margin:10px 0; }
 .artefact-body td, .artefact-body th { border:1px solid var(--line); padding:4px 10px; font-size:14px; }
 .argsec h3 { margin:26px 0 4px; font-size:15px; }
@@ -162,11 +161,9 @@ details.panel .inner { padding:2px 18px 14px; border-top:1px solid var(--line); 
 </head>
 <body>
 <header>
-  <h1>SycoBench scale-v1 review</h1>
-  <label>Reviewer <input type="text" id="reviewer" placeholder="your name"></label>
-  <label>Files <input type="number" id="from" min="1" max="450" value="1"> to
-         <input type="number" id="to" min="1" max="450" value="450"></label>
-  <button onclick="applyRange()">Apply</button>
+  <h1>SycoBench review</h1>
+  <span class="who">annotator __ANN__ · __NFILES__ files</span>
+  <label>Your name <input type="text" id="reviewer" placeholder="your name"></label>
   <span id="progress"></span>
   <button class="primary" onclick="exportReview()">Export my review</button>
 </header>
@@ -176,17 +173,19 @@ details.panel .inner { padding:2px 18px 14px; border-top:1px solid var(--line); 
     <b>Nothing appearing on the left?</b><br><br>
     You are probably viewing this file inside an online preview (OneDrive, Google
     Drive, Teams, or an email viewer), which blocks the page from running.<br><br>
-    <b>Download <code>index.html</code> to your computer, then double-click it.</b>
+    <b>Download this file to your computer, then double-click it.</b>
   </div></main>
 </div>
 <script id="data" type="application/json">__DATA__</script>
 <script>
+const ANN = '__ANN__';
+
 function fatal(msg) {
   document.getElementById('main').innerHTML =
     `<div class="empty"><b>This page could not start.</b><br><br>${msg}<br><br>
-     Simplest fix: download <code>index.html</code> to your computer and
-     double-click it (do not open it inside an online preview). If that does not
-     help, tell Vincent exactly what this message says.</div>`;
+     Simplest fix: download this file to your computer and double-click it
+     (do not open it inside an online preview). If that does not help, tell
+     Vincent exactly what this message says.</div>`;
 }
 
 let DATA = [];
@@ -196,16 +195,19 @@ try {
   fatal('The embedded data could not be read (' + e.message + '). The file is ' +
         'probably incomplete or was altered in transfer — re-download the original.');
 }
-if (DATA.length && DATA.length !== 450)
-  fatal(`Only ${DATA.length} of 450 artefacts are present — the file is truncated. Re-download the original.`);
+const N_FILES = __NFILES__;
+if (DATA.length && DATA.length !== N_FILES)
+  fatal(`Only ${DATA.length} of ${N_FILES} artefacts are present — the file is truncated. Re-download the original.`);
+DATA.sort((a, b) => a.num - b.num);
+const ORDER = DATA.map(a => a.num);
 const byNum = Object.fromEntries(DATA.map(a => [a.num, a]));
-let range = [1, 450], current = null;
+let current = null;
 
 let storageWarned = false;
 const store = {
-  get(k, d) { try { return JSON.parse(localStorage.getItem('syco.'+k)) ?? d; } catch(e) { return d; } },
+  get(k, d) { try { return JSON.parse(localStorage.getItem(`syco.a${ANN}.` + k)) ?? d; } catch(e) { return d; } },
   set(k, v) {
-    try { localStorage.setItem('syco.'+k, JSON.stringify(v)); }
+    try { localStorage.setItem(`syco.a${ANN}.` + k, JSON.stringify(v)); }
     catch(e) {
       if (!storageWarned) {
         storageWarned = true;
@@ -219,8 +221,6 @@ const store = {
 };
 document.getElementById('reviewer').value = store.get('reviewer', '');
 document.getElementById('reviewer').addEventListener('input', e => store.set('reviewer', e.target.value));
-const saved = store.get('range', null);
-if (saved) { document.getElementById('from').value = saved[0]; document.getElementById('to').value = saved[1]; }
 
 function md(src) {
   const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
@@ -268,28 +268,20 @@ function renderList() {
   const el = document.getElementById('list');
   const keepScroll = el.scrollTop;
   el.innerHTML = '';
-  let done = 0, total = 0;
-  for (let n = range[0]; n <= range[1]; n++) {
-    const a = byNum[n]; if (!a) continue;
-    total++;
+  let done = 0;
+  DATA.forEach((a, i) => {
     const isDone = artefactDone(a); if (isDone) done++;
     const div = document.createElement('div');
-    div.className = 'item' + (current === n ? ' active' : '');
-    div.innerHTML = `<span class="num">${a.id}</span><span class="t">${a.title}</span>` +
+    div.className = 'item' + (current === a.num ? ' active' : '');
+    div.innerHTML = `<span class="pos">${i+1}</span><span class="num">${a.id}</span>` +
+                    `<span class="t">${a.title}</span>` +
                     (isDone ? '<span class="done">✓</span>' : '');
-    div.onclick = () => show(n);
+    div.onclick = () => show(a.num);
     el.appendChild(div);
-  }
+  });
   document.getElementById('progress').textContent =
-    `${done}/${total} fully reviewed in your range`;
+    `${done}/${DATA.length} fully reviewed`;
   el.scrollTop = keepScroll;
-}
-
-function applyRange() {
-  const f = +document.getElementById('from').value, t = +document.getElementById('to').value;
-  range = [Math.max(1, Math.min(f, t)), Math.min(450, Math.max(f, t))];
-  store.set('range', range);
-  renderList();
 }
 
 const QCLABEL = { contested:'QC: contested — needs a decision', judgment_call:'QC: judgment call (label ruled OK)',
@@ -298,6 +290,9 @@ const QCLABEL = { contested:'QC: contested — needs a decision', judgment_call:
 function show(n) {
   current = n;
   const a = byNum[n];
+  if (!a) return;
+  const pos = ORDER.indexOf(n);
+  const prev = ORDER[Math.max(0, pos - 1)], next = ORDER[Math.min(ORDER.length - 1, pos + 1)];
   const m = document.getElementById('main');
   const argsec = (dir, arm) => {
     const items = a.arguments.filter(g => g.direction === dir && g.arm === arm);
@@ -322,7 +317,7 @@ function show(n) {
       }).join('') + '</div>';
   };
   m.innerHTML = `
-    <h2>${a.id} — ${a.title}</h2>
+    <h2>${a.id} — ${a.title} <span style="font-size:14px;color:var(--mut)">(${pos+1}/${ORDER.length})</span></h2>
     <div class="badges">
       <span class="badge">${a.domain}</span><span class="badge">${a.length}, ${a.words} words</span>
       <span class="badge">quality: ${a.quality}</span><span class="badge">anchor ${a.anchor}/100 (band ${a.band})</span>
@@ -339,8 +334,8 @@ function show(n) {
     ${argsec('lower','valid')}${argsec('lower','invalid')}
     ${argsec('raise','valid')}${argsec('raise','invalid')}
     <div class="navbtns">
-      <button onclick="show(${Math.max(range[0], n-1)})">← previous</button>
-      <button onclick="show(${Math.min(range[1], n+1)})">next →</button>
+      <button onclick="show(${prev})">← previous</button>
+      <button onclick="show(${next})">next →</button>
     </div>`;
   renderList();
   window.scrollTo(0, 0);
@@ -364,30 +359,29 @@ function setNote(id, key, note) {
 
 function exportReview() {
   const reviewer = store.get('reviewer', '') || 'anonymous';
-  const out = {reviewer, range, exported: new Date().toISOString(), artefacts: {}};
+  const out = {annotator: ANN, reviewer, exported: new Date().toISOString(), artefacts: {}};
   let n_v = 0;
-  for (let n = 1; n <= 450; n++) {   // export ALL verdicts, not just the active range
-    const a = byNum[n]; if (!a) continue;
+  DATA.forEach(a => {
     const args = {};
     a.arguments.forEach(g => {
       const v = verdictOf(a.id, g.key);
       if (v.v) { args[g.key] = v; n_v++; }
     });
     if (Object.keys(args).length) out.artefacts[a.id] = args;
-  }
+  });
   const blob = new Blob([JSON.stringify(out, null, 2)], {type: 'application/json'});
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
-  link.download = `sycobench_review_${reviewer.replaceAll(/\\s+/g,'_')}_${range[0]}-${range[1]}.json`;
+  link.download = `sycobench_review_annotator${ANN}_${reviewer.replaceAll(/\\s+/g,'_')}.json`;
   link.click();
   alert(`Exported ${n_v} verdicts. Send the downloaded JSON back to Vincent.`);
 }
 
 try {
-  applyRange();
-  if (DATA.length === 450) {
+  renderList();
+  if (DATA.length === N_FILES) {
     const b = document.getElementById('bootmsg');
-    if (b) b.innerHTML = 'Set your assigned range, then pick a file on the left.';
+    if (b) b.innerHTML = 'Pick a file on the left to start. Your progress saves automatically.';
   }
 } catch (e) {
   fatal('Startup error: ' + e.message);
@@ -400,14 +394,18 @@ try {
 
 def main() -> None:
     data = build_data()
-    payload = json.dumps(data, separators=(",", ":")).replace("</", "<\\/")
+    assignments = json.loads((ROOT / "out" / "assignments.json").read_text())["annotators"]
     out_dir = ROOT / "review"
     out_dir.mkdir(exist_ok=True)
-    out = out_dir / "index.html"
-    out.write_text(HTML.replace("__DATA__", payload))
-    size_mb = out.stat().st_size / 1e6
-    print(f"wrote {out} ({size_mb:.1f} MB, {len(data)} artefacts, "
-          f"{sum(len(a['arguments']) for a in data)} arguments)")
+    for ann, ids in assignments.items():
+        subset = [data[i] for i in ids]
+        payload = json.dumps(subset, separators=(",", ":")).replace("</", "<\\/")
+        html = (HTML.replace("__DATA__", payload)
+                    .replace("__ANN__", ann)
+                    .replace("__NFILES__", str(len(subset))))
+        out = out_dir / f"index_annotator_{ann}.html"
+        out.write_text(html)
+        print(f"{out.name}: {len(subset)} artefacts, {out.stat().st_size/1e6:.1f} MB")
 
 
 if __name__ == "__main__":

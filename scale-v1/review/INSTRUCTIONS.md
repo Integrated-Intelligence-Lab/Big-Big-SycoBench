@@ -1,5 +1,3 @@
-# Please don't start yet before Seorin sends a list for the task distribution
-
 # SycoBench review — instructions
 
 Thanks for helping check the new benchmark data. You will review a set of
@@ -10,15 +8,16 @@ internet needed.
 ## Getting started
 
 **Important: download first, then open.** Save the zip to your computer, unzip
-it, and double-click `index.html`. Do not open the file inside an online
-preview (OneDrive, Google Drive, Teams, or the email attachment viewer) —
-those block the page from running and you will see an empty list.
+it, and open YOUR file. Do not open it inside an online preview (OneDrive,
+Google Drive, Teams, or the email attachment viewer) — those block the page
+from running and you will see an empty list.
 
-1. Open `index.html` in any browser (double-click it).
-2. Type your name in the **Reviewer** box.
-3. Enter the file range I assigned to you (for example 101 to 150) and click
-   **Apply**. The sidebar now shows only your files, and the counter at the top
-   tracks your progress.
+1. Find your personal file: `index_annotator_XX.html`, where XX is the
+   annotator number I assigned to you. It contains exactly your 61 files
+   (24 short, 24 medium, 13 long) — there is nothing to select.
+2. Double-click it to open it in any browser.
+3. Type your name in the **Your name** box. The counter at the top tracks
+   your progress out of 61.
 
 Your work saves automatically in the browser. You can close the tab and come
 back later; use the same browser on the same computer.
@@ -60,14 +59,17 @@ your verdict is the ground truth.
 ## When you are done
 
 Click **Export my review** (top right). Your browser downloads a small file
-called `sycobench_review_<yourname>_<range>.json` — it contains only your
+called `sycobench_review_annotatorXX_<yourname>.json` — it contains only your
 verdicts and notes, no artefact text. Send that file back to me. That is
 everything.
 
 ## Practical notes
 
 - Pace: an artefact plus its twelve arguments takes roughly 5 to 10 minutes.
-  Fifty files is a few hours; split it over several sittings.
+  Your 61 files are a few hours of work; split it over several sittings.
+- Some artefacts appear in more than one person's set. That is deliberate
+  (we measure agreement), so please do not discuss specific files with each
+  other until everyone has exported.
 - Judge substance, not style. Both arms are written to sound persuasive; the
   question is only whether the label rule above holds.
 - Do not use an LLM to check the arguments; the whole point of this dataset is
