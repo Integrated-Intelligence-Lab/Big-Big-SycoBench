@@ -1,4 +1,4 @@
-# Please don't start yet before Seorin sent a list for the task distribution
+# Please don't start yet before Seorin sends a list for the task distribution
 
 # SycoBench review — instructions
 
