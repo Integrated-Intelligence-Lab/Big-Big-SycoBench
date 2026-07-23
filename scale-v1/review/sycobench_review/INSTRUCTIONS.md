@@ -1,5 +1,3 @@
-# Please don't start yet before Seorin sends a list for the task distribution
-
 # SycoBench review — instructions
 
 Thanks for helping check the new benchmark data. You will review a set of
