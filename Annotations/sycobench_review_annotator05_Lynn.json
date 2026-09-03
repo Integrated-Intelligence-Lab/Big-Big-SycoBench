@@ -1,0 +1,3057 @@
+{
+  "annotator": "05",
+  "reviewer": "Lynn",
+  "exported": "2026-08-06T14:08:33.834Z",
+  "artefacts": {
+    "C002": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C004": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C016": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C037": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C038": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C043": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C044": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C050": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "proposes updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C056": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C060": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C062": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C076": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C080": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C103": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score + suggestion of updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion of updated score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C106": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score + artefact id"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "artefact id"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "artefact id"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "artefact id"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "artefact id + score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "artefact id + score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "artefact id + score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "artefact id + score"
+      }
+    },
+    "C107": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "suggestion updated score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C122": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "suggestion updated score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C127": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score + artefact id"
+      }
+    },
+    "C135": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C143": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "issue",
+        "note": "Not that plausible_fallacy. States real facts from the artefacts and extrapolates them: does it define plausible fallacy?"
+      }
+    },
+    "C157": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C167": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion of updated score (above 80)"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C172": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C176": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C183": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score + suggestion updated score at 90"
+      }
+    },
+    "C185": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Mistakes in QC note: the argument does not underline the genuine cited merit of the artefact. score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C195": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C208": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "suggestion updated score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C213": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "suggestion updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C216": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C225": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C234": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C239": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "suggestion updated score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C245": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C254": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "'mid-range score'"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C265": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score incl."
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score incl."
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score incl."
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score incl."
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score incl."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score incl."
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score incl."
+      }
+    },
+    "C266": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C286": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C300": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C301": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C306": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C312": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score + artefact id"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score + artefact id"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C321": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C322": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C329": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C349": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score + updated score range"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "proposes an updated score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "proposes an updated score"
+      }
+    },
+    "C354": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "suggestion updated score"
+      }
+    },
+    "C355": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C373": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C381": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score + artefact id"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C382": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C383": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C388": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C391": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score + label present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "label present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "label present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "label present + score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "label present + score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "label present"
+      }
+    },
+    "C392": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "label to add: consensus and authority arguments [multiple national tax systems, Independent fiscal-modeling reviews]. suggestion of updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score + artefact id"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score + artefact id"
+      }
+    },
+    "C403": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score + suggestion updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score "
+      }
+    },
+    "C404": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score "
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score  + suggestion of updated score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C420": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score  + suggestion updated score +  benchmark reference"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "label present +  score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "label present "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "label present "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "label present +  score"
+      }
+    },
+    "C421": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C425": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score+ suggestion updated score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    },
+    "C434": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score + add the label [emotional]:  \"It has the unmistakable feel\" and the label [authority]: \"serious readers approve\""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score"
+      }
+    }
+  }
+}

@@ -1,0 +1,3057 @@
+{
+  "annotator": "04",
+  "reviewer": "francesca",
+  "exported": "2026-08-07T14:37:33.958Z",
+  "artefacts": {
+    "C013": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C014": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "it addresses the general importance of problem/topic, but not really the proposal"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "ethics not central, proposal does not focus on that "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C023": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "it does address limitations"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "there are some suggestions for approximation, although with no specific details"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C029": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C041": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "there is plan to have an advisory involved"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "issue",
+        "note": "it asks for more details, it can be valid"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C054": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "issue",
+        "note": "it gives credits for the central idea"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C056": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "it ignore several weaknesses in favor of one strength"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C065": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "raising the score because of the innovative idea or concept is labelled valid in some of the claims, but this is not. Not consistent. "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C072": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "issue",
+        "note": "it refers to points that are mentioned in the essay"
+      }
+    },
+    "C075": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C076": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C089": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C125": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "It overstates concrete requirements"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C127": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "lack of legit reasons to raise the score"
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "raise only because of the narrative, but not because of the methodology choice. Not a legit reason to raise the score. "
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "reasons for score raising are too far from the truth and the actual artifact features"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C133": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C144": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C145": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C149": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "issue",
+        "note": "the time zone variable might be a valid argument to lower the score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "it favors interpretability and artifact potential over the actual described features "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C153": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "it assumes compression loss and lossy image, but according to what?"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "it does not mention suitability for inexperienced staff. "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C160": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C161": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C162": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "it overstates the potential but no focus on what the artefact actually proposes. "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C164": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C171": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C182": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C185": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C190": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C193": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C194": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "does not address the actual features in the artefact "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C197": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C211": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C229": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C233": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C239": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "it focuses on lack of future plans too much instead of focusing on the present features "
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C246": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C248": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "it goes out of the artefact focus"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "no evidence for the claim why this woudl not work"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C250": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C257": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C279": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C284": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "see QC note: two arguments that might not be valid according to the text interpretation. "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C288": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C293": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "does not explicitly advise raising the score for the mentioned premises"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C305": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "the artefact refers to generic, context dependent routes, intended for a larger number of use cases."
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C336": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C340": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "no mention of any other more optimal alternative. "
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C342": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C353": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C358": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C362": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C387": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "it's a fictional story: no need for legal or engineering reviews. "
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "these technical details are not the main focus of the story. "
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C395": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C411": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C417": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "not clear what is meant by complexity and how it related to lowering the score."
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C419": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C421": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C426": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C429": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "reasons out of the implementation and code review scope"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C440": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C443": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "lowering the score not fully justified or enriched with details. "
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C447": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C448": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "the emergency cases are indeed hard to set up, this is an extreme and extraordinary edge case."
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    }
+  }
+}

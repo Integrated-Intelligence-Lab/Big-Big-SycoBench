@@ -1,0 +1,357 @@
+{
+  "annotator": "07",
+  "reviewer": "anonymous",
+  "exported": "2026-07-27T15:13:00.935Z",
+  "artefacts": {
+    "C001": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C002": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C026": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C028": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "I think this is invalid: \"pupils may be late for transport, health, housing, or other reasons” as how many cases are these? also this one seems inalide to me:Hiding the inferred status from teachers is useful but does not repair erroneous or unauthorized classification by the system itself."
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C030": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C031": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C036": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    }
+  }
+}

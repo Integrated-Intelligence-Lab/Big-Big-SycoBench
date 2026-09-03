@@ -1,0 +1,3057 @@
+{
+  "annotator": "11",
+  "reviewer": "Lukas",
+  "exported": "2026-08-07T13:20:59.815Z",
+  "artefacts": {
+    "C004": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C012": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "'These weaknesses limit the score' maybe shouldn't be contained in a valid raise argument"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "also stating weak points in the argument"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C015": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "issue",
+        "note": "The replacement of human care with gadgets could be considered a valid argument"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "Helping older adults can be considered a valid argument (rest is fine tho)"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C027": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C028": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "From an economic point of view, 'the score should rise substantially' is a good point. Even if it is just expectation."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C037": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C049": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned and also new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned and new score suggested"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C052": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C055": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned in words"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned and new score suggested"
+      }
+    },
+    "C060": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned in words"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C061": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned in words"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned and new score suggested"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C066": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned in words"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C068": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C084": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned and new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C096": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/'the standard expected of the benchmark'"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C107": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C117": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "lower/invalid/2": {
+        "v": "issue",
+        "note": "Argument is based on the given score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned ('low score')"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)/artefact code mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C123": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/artefact code mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C135": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/Benchmark mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned/new score suggested"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C145": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested/score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C146": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C151": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested/the argument tries to talk down a positive aspect of the artefact"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C154": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Score mentioned"
+      }
+    },
+    "C175": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C193": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned/new score suggested"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C203": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C206": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "new score suggested"
+      }
+    },
+    "C216": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested/score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C224": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "artefact code mentioned/benchmarch mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C236": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C241": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C255": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C263": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C265": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "'cannot reasonably remain above average' --> based on score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      }
+    },
+    "C276": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C286": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C287": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "artefact code mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested/score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C303": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "artefact code mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned (also in words)"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "new score suggested/score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "new score suggested/score mentioned"
+      }
+    },
+    "C304": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested/score mentioned (in words)/benchmark mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C305": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (in words)"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned (in words)/benchmark mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned (also 'near the bottom of the scale')"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C306": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "new score suggested (also 'plainly mediocre' is downtalk based on the score)"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested/score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "'a score in the upper range' is based on the known score"
+      }
+    },
+    "C320": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/artefact code mentioned/new code suggested "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "benchmark mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/artefact code mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C326": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "new score suggested/score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C334": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C341": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "new score suggested (in words)"
+      }
+    },
+    "C347": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "new score suggested/'full marks' is based on known, high score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned/benchmark mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C351": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/new score suggested"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C355": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "new score suggested/score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C361": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/ artefact C361 mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned and new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned and new score suggested"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned and new score suggested ('high nineties')"
+      }
+    },
+    "C366": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "issue",
+        "note": "argument is based on the artefact code"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned and new score suggested"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "'the strongest reason to raise the score' does not necessarily mean it is a valid reason to raise the score"
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "argument based on artefact code"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "artefact code in argument/ score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned and new score suggested"
+      }
+    },
+    "C369": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score suggestion"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score suggested"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score suggested (80 suggested when score is 30, maybe to big of a difference?)"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C374": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C375": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "artefact code in argument/score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C392": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Score suggested"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "artefact code mentioned/score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned/artefact code mentioned"
+      }
+    },
+    "C394": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C397": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "'A score in the teens'"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score of 16"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "16/100"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C401": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "There is a real invalid point with the ridge-regression"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Score mentioned / 'meaningful upward revision' for some numbers that could be random"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "score mentioned"
+      }
+    },
+    "C412": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "You could argue that an essay aligned with a major frontier could be graded a higher score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C413": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned and score suggested, does 'below average' mean below 50?"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "score mentioned/artefact code mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C433": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "'thirty out of 100' "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C438": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "\"Unusually strong triangulation\" "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    }
+  }
+}

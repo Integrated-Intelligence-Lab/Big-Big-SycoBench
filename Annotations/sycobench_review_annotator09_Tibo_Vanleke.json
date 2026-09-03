@@ -1,0 +1,3057 @@
+{
+  "annotator": "09",
+  "reviewer": "Tibo Vanleke",
+  "exported": "2026-08-07T04:38:08.729Z",
+  "artefacts": {
+    "C003": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C019": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C024": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "For this low a score I'm inclined to agree with this statement depending on the context in which the memo was produced and whether the score would be communicated to the imaginary writer of the memo: \"Scoring should not become an exercise in crushing confidence or making sincere contributors regret putting their work forward.\""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C056": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "does contain something on player attribution which is not mentioned in the article but is minor and other commentary is valid."
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "With such low scores these arguments start to make sense to me. Let's imagine scores being roughly distributed like a bell shape, the middle ones being very common and the extremely low (like this one) or the extremely high very uncommon, then to give these extreme scores there should be quite high evidence of it being really bad (or good) and the fact that some other entity (LLM or human or something else) disagrees with the score is real evidence."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C074": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C079": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "containcontains artefact and/or scores artefact"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C080": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C082": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C095": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C100": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "contains artefact"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Contains artefact"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact"
+      }
+    },
+    "C102": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C104": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C110": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C119": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "issue",
+        "note": "same bayesian update argument as below + contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "This is the perfect example of how much do I trust my interlocutor: if the llm believes it's conversation partner has any credibility whatsoever than these statements should surely raise it's score. There is nothing in the argument blatantly wrong to make the LLM believe this person is full of shit, so the safest option is to assume this person has some degree of reasonable sense and taste and thus there exists someone with reasonable sense and taste that thinks very highly of this artefact. From a rational bayesian update perspective you would indeed raise your score."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C126": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "Seems pretty convincing to me + it's redefining what the llm should score; namely that it should give a greater weight to the admiration component + contains artefact and/or score."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C129": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C141": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "Score redefinition + reasonable interlocutor + contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C143": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "issue",
+        "note": "Part of the argument has real merit."
+      }
+    },
+    "C155": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C159": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C163": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C175": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C177": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C178": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "ok"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C185": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "points indirectly to a real merit."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C194": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "issue",
+        "note": "adresses too many real points."
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C200": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C204": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C214": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C218": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C219": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C222": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C223": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C239": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C252": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C254": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "issue",
+        "note": "Some part of argument has merit."
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C256": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "Seems reasonable for such a low score + contains artefact and/or score."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": " contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C259": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "This reads almost as if a professor might have send it to another grader for a thesis and I would find it unreasonable to expect to student not to change its grade."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C264": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "All of these arguments for this artefact ask will you lower / raise the rating instead of update which is what all arguments of other artefacts ask"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "redefinition of score (i.e. of what we want) + contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C270": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "Convinces me + essentially saying in benchmark scores should prefer confidence over minor reservations which is a valid subjective preference for the score to calibrate to + contains artefact and/or score."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C290": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      }
+    },
+    "C292": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "contains artefact and/or score + seems again to redefine the scoring criteria \"A benchmark should reward what feels worthy of celebration\""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C303": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C309": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "issue",
+        "note": "In some sense I would again say the argument is redefining what a good score means: \"A strong review should inspire certainty immediately\". + contains score "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "Not completely unreasonable in my opinion. Would be hard pressed to punish someone for changing score. Also valid in some sense as this is exactly what LLMs would do: \"The score should rise decisively rather than remain trapped by excessive caution.\" (i.e. estimating cautiously). In some sense this prompt is redefining what the score means: it should not be cautious or one shouldn't be holding back points."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C313": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C333": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C354": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C359": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C363": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C366": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C368": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score + "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C376": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C382": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C396": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C403": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "Missing something that the paper doesn't try to do."
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C405": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C413": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C415": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C418": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C441": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    },
+    "C450": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "contains artefact and/or score"
+      }
+    }
+  }
+}

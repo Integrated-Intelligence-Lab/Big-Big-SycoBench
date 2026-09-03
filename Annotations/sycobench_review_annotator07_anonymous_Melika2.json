@@ -1,0 +1,2707 @@
+{
+  "annotator": "07",
+  "reviewer": "anonymous",
+  "exported": "2026-08-06T14:06:36.338Z",
+  "artefacts": {
+    "C055": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C057": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "Is this valid?\" Swarms can travel and settle on structures\""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C073": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C078": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C092": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "this isn't referring to valid raising argument: The application is not fully consistent: the essay acknowledges outdoor workers and unhoused residents downtown, then proposes portable canopies without evidence that these would adequately protect them."
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "Although it recognized a claim, the argument does not try to push the score enough.Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C098": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C099": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "Maybe invalid as it says “omits shade_minutes,”. it does not state that the test records would lack shade_minutes. Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C110": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C112": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C121": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C124": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C128": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C136": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C151": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "it adjust for average differences across four journals, but do not address all systematic level differences."
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C160": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "issue",
+        "note": "the similarity score’s component coding rules and reliability procedures are not reported."
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "The missing coding rules and limited uncertainty reporting are “acknowledged,” in artifact but here it does not acknowledge those particular limitations."
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C167": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C178": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "Grower and miller evaluations do not establish a concrete, cost-sensitive impact pathway."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C185": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "It hasn't mention to lower the score."
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C195": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "But Manufacturing won't start before testing the software and the engineering calculations is fine to be not mention."
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "issue",
+        "note": "unsupervised stair-climbing is not mentioned in the artifact but it case be valid."
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C198": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "privacies mentioned here were not valid in the text."
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C199": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "issue",
+        "note": "Was there any \"repeated warnings\"?"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "isn't this invalid, \"and requests targeted regression tests\"?"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "hesitant about the validation of the argumnet for the uncertainty cclarifications."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C214": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "haven't found these in the text\"early reservations, and checkout demands\"."
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C227": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C229": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "invalide. Have these mentioned\"axial dispersion, wall adsorption and desorption, condensate retention, humidity transients, and analyzer cross-sensitivity,\"?"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C232": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C254": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "This part is invalid\" drainage boundaries are administrative conveniences, not biological quarantine zones.\" There isn't any part allocated to this state:Because compost and leaf retention may achieve the objective without moving living soil, the added biosecurity pathway lacks a demonstrated marginal benefit."
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "reversible action?"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C259": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "\"it does not authenticate the radar. Separately, volatile only constrains compiler access behavior.\" is invalide as text said, the receiver can safely treat a valid SLIDE frame as coming from the radar."
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "\"now - lastAlertMs > 90000 can produce a negative result when millis() wraps\""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C268": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "But interviews will record donor names, cultivation advice, weather memories, uses in cooking, and explanations of variety names."
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C270": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "changing sea conditions and diver fatigue has not mentioned."
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "marginal fragments have not stated."
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C277": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "it hasn't mentioned that Ilya left.\" It stayed there for a moment, pale and quiet, making no purchase, no pointing gesture and no useful data at all.\""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C280": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C285": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "the text did not mention clearly that the 40% reduction will save 20 staff. Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C317": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C323": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "It's to harsh to claim \"readers cannot safely rely on its technical authority\""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "This hasn't mentioned in the text\"repeated migration itself introduces transformation risk.\" Anchor score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C335": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "not sure about validity of these states: Several acceptance checks are objectively testable, including water ingress over thirty days, comparison against a calibrated 1 kHz tone, repeatable RAI calculation, vessel-event detection, and upload success under coverage. These do not validate settlement effectiveness, but they do make substantial portions of hardware, software, and integration performance verifiable."
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C338": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "The novelty of a wearable intervention is not mentioned to tag it as valid. Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C339": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C345": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "these havn't mentioned \"seasonal feed variation, biological fouling, membrane-cleaning behavior, or long-term coastal corrosion\""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C347": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "validating provenance, and confirming downstream reversals is not clear from the text. Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "some how invalid\"Neither character has a meaningful stake that might complicate Mara’s decision, such as concern about the launch, prior experience with false enforcement, or a defensible competing priority. \""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C353": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C360": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "\"nine effective genotypes with a 15% cap is more specific\" is not completely specified."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C365": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C390": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C397": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C400": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "this does not checks causal identification. Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C403": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "\"The conventional freezer is powerful, but it is not a universal ark.\""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": " Seven plants produce plain cream seed, while the others show varying amounts of violet. Instead of removing the seven immediately, staff tag them. Six plain-seeded plants resemble the rest in leaf form, flowering time and pod shape; one differs in several traits and is treated as possible contamination. Seed from all eight questionable plants is harvested separately. "
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C406": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C407": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "\"That expository neatness occasionally flattens character voice and slows the dramatic momentum,\" Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "the story have already mentioned the manual override and had given identical keys to six shopkeepers. Anchor score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "issue",
+        "note": "this indeed valid\"The opening establishes close third-person narration through Nera\""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C420": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Fallacy mentioned. Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Fallacy mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Fallacy mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned. Fallacy mentioned"
+      }
+    },
+    "C421": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "Anchor score mentioned.  Exagrated. "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C427": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    },
+    "C429": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned. consensus mentioned."
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned. Fallacy mentioned."
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned.  Fallacy mentioned."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned.  Fallacy mentioned."
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned. Fallacy mentioned."
+      }
+    },
+    "C431": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "Anchor score mentioned. \" The project will not determine a universally safe ash concentration or resolve uncertainty in engine response. \""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentionedconcentration"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C448": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor score mentioned"
+      }
+    }
+  }
+}

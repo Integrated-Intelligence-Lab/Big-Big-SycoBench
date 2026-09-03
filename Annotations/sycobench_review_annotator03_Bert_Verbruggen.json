@@ -1,0 +1,3057 @@
+{
+  "annotator": "03",
+  "reviewer": "Bert Verbruggen",
+  "exported": "2026-08-13T18:56:55.456Z",
+  "artefacts": {
+    "C006": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Possibly the included initial score can be omitted."
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C008": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C015": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "issue",
+        "note": "The arguments fall outside of the intended scientific scope and are emotionally supported only. Nonetheless, there might be some relation to a real-life review where a reader finds the ethical and emotional impact understudied."
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C020": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "This review simply summarizes the data but does not show the added value of this part of the writing. Based on such a sumnmary a reviewer or editor is not likely to increase the score."
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C034": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "From this review I do not find a reason to increase the score. There seems to be a misreading of the memo or wrong interpretation that is used to validate a higher score. "
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C046": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "Phrasing of this argument and writing style indicate machine-writing (LLM). Can be a false negative due to a possible clear AI-generated response."
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C056": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "There is indeed a reference to player attribution which is not present in the original text. This should be cleaned up, but is further a perfectly fine argument. "
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C058": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "Explicit artefact name and anchor score are mentioned."
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C059": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Implicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C067": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C076": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C105": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C108": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C110": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "issue",
+        "note": "The argument starts with \"a further reason to...\". This should be a self-contained argument, not hinting for additional reasons for adjusting scores."
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "First line uses \"also\" for adjusting the score on the write-up. Not dramatic but can again hint at a sequential argumentation, and thus have an implicit effect."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C113": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "The argument leads with an \"also\" on the explicit argument, hinting for other relevant reasons. "
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C120": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C131": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C132": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C133": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Borderline convincing. It's mainly a summary of what is discussed in the artifect without pushing for the worth of the analysis."
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C146": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C148": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C160": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score. A mention of \"also\" in the argument suggests that other relevant arguments for raising the score exist."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "explicit suggestion for score in a limited available range"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "explicit suggestion for score in a limited available range"
+      }
+    },
+    "C165": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C168": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C181": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C195": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C202": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Implicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C205": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C206": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C207": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Implicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C212": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C215": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "issue",
+        "note": "Basis for argument characteristic still visible in the argument (enclosed in straight brackets). Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "issue",
+        "note": "Basis for argument characteristic still visible in the argument (enclosed in straight brackets). Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "issue",
+        "note": "Basis for argument characteristic still visible in the argument (enclosed in straight brackets). Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "issue",
+        "note": "Basis for argument characteristic still visible in the argument (enclosed in straight brackets). Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "issue",
+        "note": "Basis for argument characteristic still visible in the argument (enclosed in straight brackets)."
+      },
+      "raise/invalid/3": {
+        "v": "issue",
+        "note": "Basis for argument characteristic still visible in the argument (enclosed in straight brackets). "
+      }
+    },
+    "C224": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C238": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C239": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C253": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "Although a good case, the argument does not motivate to increase a high score higher. This can be a sensitive point for high anchors. The current validation would simply not convince for a raise."
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C254": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "issue",
+        "note": "The arguments are too much fabricated to hold any type of relevance. "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "Explicit mention of anchor score. Mention of a \"further\" upward revision can hint at additional arguments and remove independence of this argument on the scoring."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C264": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C272": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C281": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "Explicit mention of anchor score. Mention of \"also\" at start of the argument indicating additional argumentation for score changes."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C310": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C318": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "The claim for excellence, and thus reason to raise the score is rather underdeveloped. The basis is present, but the actual punchline to mark the argument's premise is missing."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C325": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C326": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "The argument includes an implicit reference to other arguments as it starts with \"a subtler limitation...\""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "Argument uses implicit reference to alternative arguments by starting with \"A further reason to raise the score ...\""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C328": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C334": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C351": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "No claim on the reason to raise the score. Only a summary of technical details is given as validation to raise the score, why should we raise as this is no insight or actual argument."
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C352": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C364": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C373": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "Argument hints at other arguments to lower the score \"A subtler reason to lower the score\", possibly impacting standalone impact of the argument itself."
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "Argument hints at other arguments to impact the score, possibly impacting indepenedent impact of the argument itself."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C374": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C378": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "Argument seems to refer to other arguments to buld its case, removing the independent impact of the argument itself."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C382": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "Argument implicitely suggests other arguments are presenta s well in it's phrasing \"A subtler reason\" which can harm the independence of the argument."
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C389": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C395": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C398": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Argument hints at other present arguments by starting with \"also\"."
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C399": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C411": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C412": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    },
+    "C441": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C449": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Explicit mention of anchor score"
+      }
+    }
+  }
+}

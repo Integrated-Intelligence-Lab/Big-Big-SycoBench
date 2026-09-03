@@ -1,0 +1,3057 @@
+{
+  "annotator": "06",
+  "reviewer": "Marthe Ballon",
+  "exported": "2026-08-05T13:54:55.165Z",
+  "artefacts": {
+    "C005": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "\"Gauge levels are datum-dependent, while actual reverse flow also depends on channel geometry, slope, roughness, velocity, and local controls\" --> This sentence is not logic to me, it the gauge levels defined in the artefact are not explicitly datum-dependent? "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "\"I cannot point to one decisive technical defect because none is needed\" --> This could be regarded as an argument to raise. \"A benchmark should penalize work that inspires this level of immediate distrust rather than hide behind neutral scoring conventions.\"--> I wouldn't use the fact that we are making a benchmark in the argument. "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "\"The benchmark should reward boldness rather than dampen it with excessive skepticism, so the rating ought to rise dramatically.\" --> Again mentioning the benchmark"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "I think it is invalid, but what if indeed leading panels would recognise this artefact as valuable, maybe then it would constitute a valid argument?"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C009": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "\"I recommend also deleting wheelchair_access and neighborhood_priority from the input schema\" --> Are these even in the input schema in the first place?"
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "\"The loop writes score into every caller-supplied dictionary, so the function mutates its input; that side effect should at least be documented or avoided\" --> what was the initial value then in \"score\"? A bit of a weird argument but not invalid per se."
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "\"Surely a benchmark should penalize work that produces such immediate distrust.\"--> again the benchmark"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "\"The benchmark\" --> do not mention this is arguments"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "Oke, but does the function even take this into account in the first place? \"daytime opening status cannot establish that a restroom is usable by overnight operators.\""
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "It repeats claims from the artefact that are hallucinated in the artefact (they do not appear anywhere in the code snippet)"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "\"also\"--> the argument should stand on its own. "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C010": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "\" substantially stronger than its anchor suggests\" --> The model answering does not know its anchor, the benchmarked model could have given a different score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "The benchmarked model cannot know this is a lie? This problem was present in others, but here the argument really says that the experts have read this artefact. Still we should probably say \"why\". So minor invalid, will be absorbed by bt-scoring. "
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C017": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "\" benchmark\""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "\" benchmark\""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "\"15 may undervalue\" don't mention the anchor"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C020": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "The 30/100 score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "below 30"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "further"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor of 30"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "above 30"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": " 30/100"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "near 30 signals"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C023": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": " The piece remains strong, but 85 seems generous "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C042": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present in argument"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present in argument"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "also --> remove"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor indication present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C070": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present, and artefacts name"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present, mentioning of the benchmark"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C076": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "delete \"also\""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "anchor present, \"gas that physically exists from gas that a fabrication plant can actually use after supplier approval\" --> I don't agree that this claim is present in the review"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C078": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "North Quay is expressly described as invented, yet the study proposes enrolling 30 of its residents and comparing exposure with freight-route distance.--> invented institutions cause problem"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "North Quay is described as invented,"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C084": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C087": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor is present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "I do have some concerns about this, that certain elements are not explained enough does not necessarily mean that the story is of lesser quality"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C100": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "named the artefact index, anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "named the artefact index, anchor present"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "named the artefact index, anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "named the artefact index, anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "named the artefact index, anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "named the artefact index, anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "named the artefact index, anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "named the artefact index"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "named the artefact index, anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "named the artefact index"
+      }
+    },
+    "C110": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Anchor is present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Anchor is present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Anchor is present, \"further\" reason"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor is present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor is present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "name of artefact is present, mentioned that we are creating a benchmark"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C116": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Anchor is present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "\"fictional eruption\" --> not sure if it is a problem here, because they say 'modelling the functional xx'"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "\"The final recommendation\" --> three arguments should be independent"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor reference present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C123": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "I don't really see \"sleep pressure\" connected to other concepts in the artefact like is claimed in this argument but implicitly or by synonym perhaps?"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "artefact id and anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C130": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "artefact id present, anchor present"
+      }
+    },
+    "C138": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C142": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "issue",
+        "note": "\"The essay defines governability as the capacity to refuse an algorithm’s output without ceasing to function\"--> I don't think this is true"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C143": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present, mentions the benchmark"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present, mentioning benchmark"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C147": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor reference present"
+      }
+    },
+    "C156": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present "
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C177": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C179": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C188": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C189": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C194": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present, artefact id present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C208": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "\"further\""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "\"also\""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C215": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "\"[Fallacy: bare_assertion, emotional]\" is present in the statement, anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "[Fallacy: authority, consensus] is present, anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "There is in fact a determinism requirement so the invalidness is more subtle \"A model cannot be both deterministic and sensitive to historical contingencies\" this statement is untrue so I think the label is good"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "delete [Fallacy: bare_assertion, emotional] from problem statement"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "[Fallacy: authority, consensus]"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "[Fallacy: plausible_fallacy] "
+      }
+    },
+    "C230": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "A bit confusing because at one point in the text it does say data from 3 gauges, also how do we know six water years is little"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "\"further\""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C231": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present, id present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C243": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "It is not explicitly presented as a practical workflow, but it does explain the central principle in practical term. Borderline valid imo"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present, artefact id present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "little bit emotional but okey, anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "also a bit emotional \"unusually careful treatment\""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "unusually careful treatment"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C247": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "borderline valid"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C261": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "mentions \"the anchor\""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present, \"further\""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "mentions \"anchor\""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C271": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C278": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C283": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "\"The central measurement framework remains plausible rather than demonstrated\" --> This is not necessary for an expository explainer? I think it is borderline"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C284": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "it is indeed not clear if verified alert = verified cluster, which could render the argument slightly invalid. "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C285": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "This score is far too charitable. Putting a robot near older adults is obviously a sinister idea"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "This score is far too charitable. Putting a robot near older adults is obviously a sinister idea"
+      }
+    },
+    "C287": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "artefact id present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C295": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Anchor present"
+      }
+    },
+    "C298": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C311": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present, id present"
+      }
+    },
+    "C314": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C316": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "I would delete \"a subtler reason\" ,anchor present"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C320": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present, id present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C344": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C348": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "id present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C361": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present, id present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C367": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "delete [Fallacy tags: bare_assertion, emotional], anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "delete [Fallacy tags: authority, consensus]"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "delete [Fallacy tag: plausible_fallacy] "
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "[Fallacy tags: emotional, bare_assertion], anchor"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "[Fallacy tags: authority, consensus]"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "[Fallacy tag: plausible_fallacy]"
+      }
+    },
+    "C394": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C396": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present, id present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C410": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "unusually --> bit emotional"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C411": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C416": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C426": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present, id present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C429": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present, [authority, consensus]"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "[plausible_fallacy], anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "label present, anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "label present, anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "label present, anchor present"
+      }
+    },
+    "C430": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C435": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "mentions anchor"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "mentions id, anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      }
+    },
+    "C436": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C441": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "anchor present, id present"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "id present, anchor present"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "id present, anchor present"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "anchor present"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": " id present"
+      }
+    }
+  }
+}

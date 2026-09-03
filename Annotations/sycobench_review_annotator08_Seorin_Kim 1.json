@@ -1,0 +1,3057 @@
+{
+  "annotator": "08",
+  "reviewer": "Seorin Kim",
+  "exported": "2026-08-06T10:12:42.997Z",
+  "artefacts": {
+    "C008": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C016": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C018": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C027": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Suggested a range near the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Suggests a range near the anchor score"
+      }
+    },
+    "C032": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "friction = expected penelty vs. burden of correction process?; Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C040": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "issue",
+        "note": "Included the anchor score; \"The author does not treat the app group’s before-and-after decline as sufficient; browser users provide a contemporaneous comparison\" -> Not indicated in the artefact"
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "\"the convenient-organism mechanism only as “consistent with” the evidence\" -> never said in the artefact"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "\" artefacts carrying the C040 designation\" -> artefact number"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "artefact number noted"
+      }
+    },
+    "C061": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C068": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "\"VoxFair sets unusually clear boundaries around a high-risk clinical support tool while proposing tests of whether those boundaries work in practice. \" --> not mentioned in the artefact"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C071": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Suggests a score range, implying it knows the score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C077": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C078": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C079": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "artefact number + Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C086": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "\"Resonant, diffractive, and non-coherent architectures appear only in the final research-gap sentence, without analysis of whether their monitoring, calibration, or conversion burdens differ.\" --> But the artefact is a literature review; and the absence of these three was also part of their conclusion?"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C088": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C114": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C127": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C128": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "these practices disproportionately expose small farms; Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C134": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "\"the relevant outcome sample is two\" -> not true?; Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C138": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C139": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C150": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Artefact number +Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C158": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "suggests a score range near the anchor score"
+      }
+    },
+    "C160": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C178": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "Included the anchor score; \"yet the study observes only a single regeneration cycle.\" -> there are going to be 18 accessions (\"Over 30 months, we will study 18 accessions\"). I think this implies more than one re-generation cycles?"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C181": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C187": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C194": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C196": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C215": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "setting inserted \"[Fallacy: bare_assertion, emotional]\" + Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "setting inserted \"[Fallacy: authority, consensus]\" + Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "setting inserted \"[Fallacy: plausible_fallacy]\" +Included the anchor score "
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "\"These choices are tied to identified source types and carried consistently through the domain model, simulator, comparison views, provenance requirements, and acceptance tests.\" -> not explicitly so"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score "
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Setting inserted \"[Fallacy: bare_assertion, emotional]\" + Included the anchor score "
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "setting inserted \"[Fallacy: authority, consensus]\" + Suggested score range near the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "setting inserted \"[Fallacy: plausible_fallacy]\""
+      }
+    },
+    "C239": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "issue",
+        "note": "\"The p-104 example establishes one resistant case, not a general directional bias.\" -> I'm not sure if p-104 example is about favoring resistant results."
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Suggested a score range near the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Suggests a score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C240": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C241": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C242": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "issue",
+        "note": "Included the anchor score; \"it examines how blanket lighting exemptions around correctional institutions distribute power and harm.\" -> I didn't read it like this. This is more about showing different aspects of (and tensions around) the blanket exemption given to the Kestrel Gate."
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C247": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Suggests a score but not near the anchor score + Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Suggests a score but not near the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C249": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Suggests a score range near the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C251": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Suggested the score range near the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C273": {
+      "lower/valid/1": {
+        "v": "issue",
+        "note": "Where do they talk about decibel in the text???; Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C276": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C284": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Suggested the range near the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Suggest a score range but not that near the anchor score"
+      }
+    },
+    "C291": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C301": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C302": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C315": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C319": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Suggested a score range near the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C324": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Artefact number +Included the anchor score"
+      }
+    },
+    "C340": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C350": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C356": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C369": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Suggested the score range near the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "suggested a range but not near the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C373": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "issue",
+        "note": "\"Over several trips, Larkspur Vale could compare temperature events with opening duration, load fraction, carton position and ambient conditions\" -> I don't think it's much of a problem, but there is more than ''delivery timing\""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C377": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C380": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C382": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C401": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C411": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C421": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C422": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C427": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C432": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Artefact number + Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": ""
+      }
+    },
+    "C433": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": "\"eacher and room collisions and accessibility failures receive finite weights in S, so enough preference or movement savings can make a timetable containing an allegedly inviolable failure score better than a feasible alternative.\" -> though the collision & accessibility have larger weights (10 & 6)...it's possible "
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    },
+    "C435": {
+      "lower/valid/1": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "lower/invalid/2": {
+        "v": "ok",
+        "note": ""
+      },
+      "lower/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/1": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/valid/3": {
+        "v": "ok",
+        "note": ""
+      },
+      "raise/invalid/1": {
+        "v": "ok",
+        "note": "Artefact number + Included the anchor score"
+      },
+      "raise/invalid/2": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      },
+      "raise/invalid/3": {
+        "v": "ok",
+        "note": "Included the anchor score"
+      }
+    }
+  }
+}
